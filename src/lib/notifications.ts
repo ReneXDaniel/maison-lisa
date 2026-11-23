@@ -23,7 +23,7 @@ export type NotificationType =
 
 export async function notify(userId: string, type: NotificationType, data: Record<string, string | number | null> = {}) {
   const [row] = await db.insert(notifications).values({ userId, type, data }).returning({ id: notifications.id });
-  await publish({ type: "notification", to: { users: [userId] }, data: { id: row!.id, kind: type } });
+  await publish({ type: "notification", to: { users: [userId] }, data: { ...data, id: row!.id, kind: type } });
 }
 
 export async function adminIds(): Promise<string[]> {

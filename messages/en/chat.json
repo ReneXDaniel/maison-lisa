@@ -1,0 +1,83 @@
+{
+  "title": "Messages",
+  "private": "Private conversation",
+  "search": "Search conversations",
+  "newConversation": "New conversation",
+  "empty": "No conversations yet",
+  "emptyBody": "Write to Lisa — about a collection, a personal request, or simply to introduce yourself.",
+  "emptyAdmin": "Nothing here at the moment.",
+  "noMessages": "No messages yet",
+  "unreadCount": "{count} unread",
+  "selectPrompt": "Select a conversation, or begin a new one with {creator}.",
+  "startTitle": "Write to {creator}",
+  "subjectLabel": "Subject (optional)",
+  "subjectPlaceholder": "Subject (optional)",
+  "placeholder": "Write your message…",
+  "send": "Send",
+  "attach": "Attach images",
+  "removeAttachment": "Remove attachment",
+  "attachmentsHint": "Up to 4 images · JPEG, PNG or WebP · max {mb} MB each",
+  "sending": "Sending…",
+  "sent": "Sent",
+  "delivered": "Delivered",
+  "read": "Read",
+  "retry": "Not sent — retry",
+  "loadEarlier": "Load earlier messages",
+  "draftSaved": "Draft saved on this device",
+  "back": "All conversations",
+  "privateNote": "This is a private conversation. {creator} replies personally — there are no automated messages.",
+  "archivedNote": "This conversation is archived. Sending a new message will reopen it.",
+  "previewKinds": {
+    "request": "Personal request",
+    "offer": "Personal offer",
+    "system": "Update",
+    "text": "Message"
+  },
+  "filters": {
+    "all": "Inbox",
+    "unread": "Unread",
+    "awaiting_lisa": "Awaiting reply",
+    "flagged": "Flagged",
+    "archived": "Archived"
+  },
+  "status": {
+    "new": "New",
+    "active": "Active",
+    "awaiting_lisa": "Awaiting Lisa's reply",
+    "awaiting_customer": "Awaiting your reply",
+    "completed": "Completed",
+    "archived": "Archived"
+  },
+  "request": {
+    "title": "Personal request · No. {number}",
+    "wishes": "Additional wishes"
+  },
+  "offer": {
+    "label": "Your personal offer",
+    "price": "Price",
+    "delivery": "Delivery",
+    "deadline": "Valid until",
+    "accept": "Accept offer",
+    "decline": "Decline",
+    "addToCart": "Add to cart",
+    "goToCart": "Go to cart",
+    "addedTitle": "The offer is in your cart",
+    "acceptNote": "Accepting places the offer in your cart. You are only charged when you complete checkout.",
+    "status": {
+      "open": "Awaiting your decision",
+      "accepted": "Accepted",
+      "declined": "Declined",
+      "paid": "Purchased",
+      "expired": "Expired",
+      "withdrawn": "Withdrawn"
+    }
+  },
+  "adminStatus": {
+    "new": "New",
+    "active": "Active",
+    "awaiting_lisa": "Awaiting your reply",
+    "awaiting_customer": "Awaiting client",
+    "completed": "Completed",
+    "archived": "Archived"
+  }
+}

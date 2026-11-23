@@ -1,0 +1,52 @@
+{
+  "metaTitle": "Custom Requests",
+  "eyebrow": "Custom Requests",
+  "title": "Your Vision. Lisa's Art.",
+  "intro": "Compose a personal photo collection detail by detail. Your request is sent to Lisa in a private conversation, where you can discuss everything before any offer is made.",
+  "steps": {
+    "polish": "The polish",
+    "style": "The mood",
+    "styling": "The styling",
+    "setting": "The setting",
+    "wishes": "Your wishes"
+  },
+  "fromStudio": "Taken from your Nail Studio selection",
+  "wishesLabel": "Additional wishes",
+  "wishesPlaceholder": "Describe the mood, a detail you love, or anything Lisa should know…",
+  "wishesHint": "Please keep requests artistic and respectful. Lisa decides which requests she accepts.",
+  "summary": "Your selection",
+  "reset": "Reset selection",
+  "openGift": "Prepare my request",
+  "giftTitle": "Your Vision. Lisa's Art.",
+  "giftSubtitle": "Let's Create Something Personal.",
+  "giftHint": "Click the box to open it",
+  "send": "Send My Request to Lisa",
+  "sending": "Sending your request…",
+  "edit": "Edit selection",
+  "greeting": "Hello Lisa, I would love to request a personalized photo collection.",
+  "loginRequired": "To send your request, please sign in and complete the one-time age verification. Your selection is saved and waiting for you.",
+  "continueToSignIn": "Sign in to send",
+  "verifyToSend": "Verify to send",
+  "nothingSelected": "Choose at least one detail or describe your wishes.",
+  "howItWorks": "How it works",
+  "how": {
+    "h1": { "title": "Compose", "body": "Choose colours, styling and mood — or simply describe your idea." },
+    "h2": { "title": "Discuss", "body": "Your request arrives in a private conversation with Lisa." },
+    "h3": { "title": "Receive an offer", "body": "If Lisa accepts, she sends you a personal offer with price and delivery." },
+    "h4": { "title": "Enjoy", "body": "After checkout, your collection is delivered to your private account." }
+  },
+  "status": {
+    "draft": "Draft",
+    "submitted": "Submitted",
+    "under_review": "Under review",
+    "awaiting_customer": "Awaiting your reply",
+    "offer_sent": "Offer sent",
+    "accepted": "Accepted",
+    "rejected": "Declined",
+    "paid": "Paid",
+    "in_production": "In production",
+    "delivered": "Delivered",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  }
+}

@@ -48,6 +48,10 @@ export function RealtimeClient({ initial }: { initial: { cartCount: number; unre
       es.addEventListener("rt", (msg) => {
         const e = JSON.parse((msg as MessageEvent).data) as RTEvent;
         dispatch(e);
+        if (e.type === "message" && typeof e.data.conversationId === "string") {
+          // Acknowledge receipt: this is what turns "sent" into "delivered" for the sender.
+          void fetch("/api/chat/delivered", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ids: [e.data.conversationId] }) }).catch(() => {});
+        }
         if (e.type === "message" || e.type === "notification" || e.type === "conversation") void refreshCounts();
         if (e.type === "notification" && typeof e.data.kind === "string" && !document.hidden) {
           const kind = e.data.kind;
