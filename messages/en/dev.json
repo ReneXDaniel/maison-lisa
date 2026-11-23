@@ -1,0 +1,22 @@
+{
+  "banner": "Development mode",
+  "providers": "Verification: {verification} · Payment: {payment} · Mail: {mail}",
+  "mailbox": "Dev mailbox",
+  "simulator": "Development simulator — not a real {kind}",
+  "mailboxTitle": "Development mailbox",
+  "mailboxIntro": "Emails stored by the outbox transport. In production, configure SMTP; this page is unavailable.",
+  "mailboxEmpty": "No emails yet.",
+  "to": "To",
+  "verificationTitle": "Identity verification simulator",
+  "verificationIntro": "This page stands in for the provider-hosted verification flow. Choosing an outcome sends an HMAC-signed callback to the same webhook endpoint a real provider uses. It is disabled in production.",
+  "approveAdult": "Simulate: adult approved (born {year})",
+  "approveMinor": "Simulate: document valid but under 18",
+  "decline": "Simulate: verification declined",
+  "review": "Simulate: manual review required",
+  "paymentTitle": "Payment simulator",
+  "paymentIntro": "This page stands in for the payment provider's hosted checkout. Choosing an outcome sends an HMAC-signed payment notification to the webhook endpoint. No money moves. It is disabled in production.",
+  "paySuccess": "Simulate: payment succeeded",
+  "payFail": "Simulate: payment declined",
+  "payCancel": "Cancel and return to cart",
+  "sessionInvalid": "This simulator session is invalid or expired."
+}

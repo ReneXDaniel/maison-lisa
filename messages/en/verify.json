@@ -1,0 +1,27 @@
+{
+  "title": "Secure age verification.",
+  "intro": "To protect minors, private messaging, personal requests, purchases and downloads are reserved for verified adults. It takes about two minutes and is only needed once.",
+  "steps": {
+    "s1": { "title": "Have your ID ready", "body": "A national identity card, passport or other supported government-issued document." },
+    "s2": { "title": "Verify with our certified partner", "body": "The partner checks the document's authenticity and confirms that it is really you." },
+    "s3": { "title": "Return to the boutique", "body": "We receive only the result — that you are 18 or older. Never your document images." }
+  },
+  "start": "Begin secure verification",
+  "restart": "Restart verification",
+  "continue": "Continue",
+  "retry": "Try again",
+  "checking": "Waiting for the result from our verification partner…",
+  "returnTitle": "Your verification.",
+  "statusLabel": "Current status",
+  "privacy": "Verification is carried out by an independent identity verification provider on its own secure pages. MAISON LISA stores only the outcome, the date and a provider reference — no copies of documents and no biometric data. See our Privacy Policy for details.",
+  "devNote": "Development mode: a labelled simulator replaces the identity provider",
+  "status": {
+    "not_verified": { "title": "Not yet verified", "body": "Complete the verification to unlock messaging, requests and purchases." },
+    "pending": { "title": "Verification in progress", "body": "We are waiting for the result. This usually takes less than a minute." },
+    "verified": { "title": "Verified adult", "body": "Thank you. All features of the boutique are now available to you." },
+    "failed": { "title": "Verification not successful", "body": "We could not confirm that you are 18 or older. You may try again with a valid document." },
+    "manual_review": { "title": "Under review", "body": "Our verification partner is reviewing your documents manually. We will notify you once a decision is made." },
+    "expired": { "title": "Verification expired", "body": "Your verification has expired. Please verify again to continue." },
+    "revoked": { "title": "Verification revoked", "body": "Your verification was revoked. Please contact us if you believe this is an error." }
+  }
+}

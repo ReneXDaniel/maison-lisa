@@ -1,0 +1,171 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/300.css";
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/cormorant-garamond/300-italic.css";
+@import "@fontsource/cormorant-garamond/400-italic.css";
+@import "@fontsource-variable/manrope";
+
+/*
+ * MAISON LISA — Quiet Luxury design tokens
+ * Core palette (from the reference): Ivory #E2D5C3 · Champagne #C9B299 ·
+ * Taupe #978171 · Charcoal #383734 · Espresso #2C1F18.
+ * Tonal variants exist for accessibility (contrast ≥ 4.5:1 for body text):
+ *   taupe-700 on ivory ≈ 5.4:1, charcoal on ivory ≈ 8.2:1, champagne on espresso ≈ 7.8:1.
+ */
+@theme {
+  --color-ivory: #e2d5c3;
+  --color-ivory-50: #f7f2eb;
+  --color-ivory-100: #efe7dc;
+  --color-ivory-200: #e9dfd1;
+  --color-ivory-300: #dccdb9;
+  --color-champagne: #c9b299;
+  --color-champagne-200: #e3d4c1;
+  --color-champagne-400: #b99f83;
+  --color-taupe: #978171;
+  --color-taupe-600: #7a6656;
+  --color-taupe-700: #5f4f43;
+  --color-charcoal: #383734;
+  --color-espresso: #2c1f18;
+  --color-espresso-900: #1d140f;
+  --color-espresso-700: #3e2e25;
+  --color-espresso-600: #4a382d;
+  --color-danger: #8a3b2e;
+  --color-success: #4f5d3e;
+
+  --font-serif: "Cormorant Garamond", "Bodoni Moda", "Didot", Georgia, serif;
+  --font-sans: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --ease-luxe: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-silk: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --shadow-soft: 0 24px 60px -32px rgb(44 31 24 / 0.38);
+  --shadow-card: 0 1px 0 rgb(44 31 24 / 0.04), 0 22px 44px -30px rgb(44 31 24 / 0.42);
+  --shadow-lift: 0 30px 70px -30px rgb(44 31 24 / 0.5);
+
+  --animate-fade-up: fade-up 0.9s var(--ease-luxe) both;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes shimmer {
+    from {
+      background-position: -200% 0;
+    }
+    to {
+      background-position: 200% 0;
+    }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background-color: var(--color-ivory-100);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-champagne);
+    color: var(--color-espresso);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-espresso);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .dark-surface :focus-visible {
+    outline-color: var(--color-champagne);
+  }
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  input,
+  textarea,
+  select,
+  button {
+    font: inherit;
+  }
+  img {
+    -webkit-user-drag: none;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+  }
+  .hairline {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--color-champagne), transparent);
+  }
+  .paper-grain {
+    position: relative;
+  }
+  .paper-grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.05;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s var(--ease-luxe);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+  }
+  .skeleton {
+    background: linear-gradient(90deg, var(--color-ivory-200), var(--color-ivory-50), var(--color-ivory-200));
+    background-size: 200% 100%;
+    animation: var(--animate-shimmer);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

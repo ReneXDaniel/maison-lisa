@@ -1,0 +1,77 @@
+{
+  "meta": { "title": "Beauty in Every Detail" },
+  "hero": {
+    "eyebrow": "A private digital boutique",
+    "title": "MAISON LISA",
+    "subtitle": "Beauty in Every Detail.",
+    "support": "An exclusive world of elegance, individuality, and beautifully personal moments.",
+    "ctaCollection": "Explore My Collection",
+    "ctaExperience": "Create Your Experience",
+    "scroll": "Scroll"
+  },
+  "welcome": {
+    "eyebrow": "For new clients",
+    "title": "Your First MAISON LISA Experience.",
+    "body": "Enjoy {percent}% Off Your First Order.",
+    "cta": "Explore the Collection",
+    "note": "Applied automatically at checkout to your first order."
+  },
+  "intro": {
+    "eyebrow": "The Maison",
+    "title": "Where Elegance Becomes Personal.",
+    "body": "Every collection is styled, lit and photographed with patience — warm studio light, ivory silk, the quiet beauty of a carefully chosen detail. Discover finished editorials, or shape a personal collection together with Lisa."
+  },
+  "silk": {
+    "eyebrow": "Behind the Silk",
+    "title": "Some Details Deserve a Closer Look.",
+    "caption": "Scroll slowly.",
+    "fallback": "An animated sequence plays here when motion is enabled."
+  },
+  "collections": {
+    "eyebrow": "The Collections",
+    "title": "Curated with Elegance.",
+    "all": "View all collections"
+  },
+  "details": {
+    "eyebrow": "The Details",
+    "title": "A World of Beautiful Details.",
+    "body": "Tap or hover over the softly glowing points to discover the details behind the image.",
+    "hint": "Discover the details",
+    "hotspots": {
+      "polish": { "title": "The Polish", "body": "A glossy champagne lacquer, applied by hand the morning of the shoot." },
+      "jewelry": { "title": "Foot Jewelry", "body": "A fine anklet with a single pearl — understated, never ornamental." },
+      "stockings": { "title": "Fine Stockings", "body": "Sheer 10-denier silk with a delicate seam, chosen for its soft sheen." },
+      "silk": { "title": "Silk Accessories", "body": "Champagne charmeuse, draped loosely to catch the morning light." },
+      "styling": { "title": "Styling", "body": "Every element is placed by hand. Nothing is accidental." }
+    }
+  },
+  "nail": {
+    "eyebrow": "Nail Studio",
+    "title": "Your Color. Your Desire.",
+    "body": "Every Detail Is Yours to Choose.",
+    "cta": "Enter the Nail Studio"
+  },
+  "quiz": {
+    "eyebrow": "Style Quiz",
+    "title": "Discover Your Style.",
+    "body": "Three playful questions, one collection chosen for you.",
+    "cta": "Begin the quiz"
+  },
+  "about": {
+    "eyebrow": "The person behind the details",
+    "title": "Meet Lisa.",
+    "body": "Discover the creativity, style and personality behind every MAISON LISA collection.",
+    "cta": "Discover Lisa"
+  },
+  "next": {
+    "eyebrow": "Coming soon",
+    "title": "The Next Chapter.",
+    "cta": "See what is coming"
+  },
+  "final": {
+    "title": "Your Vision. Lisa's Art.",
+    "body": "Choose the colour, the styling and the mood — and send your wishes to Lisa in a private conversation.",
+    "cta": "Create a Personal Request",
+    "secondary": "Message Lisa"
+  }
+}

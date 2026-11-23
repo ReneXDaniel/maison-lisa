@@ -1,0 +1,19 @@
+{
+  "title": "Notifications",
+  "bell": "Notifications",
+  "bellUnread": "Notifications, {count} unread",
+  "empty": "You are all caught up.",
+  "types": {
+    "message_from_lisa": "Lisa replied to your conversation",
+    "offer_received": "You received a personal offer",
+    "request_update": "Your request {number} has an update",
+    "order_paid": "Your order {number} is confirmed",
+    "product_available": "Your photographs are ready to view",
+    "refund_update": "Update on your order {number}",
+    "admin_new_message": "New message from a client",
+    "admin_new_request": "New personal request {number}",
+    "admin_offer_response": "A client responded to your offer",
+    "admin_new_order": "New order {number}",
+    "admin_payment_issue": "Payment issue on order {number}"
+  }
+}

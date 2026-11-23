@@ -1,0 +1,36 @@
+{
+  "polishColor": {
+    "label": "Nail polish",
+    "classic_white": "Classic White",
+    "cherry_red": "Cherry Red",
+    "bordeaux": "Bordeaux",
+    "midnight_black": "Midnight Black",
+    "soft_nude": "Soft Nude",
+    "rose_gold": "Rose Gold",
+    "baby_pink": "Baby Pink",
+    "french_white": "French White",
+    "deep_plum": "Deep Plum",
+    "champagne": "Champagne"
+  },
+  "polishFinish": { "label": "Finish", "glossy": "Glossy", "matte": "Matte", "shimmer": "Shimmer" },
+  "style": {
+    "label": "Photography style",
+    "elegant_editorial": "Elegant Editorial",
+    "soft_natural": "Soft & Natural",
+    "mysterious_noir": "Mysterious Noir",
+    "minimal_studio": "Minimal Studio",
+    "romantic_detail": "Romantic Detail"
+  },
+  "stockings": { "label": "Stockings", "black_sheer": "Black Sheer", "soft_nude": "Soft Nude", "elegant_lace": "Elegant Lace", "barefoot": "Barefoot" },
+  "footwear": { "label": "Footwear", "high_heels": "High Heels", "sandals": "Sandals", "minimalist": "Minimalist Footwear", "barefoot": "Barefoot" },
+  "accessories": { "label": "Accessories", "anklet": "Anklet", "toe_ring": "Toe Ring", "silk_ribbon": "Silk Ribbon", "none": "No Accessories" },
+  "background": {
+    "label": "Background",
+    "ivory_studio": "Ivory Studio",
+    "champagne_satin": "Champagne Satin",
+    "soft_taupe": "Soft Taupe",
+    "dark_espresso": "Dark Espresso",
+    "natural_light": "Natural Light"
+  },
+  "notSelected": "Not selected"
+}
