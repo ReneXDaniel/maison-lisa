@@ -1,1 +1,59 @@
-{}
+{
+  "polishColor": {
+    "label": "Nagellak",
+    "classic_white": "Klassiek wit",
+    "cherry_red": "Kersenrood",
+    "bordeaux": "Bordeaux",
+    "midnight_black": "Middernachtzwart",
+    "soft_nude": "Zacht nude",
+    "rose_gold": "Roségoud",
+    "baby_pink": "Babyroze",
+    "french_white": "French wit",
+    "deep_plum": "Diep pruim",
+    "champagne": "Champagne"
+  },
+  "polishFinish": {
+    "label": "Afwerking",
+    "glossy": "Glanzend",
+    "matte": "Mat",
+    "shimmer": "Glinsterend"
+  },
+  "style": {
+    "label": "Fotostijl",
+    "elegant_editorial": "Elegant editorial",
+    "soft_natural": "Zacht & natuurlijk",
+    "mysterious_noir": "Mysterieuze noir",
+    "minimal_studio": "Minimalistische studio",
+    "romantic_detail": "Romantisch detail"
+  },
+  "stockings": {
+    "label": "Kousen",
+    "black_sheer": "Zwart transparant",
+    "soft_nude": "Zacht nude",
+    "elegant_lace": "Elegant kant",
+    "barefoot": "Blootsvoets"
+  },
+  "footwear": {
+    "label": "Schoenen",
+    "high_heels": "Hoge hakken",
+    "sandals": "Sandalen",
+    "minimalist": "Minimalistische schoenen",
+    "barefoot": "Blootsvoets"
+  },
+  "accessories": {
+    "label": "Accessoires",
+    "anklet": "Enkelbandje",
+    "toe_ring": "Teenring",
+    "silk_ribbon": "Zijden lint",
+    "none": "Geen accessoires"
+  },
+  "background": {
+    "label": "Achtergrond",
+    "ivory_studio": "Ivoren studio",
+    "champagne_satin": "Champagnesatijn",
+    "soft_taupe": "Zacht taupe",
+    "dark_espresso": "Donker espresso",
+    "natural_light": "Natuurlijk licht"
+  },
+  "notSelected": "Niet gekozen"
+}

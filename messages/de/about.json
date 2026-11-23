@@ -1,1 +1,51 @@
-{}
+{
+  "metaTitle": "Über Lisa",
+  "eyebrow": "Die Person hinter den Details",
+  "subtitle": "Entdecken Sie die Person hinter den Details.",
+  "portraitAlt": "Porträt von {creator}",
+  "portraitPlaceholder": "Platzhalter — hier erscheint Lisas eigenes Porträt.",
+  "intro": {
+    "title": "Das ist {creator}.",
+    "body": "Dieser Bereich ist Lisas eigenen Worten vorbehalten — wer sie ist, was sie inspiriert und wie MAISON LISA entstanden ist.\nLisa kann diesen Text jederzeit in ihrem Dashboard verfassen und aktualisieren."
+  },
+  "cards": {
+    "c1": {
+      "title": "Ein wenig über mich",
+      "body": "Eine kurze persönliche Vorstellung, von Lisa selbst geschrieben."
+    },
+    "c2": {
+      "title": "Meine Lieblingsdinge",
+      "body": "Farben, Stoffe, Orte und kleine Rituale, die Lisa liebt — in ihren Worten."
+    },
+    "c3": {
+      "title": "Was mich zum Lächeln bringt",
+      "body": "Die Momente und Details, die Lisas Tag schöner machen."
+    },
+    "c4": {
+      "title": "Meine kreative Seite",
+      "body": "Wie eine Kollektion entsteht — von der ersten Idee bis zur fertigen Fotografie."
+    },
+    "c5": {
+      "title": "Ein kleines Geheimnis",
+      "body": "Etwas, das Lisa mit ihren Kundinnen und Kunden teilen möchte. Von Lisa zu verfassen."
+    }
+  },
+  "bts": {
+    "eyebrow": "Hinter den Kulissen",
+    "title": "Wie eine Kollektion entsteht.",
+    "body": "Stille Momente aus dem Studio — Vorbereitung, Farbe, Stoff und Licht.",
+    "items": {
+      "b1": "Die Wahl des Nagellacks",
+      "b2": "Stoffe arrangieren",
+      "b3": "Schmuck auswählen",
+      "b4": "Studiolicht",
+      "b5": "Kreatives Styling",
+      "b6": "Fotografische Details"
+    }
+  },
+  "final": {
+    "title": "Jetzt kennen Sie mich ein wenig.",
+    "body": "Was möchten Sie mir über sich erzählen?"
+  },
+  "cta": "{creator} schreiben"
+}

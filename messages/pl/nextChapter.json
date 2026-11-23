@@ -1,1 +1,21 @@
-{}
+{
+  "eyebrow": "Wkrótce",
+  "title": "Następny rozdział.",
+  "intro": "Nowe kolekcje, sezonowa fotografia, motywy lakierów i koncepcje stylizacji — zapowiedź tego, co przygotowuje Lisa.",
+  "noDate": "W przygotowaniu",
+  "available": "Już dostępne",
+  "days": "dni",
+  "hours": "godz.",
+  "minutes": "min",
+  "countdownLabel": "Dostępne za {d} dni, {h} godz. i {m} min",
+  "subscribeTitle": "Bądź pierwszą osobą, która się dowie.",
+  "subscribeBody": "Otrzymaj krótką wiadomość, gdy pojawi się nowy rozdział. Najwyżej kilka e-maili w sezonie.",
+  "email": "Adres e-mail",
+  "consent": "Zgadzam się na otrzymywanie e-mailem zapowiedzi nowych kolekcji MAISON LISA. Mogę zrezygnować w każdej chwili.",
+  "subscribe": "Subskrybuj",
+  "subscribed": "Prawie gotowe — potwierdź subskrypcję za pomocą linku, który wysłaliśmy.",
+  "confirmed": "Dziękujemy — subskrypcja została potwierdzona.",
+  "unsubscribed": "Subskrypcja została anulowana.",
+  "invalidLink": "Ten link jest nieprawidłowy lub wygasł.",
+  "empty": "Tutaj będą pojawiać się zapowiedzi nowych rozdziałów."
+}

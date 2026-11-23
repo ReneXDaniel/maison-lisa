@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Su carrito",
+  "intro": "Revise su selección. Los importes se confirman de forma segura al pagar.",
+  "empty": "Su carrito está vacío.",
+  "emptyBody": "Descubra las colecciones y añada lo que le inspire.",
+  "explore": "Descubrir las colecciones",
+  "personalOffer": "Oferta personal",
+  "digital": "Digital",
+  "unavailable": "Este artículo ya no está disponible y no se incluirá.",
+  "alreadyOwned": "Ya posee esta colección — no se le cobrará de nuevo.",
+  "summary": "Resumen",
+  "codeLabel": "Código promocional",
+  "codePlaceholder": "Introducir código",
+  "applyCode": "Aplicar",
+  "codeApplied": "Código",
+  "removeCode": "Quitar código",
+  "welcomeHintTitle": "{percent} % de descuento de bienvenida",
+  "welcomeHintBody": "Los nuevos clientes lo reciben automáticamente en su primer pedido tras iniciar sesión.",
+  "subtotal": "Subtotal",
+  "welcomeDiscount": "Descuento de bienvenida",
+  "codeDiscount": "Código {code}",
+  "total": "Total",
+  "vatNote": "IVA incluido",
+  "checkout": "Ir a pagar",
+  "guestNote": "Se le pedirá que inicie sesión o cree una cuenta y realice una verificación de edad única. Su carrito se conserva.",
+  "verifyNote": "Antes del pago se requiere una verificación de edad única. Su carrito se conserva."
+}

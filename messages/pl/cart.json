@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Twój koszyk",
+  "intro": "Sprawdź swój wybór. Kwoty zostaną bezpiecznie potwierdzone przy kasie.",
+  "empty": "Twój koszyk jest pusty.",
+  "emptyBody": "Odkryj kolekcje i dodaj to, co Cię zachwyca.",
+  "explore": "Odkryj kolekcje",
+  "personalOffer": "Oferta osobista",
+  "digital": "Cyfrowe",
+  "unavailable": "Ta pozycja nie jest już dostępna i nie zostanie uwzględniona.",
+  "alreadyOwned": "Masz już tę kolekcję — nie zostanie ponownie naliczona.",
+  "summary": "Podsumowanie",
+  "codeLabel": "Kod promocyjny",
+  "codePlaceholder": "Wpisz kod",
+  "applyCode": "Zastosuj",
+  "codeApplied": "Kod",
+  "removeCode": "Usuń kod",
+  "welcomeHintTitle": "{percent}% zniżki powitalnej",
+  "welcomeHintBody": "Nowi klienci otrzymują ją automatycznie przy pierwszym zamówieniu po zalogowaniu.",
+  "subtotal": "Suma częściowa",
+  "welcomeDiscount": "Zniżka powitalna",
+  "codeDiscount": "Kod {code}",
+  "total": "Razem",
+  "vatNote": "Zawiera VAT",
+  "checkout": "Przejdź do kasy",
+  "guestNote": "Poprosimy o zalogowanie lub utworzenie konta oraz jednorazową weryfikację wieku. Twój koszyk zostanie zachowany.",
+  "verifyNote": "Przed płatnością wymagana jest jednorazowa weryfikacja wieku. Twój koszyk zostanie zachowany."
+}

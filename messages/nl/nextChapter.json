@@ -1,1 +1,21 @@
-{}
+{
+  "eyebrow": "Binnenkort",
+  "title": "Het volgende hoofdstuk.",
+  "intro": "Nieuwe collecties, seizoensfotografie, lakthema's en stylingconcepten — een blik op wat Lisa voorbereidt.",
+  "noDate": "In voorbereiding",
+  "available": "Nu beschikbaar",
+  "days": "dagen",
+  "hours": "uur",
+  "minutes": "min",
+  "countdownLabel": "Beschikbaar over {d} dagen, {h} uur en {m} minuten",
+  "subscribeTitle": "Hoor het als eerste.",
+  "subscribeBody": "Ontvang een kort bericht wanneer een nieuw hoofdstuk verschijnt. Hooguit enkele e-mails per seizoen.",
+  "email": "E-mailadres",
+  "consent": "Ik ontvang graag aankondigingen over nieuwe collecties van MAISON LISA per e-mail. Ik kan me op elk moment afmelden.",
+  "subscribe": "Inschrijven",
+  "subscribed": "Bijna klaar — bevestig uw inschrijving via de link die we u hebben gestuurd.",
+  "confirmed": "Dank u — uw inschrijving is bevestigd.",
+  "unsubscribed": "U bent afgemeld.",
+  "invalidLink": "Deze link is ongeldig of verlopen.",
+  "empty": "Nieuwe hoofdstukken worden hier aangekondigd."
+}

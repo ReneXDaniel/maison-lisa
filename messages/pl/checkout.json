@@ -1,1 +1,52 @@
-{}
+{
+  "eyebrow": "Bezpieczna kasa",
+  "title": "Kasa",
+  "intro": "Jedna płatność za cały Twój wybór.",
+  "review": "Twoje zamówienie",
+  "personalOffer": "Oferta osobista",
+  "digitalCollection": "Cyfrowa kolekcja zdjęć",
+  "someUnavailable": "Niedostępne pozycje zostały usunięte z tego zamówienia.",
+  "paymentMethod": "Płatność",
+  "paymentNote": "Nastąpi przekierowanie na bezpieczną stronę naszego partnera płatniczego. Nigdy nie widzimy ani nie przechowujemy danych Twojej karty.",
+  "devPayment": "Symulator deweloperski — bez prawdziwej płatności",
+  "country": "Kraj zamieszkania",
+  "subtotal": "Suma częściowa",
+  "welcomeDiscount": "Zniżka powitalna",
+  "codeDiscount": "Kod {code}",
+  "total": "Razem",
+  "vatIncluded": "W tym {rate}% VAT",
+  "vatNone": "Bez VAT",
+  "terms": "Akceptuję <terms>Regulamin</terms> i zapoznałem/-am się z <privacy>Polityką prywatności</privacy>.",
+  "waiver": "Żądam natychmiastowego dostępu do treści cyfrowych i przyjmuję do wiadomości, że z chwilą rozpoczęcia dostarczania tracę prawo odstąpienia od umowy.",
+  "placeOrder": "Kupuję — zamówienie z obowiązkiem zapłaty",
+  "placeOrderNote": "Zakup jest potwierdzony dopiero po potwierdzeniu płatności przez naszego partnera.",
+  "return": {
+    "pending": {
+      "title": "Potwierdzamy płatność…",
+      "body": "Zwykle trwa to tylko kilka sekund. Nie zamykaj tej strony."
+    },
+    "slow": {
+      "title": "Wciąż czekamy na potwierdzenie.",
+      "body": "Partner płatniczy jeszcze nie potwierdził płatności. Otrzymasz e-mail i powiadomienie, gdy to nastąpi — Twoje zamówienie jest bezpieczne."
+    },
+    "paid": {
+      "title": "Dziękujemy.",
+      "body": "Płatność została potwierdzona. Twoje kolekcje czekają na Ciebie na prywatnym koncie."
+    },
+    "failed": {
+      "title": "Płatność nie została zrealizowana.",
+      "body": "Nic nie zostało pobrane. Twój koszyk czeka — możesz spróbować ponownie."
+    },
+    "cancelled": {
+      "title": "Płatność anulowana.",
+      "body": "Nic nie zostało pobrane. Twój koszyk czeka na Ciebie."
+    },
+    "unknown": {
+      "title": "Nie znaleziono zamówienia.",
+      "body": "Sprawdź swoje zamówienia na koncie."
+    },
+    "viewPurchases": "Otwórz moje zakupy",
+    "viewOrder": "Zobacz zamówienie",
+    "backToCart": "Wróć do koszyka"
+  }
+}

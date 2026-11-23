@@ -1,1 +1,83 @@
-{}
+{
+  "title": "Messages",
+  "private": "Conversation privée",
+  "search": "Rechercher des conversations",
+  "newConversation": "Nouvelle conversation",
+  "empty": "Aucune conversation",
+  "emptyBody": "Écrivez à Lisa — à propos d'une collection, d'une demande personnelle ou simplement pour vous présenter.",
+  "emptyAdmin": "Rien pour le moment.",
+  "noMessages": "Aucun message",
+  "unreadCount": "{count} non lus",
+  "selectPrompt": "Choisissez une conversation ou commencez-en une nouvelle avec {creator}.",
+  "startTitle": "Écrire à {creator}",
+  "subjectLabel": "Objet (facultatif)",
+  "subjectPlaceholder": "Objet (facultatif)",
+  "placeholder": "Votre message…",
+  "send": "Envoyer",
+  "attach": "Joindre des images",
+  "removeAttachment": "Retirer la pièce jointe",
+  "attachmentsHint": "Jusqu'à 4 images · JPEG, PNG ou WebP · {mb} Mo max. chacune",
+  "sending": "Envoi…",
+  "sent": "Envoyé",
+  "delivered": "Distribué",
+  "read": "Lu",
+  "retry": "Non envoyé — réessayer",
+  "loadEarlier": "Charger les messages précédents",
+  "draftSaved": "Brouillon enregistré sur cet appareil",
+  "back": "Toutes les conversations",
+  "privateNote": "Ceci est une conversation privée. {creator} répond personnellement — il n'y a aucun message automatique.",
+  "archivedNote": "Cette conversation est archivée. Un nouveau message la rouvrira.",
+  "previewKinds": {
+    "request": "Demande personnelle",
+    "offer": "Offre personnelle",
+    "system": "Mise à jour",
+    "text": "Message"
+  },
+  "filters": {
+    "all": "Boîte de réception",
+    "unread": "Non lus",
+    "awaiting_lisa": "En attente de réponse",
+    "flagged": "Signalés",
+    "archived": "Archivés"
+  },
+  "status": {
+    "new": "Nouvelle",
+    "active": "Active",
+    "awaiting_lisa": "En attente de la réponse de Lisa",
+    "awaiting_customer": "En attente de votre réponse",
+    "completed": "Terminée",
+    "archived": "Archivée"
+  },
+  "request": {
+    "title": "Demande personnelle · n° {number}",
+    "wishes": "Souhaits supplémentaires"
+  },
+  "offer": {
+    "label": "Votre offre personnelle",
+    "price": "Prix",
+    "delivery": "Livraison",
+    "deadline": "Valable jusqu'au",
+    "accept": "Accepter l'offre",
+    "decline": "Refuser",
+    "addToCart": "Ajouter au panier",
+    "goToCart": "Voir le panier",
+    "addedTitle": "L'offre est dans votre panier",
+    "acceptNote": "Accepter place l'offre dans votre panier. Vous ne payez qu'au moment de finaliser la commande.",
+    "status": {
+      "open": "En attente de votre décision",
+      "accepted": "Acceptée",
+      "declined": "Refusée",
+      "paid": "Achetée",
+      "expired": "Expirée",
+      "withdrawn": "Retirée"
+    }
+  },
+  "adminStatus": {
+    "new": "Nouvelle",
+    "active": "Active",
+    "awaiting_lisa": "En attente de votre réponse",
+    "awaiting_customer": "En attente du client",
+    "completed": "Terminée",
+    "archived": "Archivée"
+  }
+}

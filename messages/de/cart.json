@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Ihr Warenkorb",
+  "intro": "Prüfen Sie Ihre Auswahl. Die Beträge werden im Checkout sicher bestätigt.",
+  "empty": "Ihr Warenkorb ist leer.",
+  "emptyBody": "Entdecken Sie die Kollektionen und wählen Sie, was Sie berührt.",
+  "explore": "Kollektionen entdecken",
+  "personalOffer": "Persönliches Angebot",
+  "digital": "Digital",
+  "unavailable": "Dieser Artikel ist nicht mehr verfügbar und wird nicht berücksichtigt.",
+  "alreadyOwned": "Sie besitzen diese Kollektion bereits — sie wird nicht erneut berechnet.",
+  "summary": "Übersicht",
+  "codeLabel": "Aktionscode",
+  "codePlaceholder": "Code eingeben",
+  "applyCode": "Einlösen",
+  "codeApplied": "Code",
+  "removeCode": "Code entfernen",
+  "welcomeHintTitle": "{percent} % Willkommensrabatt",
+  "welcomeHintBody": "Neue Kundinnen und Kunden erhalten ihn nach der Anmeldung automatisch auf die erste Bestellung.",
+  "subtotal": "Zwischensumme",
+  "welcomeDiscount": "Willkommensrabatt",
+  "codeDiscount": "Code {code}",
+  "total": "Gesamt",
+  "vatNote": "Inkl. MwSt.",
+  "checkout": "Zur Kasse",
+  "guestNote": "Sie werden gebeten, sich anzumelden oder ein Konto zu erstellen und einmalig Ihr Alter zu verifizieren. Ihr Warenkorb bleibt erhalten.",
+  "verifyNote": "Vor der Zahlung ist eine einmalige Altersverifikation erforderlich. Ihr Warenkorb bleibt erhalten."
+}

@@ -1,1 +1,59 @@
-{}
+{
+  "polishColor": {
+    "label": "Verniz",
+    "classic_white": "Branco clássico",
+    "cherry_red": "Vermelho cereja",
+    "bordeaux": "Bordéus",
+    "midnight_black": "Preto meia-noite",
+    "soft_nude": "Nude suave",
+    "rose_gold": "Ouro rosa",
+    "baby_pink": "Rosa bebé",
+    "french_white": "Branco francesa",
+    "deep_plum": "Ameixa profunda",
+    "champagne": "Champanhe"
+  },
+  "polishFinish": {
+    "label": "Acabamento",
+    "glossy": "Brilhante",
+    "matte": "Mate",
+    "shimmer": "Cintilante"
+  },
+  "style": {
+    "label": "Estilo fotográfico",
+    "elegant_editorial": "Editorial elegante",
+    "soft_natural": "Suave e natural",
+    "mysterious_noir": "Noir misterioso",
+    "minimal_studio": "Estúdio minimalista",
+    "romantic_detail": "Detalhe romântico"
+  },
+  "stockings": {
+    "label": "Meias",
+    "black_sheer": "Pretas transparentes",
+    "soft_nude": "Nude suave",
+    "elegant_lace": "Renda elegante",
+    "barefoot": "Descalça"
+  },
+  "footwear": {
+    "label": "Calçado",
+    "high_heels": "Saltos altos",
+    "sandals": "Sandálias",
+    "minimalist": "Calçado minimalista",
+    "barefoot": "Descalça"
+  },
+  "accessories": {
+    "label": "Acessórios",
+    "anklet": "Pulseira de tornozelo",
+    "toe_ring": "Anel de dedo do pé",
+    "silk_ribbon": "Fita de seda",
+    "none": "Sem acessórios"
+  },
+  "background": {
+    "label": "Fundo",
+    "ivory_studio": "Estúdio marfim",
+    "champagne_satin": "Cetim champanhe",
+    "soft_taupe": "Taupe suave",
+    "dark_espresso": "Espresso escuro",
+    "natural_light": "Luz natural"
+  },
+  "notSelected": "Não selecionado"
+}

@@ -1,1 +1,79 @@
-{}
+{
+  "nail": {
+    "metaTitle": "Nagelstudio",
+    "eyebrow": "Nagelstudio",
+    "title": "Uw kleur. Uw verlangen.",
+    "body": "Elk detail is aan u. Beweeg over een flesje voor een voorbeeld en klik om de kleur te kiezen.",
+    "chooseColor": "Kies uw kleur",
+    "natural": "Naturel",
+    "preview": "voorbeeld",
+    "previewLabel": "Voorbeeld van de nagelkleur: {color}",
+    "saved": "Uw kleur en afwerking zijn opgeslagen en worden automatisch meegenomen in uw persoonlijke verzoek.",
+    "cta": "Persoonlijk verzoek maken",
+    "demoNote": "Demo-illustratie — vervang deze in de admin door Lisa's foto en nagelmasker"
+  },
+  "look": {
+    "metaTitle": "Lookstudio",
+    "eyebrow": "Lookstudio",
+    "title": "Stel de look samen.",
+    "body": "Combineer kousen, schoenen, accessoires en setting — en neem de look mee in een persoonlijk verzoek.",
+    "illustrative": "Illustratief voorbeeld. Combinaties zijn getekend, niet gefotografeerd.",
+    "saved": "Uw look is opgeslagen voor uw persoonlijke verzoek.",
+    "cta": "Deze look gebruiken in een verzoek"
+  },
+  "vote": {
+    "eyebrow": "Uw stem",
+    "title": "Kies de volgende look van {creator}.",
+    "body": "Stem op het stylingconcept dat u het liefst terugziet in de volgende collectie van {creator}.",
+    "option": "Concept {n}",
+    "vote": "Op deze look stemmen",
+    "change": "Mijn stem wijzigen",
+    "yourVote": "Uw stem ✓",
+    "share": "{pct}% van de stemmen",
+    "oneVote": "Eén stem per geverifieerde klant. U kunt uw stem wijzigen zolang de stemming open is.",
+    "verifiedOnly": "Stemmen staat open voor geverifieerde volwassen klanten.",
+    "verify": "Nu verifiëren",
+    "signIn": "Inloggen"
+  },
+  "quiz": {
+    "metaTitle": "Ontdek uw stijl",
+    "eyebrow": "Stijlquiz",
+    "title": "Ontdek uw stijl.",
+    "body": "Vier speelse vragen. Eén collectie voor u.",
+    "progress": "Vraag {n} van {total}",
+    "back": "Vorige vraag",
+    "q1": {
+      "question": "Klassiek of mysterieus?",
+      "classic": "Klassiek",
+      "classicHint": "Strakke lijnen, rustig licht",
+      "mysterious": "Mysterieus",
+      "mysteriousHint": "Schaduwen en diepe tinten"
+    },
+    "q2": {
+      "question": "Zacht of uitgesproken?",
+      "soft": "Zacht",
+      "softHint": "Nude, blush, flinterdun",
+      "bold": "Uitgesproken",
+      "boldHint": "Kers, bordeaux, lak"
+    },
+    "q3": {
+      "question": "Ivoor of espresso?",
+      "ivory": "Ivoor",
+      "ivoryHint": "Licht en luchtig",
+      "espresso": "Espresso",
+      "espressoHint": "Warm en dramatisch"
+    },
+    "q4": {
+      "question": "Zijde of kant?",
+      "silk": "Zijde",
+      "silkHint": "Vloeiend en stralend",
+      "lace": "Kant",
+      "laceHint": "Fijn en verfijnd"
+    },
+    "resultEyebrow": "Uw collectie",
+    "explore": "Ontdek uw collectie",
+    "custom": "Persoonlijk verzoek maken",
+    "disclaimer": "Gewoon voor de lol — uw resultaat is een stijlsuggestie, meer niet. Uw antwoorden worden niet op onze servers opgeslagen.",
+    "restart": "Opnieuw beginnen"
+  }
+}

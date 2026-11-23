@@ -8,12 +8,25 @@ const base = () => process.env.APP_URL ?? "http://localhost:3000";
  * Localised metadata with canonical URL + hreflang alternates for all eight
  * languages (and x-default → the default locale).
  */
-export function pageMetadata(opts: { locale: string; path: string; title?: string; description?: string; noindex?: boolean }): Metadata {
+export function pageMetadata(opts: {
+  locale: string;
+  path: string;
+  /** Page title, suffixed with the brand name. */
+  title?: string;
+  /** Localised tagline for pages titled "Brand — tagline" (the home page). */
+  tagline?: string;
+  description?: string;
+  noindex?: boolean;
+}): Metadata {
   const path = opts.path === "/" ? "" : opts.path;
   const languages: Record<string, string> = {};
   for (const l of locales) languages[localeTags[l]] = `${base()}/${l}${path}`;
   languages["x-default"] = `${base()}/${defaultLocale}${path}`;
-  const title = opts.title ? `${opts.title} · ${brand.name}` : `${brand.name} — Beauty in Every Detail.`;
+  const title = opts.title
+    ? `${opts.title} · ${brand.name}`
+    : opts.tagline
+      ? `${brand.name} — ${opts.tagline}`
+      : brand.name;
   return {
     title,
     description: opts.description,

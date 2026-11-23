@@ -1,1 +1,83 @@
-{}
+{
+  "title": "Berichten",
+  "private": "Privégesprek",
+  "search": "Gesprekken doorzoeken",
+  "newConversation": "Nieuw gesprek",
+  "empty": "Nog geen gesprekken",
+  "emptyBody": "Schrijf Lisa — over een collectie, een persoonlijk verzoek of gewoon om uzelf voor te stellen.",
+  "emptyAdmin": "Op dit moment niets.",
+  "noMessages": "Nog geen berichten",
+  "unreadCount": "{count} ongelezen",
+  "selectPrompt": "Kies een gesprek of begin een nieuw gesprek met {creator}.",
+  "startTitle": "Schrijf {creator}",
+  "subjectLabel": "Onderwerp (optioneel)",
+  "subjectPlaceholder": "Onderwerp (optioneel)",
+  "placeholder": "Schrijf uw bericht…",
+  "send": "Versturen",
+  "attach": "Afbeeldingen bijvoegen",
+  "removeAttachment": "Bijlage verwijderen",
+  "attachmentsHint": "Maximaal 4 afbeeldingen · JPEG, PNG of WebP · max. {mb} MB per stuk",
+  "sending": "Versturen…",
+  "sent": "Verstuurd",
+  "delivered": "Afgeleverd",
+  "read": "Gelezen",
+  "retry": "Niet verstuurd — opnieuw proberen",
+  "loadEarlier": "Eerdere berichten laden",
+  "draftSaved": "Concept opgeslagen op dit apparaat",
+  "back": "Alle gesprekken",
+  "privateNote": "Dit is een privégesprek. {creator} antwoordt persoonlijk — er zijn geen automatische berichten.",
+  "archivedNote": "Dit gesprek is gearchiveerd. Een nieuw bericht opent het opnieuw.",
+  "previewKinds": {
+    "request": "Persoonlijk verzoek",
+    "offer": "Persoonlijk aanbod",
+    "system": "Update",
+    "text": "Bericht"
+  },
+  "filters": {
+    "all": "Inbox",
+    "unread": "Ongelezen",
+    "awaiting_lisa": "Wacht op antwoord",
+    "flagged": "Gemarkeerd",
+    "archived": "Gearchiveerd"
+  },
+  "status": {
+    "new": "Nieuw",
+    "active": "Actief",
+    "awaiting_lisa": "Wacht op Lisa's antwoord",
+    "awaiting_customer": "Wacht op uw antwoord",
+    "completed": "Afgerond",
+    "archived": "Gearchiveerd"
+  },
+  "request": {
+    "title": "Persoonlijk verzoek · nr. {number}",
+    "wishes": "Aanvullende wensen"
+  },
+  "offer": {
+    "label": "Uw persoonlijke aanbod",
+    "price": "Prijs",
+    "delivery": "Levering",
+    "deadline": "Geldig tot",
+    "accept": "Aanbod accepteren",
+    "decline": "Afwijzen",
+    "addToCart": "In winkelwagen",
+    "goToCart": "Naar winkelwagen",
+    "addedTitle": "Het aanbod ligt in uw winkelwagen",
+    "acceptNote": "Bij accepteren gaat het aanbod in uw winkelwagen. U betaalt pas bij het afrekenen.",
+    "status": {
+      "open": "Wacht op uw beslissing",
+      "accepted": "Geaccepteerd",
+      "declined": "Afgewezen",
+      "paid": "Gekocht",
+      "expired": "Verlopen",
+      "withdrawn": "Ingetrokken"
+    }
+  },
+  "adminStatus": {
+    "new": "Nieuw",
+    "active": "Actief",
+    "awaiting_lisa": "Wacht op uw antwoord",
+    "awaiting_customer": "Wacht op klant",
+    "completed": "Afgerond",
+    "archived": "Gearchiveerd"
+  }
+}

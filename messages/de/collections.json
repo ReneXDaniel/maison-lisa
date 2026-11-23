@@ -1,1 +1,8 @@
-{}
+{
+  "eyebrow": "Die Kollektionen",
+  "title": "Mit Eleganz kuratiert.",
+  "intro": "Sechs Kapitel einer Bildsprache — von stillen Essentials bis zur privaten Edition.",
+  "count": "{count, plural, =0 {Demnächst} one {# Kollektion} other {# Kollektionen}}",
+  "discover": "Kollektion entdecken",
+  "emptyCollection": "Für diese Kollektion werden neue Fotografien vorbereitet."
+}

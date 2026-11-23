@@ -1,1 +1,83 @@
-{}
+{
+  "title": "Wiadomości",
+  "private": "Prywatna rozmowa",
+  "search": "Szukaj w rozmowach",
+  "newConversation": "Nowa rozmowa",
+  "empty": "Brak rozmów",
+  "emptyBody": "Napisz do Lisy — o kolekcji, osobistej prośbie lub po prostu, aby się przedstawić.",
+  "emptyAdmin": "Na razie nic tu nie ma.",
+  "noMessages": "Brak wiadomości",
+  "unreadCount": "{count} nieprzeczytane",
+  "selectPrompt": "Wybierz rozmowę lub rozpocznij nową. {creator} odpowiada osobiście.",
+  "startTitle": "Wiadomość do: {creator}",
+  "subjectLabel": "Temat (opcjonalnie)",
+  "subjectPlaceholder": "Temat (opcjonalnie)",
+  "placeholder": "Napisz wiadomość…",
+  "send": "Wyślij",
+  "attach": "Załącz obrazy",
+  "removeAttachment": "Usuń załącznik",
+  "attachmentsHint": "Do 4 obrazów · JPEG, PNG lub WebP · maks. {mb} MB każdy",
+  "sending": "Wysyłanie…",
+  "sent": "Wysłano",
+  "delivered": "Dostarczono",
+  "read": "Przeczytano",
+  "retry": "Nie wysłano — spróbuj ponownie",
+  "loadEarlier": "Wczytaj wcześniejsze wiadomości",
+  "draftSaved": "Szkic zapisany na tym urządzeniu",
+  "back": "Wszystkie rozmowy",
+  "privateNote": "To prywatna rozmowa. {creator} odpowiada osobiście — nie ma tu automatycznych wiadomości.",
+  "archivedNote": "Ta rozmowa jest zarchiwizowana. Nowa wiadomość otworzy ją ponownie.",
+  "previewKinds": {
+    "request": "Osobista prośba",
+    "offer": "Oferta osobista",
+    "system": "Aktualizacja",
+    "text": "Wiadomość"
+  },
+  "filters": {
+    "all": "Skrzynka odbiorcza",
+    "unread": "Nieprzeczytane",
+    "awaiting_lisa": "Czeka na odpowiedź",
+    "flagged": "Oznaczone",
+    "archived": "Zarchiwizowane"
+  },
+  "status": {
+    "new": "Nowa",
+    "active": "Aktywna",
+    "awaiting_lisa": "Czeka na odpowiedź Lisy",
+    "awaiting_customer": "Czeka na Twoją odpowiedź",
+    "completed": "Zakończona",
+    "archived": "Zarchiwizowana"
+  },
+  "request": {
+    "title": "Osobista prośba · nr {number}",
+    "wishes": "Dodatkowe życzenia"
+  },
+  "offer": {
+    "label": "Twoja oferta osobista",
+    "price": "Cena",
+    "delivery": "Dostawa",
+    "deadline": "Ważna do",
+    "accept": "Przyjmij ofertę",
+    "decline": "Odrzuć",
+    "addToCart": "Dodaj do koszyka",
+    "goToCart": "Przejdź do koszyka",
+    "addedTitle": "Oferta jest w Twoim koszyku",
+    "acceptNote": "Przyjęcie dodaje ofertę do koszyka. Płatność następuje dopiero przy kasie.",
+    "status": {
+      "open": "Czeka na Twoją decyzję",
+      "accepted": "Przyjęta",
+      "declined": "Odrzucona",
+      "paid": "Kupiona",
+      "expired": "Wygasła",
+      "withdrawn": "Wycofana"
+    }
+  },
+  "adminStatus": {
+    "new": "Nowa",
+    "active": "Aktywna",
+    "awaiting_lisa": "Czeka na Twoją odpowiedź",
+    "awaiting_customer": "Czeka na klienta",
+    "completed": "Zakończona",
+    "archived": "Zarchiwizowana"
+  }
+}

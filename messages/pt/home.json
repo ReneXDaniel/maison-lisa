@@ -1,1 +1,95 @@
-{}
+{
+  "meta": {
+    "title": "Beleza em cada detalhe"
+  },
+  "hero": {
+    "eyebrow": "Uma boutique digital privada",
+    "title": "MAISON LISA",
+    "subtitle": "Beleza em cada detalhe.",
+    "support": "Um mundo exclusivo de elegância, individualidade e momentos belamente pessoais.",
+    "ctaCollection": "Descobrir a minha coleção",
+    "ctaExperience": "Criar a sua experiência",
+    "scroll": "Deslizar"
+  },
+  "welcome": {
+    "eyebrow": "Para novos clientes",
+    "title": "A sua primeira experiência MAISON LISA.",
+    "body": "Beneficie de {percent}% de desconto na sua primeira encomenda.",
+    "cta": "Descobrir a coleção",
+    "note": "Aplicado automaticamente no checkout da sua primeira encomenda."
+  },
+  "intro": {
+    "eyebrow": "A Maison",
+    "title": "Onde a elegância se torna pessoal.",
+    "body": "Cada coleção é estilizada, iluminada e fotografada com paciência — a luz quente do estúdio, a seda cor de marfim, a beleza silenciosa de um detalhe bem escolhido. Descubra sessões prontas ou crie uma coleção pessoal em conjunto com {creator}."
+  },
+  "silk": {
+    "eyebrow": "Por detrás da seda",
+    "title": "Alguns detalhes merecem um olhar mais atento.",
+    "caption": "Deslize devagar.",
+    "fallback": "Com as animações ativadas, aqui é reproduzida uma sequência."
+  },
+  "collections": {
+    "eyebrow": "Coleções",
+    "title": "Selecionado com elegância.",
+    "all": "Ver todas as coleções"
+  },
+  "details": {
+    "eyebrow": "Detalhes",
+    "title": "Um mundo de belos detalhes.",
+    "body": "Toque ou passe o cursor sobre os pontos que brilham suavemente para descobrir os detalhes por detrás da imagem.",
+    "hint": "Descobrir os detalhes",
+    "hotspots": {
+      "polish": {
+        "title": "Verniz",
+        "body": "Um verniz brilhante cor de champanhe, aplicado à mão na manhã da sessão."
+      },
+      "jewelry": {
+        "title": "Joias para os pés",
+        "body": "Uma delicada pulseira de tornozelo com uma única pérola — subtil, nunca excessiva."
+      },
+      "stockings": {
+        "title": "Meias finas",
+        "body": "Seda transparente de 10 denier com uma costura delicada, escolhida pelo seu brilho suave."
+      },
+      "silk": {
+        "title": "Acessórios de seda",
+        "body": "Charmeuse cor de champanhe, drapeada livremente para captar a luz da manhã."
+      },
+      "styling": {
+        "title": "Styling",
+        "body": "Cada elemento é colocado à mão. Nada é deixado ao acaso."
+      }
+    }
+  },
+  "nail": {
+    "eyebrow": "Estúdio de unhas",
+    "title": "A sua cor. O seu desejo.",
+    "body": "Cada detalhe é escolha sua.",
+    "cta": "Entrar no Estúdio de unhas"
+  },
+  "quiz": {
+    "eyebrow": "Quiz de estilo",
+    "title": "Descubra o seu estilo.",
+    "body": "Quatro perguntas leves, uma coleção para si.",
+    "cta": "Começar o quiz"
+  },
+  "about": {
+    "eyebrow": "A pessoa por detrás dos detalhes",
+    "title": "Conheça a Lisa.",
+    "body": "Descubra a criatividade, o estilo e a personalidade por detrás de cada coleção MAISON LISA.",
+    "cta": "Conhecer a Lisa"
+  },
+  "next": {
+    "eyebrow": "Brevemente",
+    "title": "O próximo capítulo.",
+    "cta": "Ver o que aí vem"
+  },
+  "final": {
+    "title": "A sua visão. A arte de {creator}.",
+    "body": "Escolha a cor, o styling e o ambiente — e partilhe os seus desejos com a Lisa numa conversa privada.",
+    "cta": "Criar um pedido pessoal",
+    "secondary": "Enviar mensagem a {creator}"
+  },
+  "announcement": ""
+}

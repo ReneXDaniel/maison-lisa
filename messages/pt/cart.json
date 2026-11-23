@@ -1,1 +1,27 @@
-{}
+{
+  "title": "O seu carrinho",
+  "intro": "Reveja a sua seleção. Os montantes são confirmados de forma segura no checkout.",
+  "empty": "O seu carrinho está vazio.",
+  "emptyBody": "Descubra as coleções e adicione o que lhe agrada.",
+  "explore": "Descobrir coleções",
+  "personalOffer": "Oferta pessoal",
+  "digital": "Digital",
+  "unavailable": "Este artigo já não está disponível e não será incluído.",
+  "alreadyOwned": "Já possui esta coleção — não será cobrada novamente.",
+  "summary": "Resumo",
+  "codeLabel": "Código promocional",
+  "codePlaceholder": "Introduza um código",
+  "applyCode": "Aplicar",
+  "codeApplied": "Código",
+  "removeCode": "Remover código",
+  "welcomeHintTitle": "{percent}% de desconto de boas-vindas",
+  "welcomeHintBody": "Os novos clientes recebem-no automaticamente na primeira encomenda, após iniciarem sessão.",
+  "subtotal": "Subtotal",
+  "welcomeDiscount": "Desconto de boas-vindas",
+  "codeDiscount": "Código {code}",
+  "total": "Total",
+  "vatNote": "IVA incluído",
+  "checkout": "Avançar para o checkout",
+  "guestNote": "Ser-lhe-á pedido que inicie sessão ou crie uma conta e faça uma verificação de idade única. O seu carrinho é mantido.",
+  "verifyNote": "É necessária uma verificação de idade única antes do pagamento. O seu carrinho é mantido."
+}

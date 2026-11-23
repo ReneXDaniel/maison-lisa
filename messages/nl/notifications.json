@@ -1,1 +1,19 @@
-{}
+{
+  "title": "Meldingen",
+  "bell": "Meldingen",
+  "bellUnread": "Meldingen, {count} ongelezen",
+  "empty": "U bent helemaal bij.",
+  "types": {
+    "message_from_lisa": "Lisa heeft geantwoord in uw gesprek",
+    "offer_received": "U hebt een persoonlijk aanbod ontvangen",
+    "request_update": "Nieuws over uw verzoek {number}",
+    "order_paid": "Uw bestelling {number} is bevestigd",
+    "product_available": "Uw foto's staan klaar",
+    "refund_update": "Update over uw bestelling {number}",
+    "admin_new_message": "Nieuw bericht van een klant",
+    "admin_new_request": "Nieuw persoonlijk verzoek {number}",
+    "admin_offer_response": "Een klant heeft op uw aanbod gereageerd",
+    "admin_new_order": "Nieuwe bestelling {number}",
+    "admin_payment_issue": "Betalingsprobleem bij bestelling {number}"
+  }
+}

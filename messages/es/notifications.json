@@ -1,1 +1,19 @@
-{}
+{
+  "title": "Notificaciones",
+  "bell": "Notificaciones",
+  "bellUnread": "Notificaciones, {count} sin leer",
+  "empty": "Está al día.",
+  "types": {
+    "message_from_lisa": "Lisa ha respondido a su conversación",
+    "offer_received": "Ha recibido una oferta personal",
+    "request_update": "Su solicitud {number} tiene novedades",
+    "order_paid": "Su pedido {number} está confirmado",
+    "product_available": "Sus fotografías ya están disponibles",
+    "refund_update": "Novedades de su pedido {number}",
+    "admin_new_message": "Nuevo mensaje de un cliente",
+    "admin_new_request": "Nueva solicitud personal {number}",
+    "admin_offer_response": "Un cliente ha respondido a su oferta",
+    "admin_new_order": "Nuevo pedido {number}",
+    "admin_payment_issue": "Problema de pago en el pedido {number}"
+  }
+}

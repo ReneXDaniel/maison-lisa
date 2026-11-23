@@ -1,1 +1,64 @@
-{}
+{
+  "metaTitle": "Persoonlijke verzoeken",
+  "eyebrow": "Persoonlijke verzoeken",
+  "title": "Uw visie. De kunst van {creator}.",
+  "intro": "Stel detail voor detail een persoonlijke fotocollectie samen. Uw verzoek wordt naar Lisa gestuurd in een privégesprek, waarin u alles kunt bespreken voordat er een aanbod komt.",
+  "steps": {
+    "polish": "De lak",
+    "style": "De sfeer",
+    "styling": "De styling",
+    "setting": "De setting",
+    "wishes": "Uw wensen"
+  },
+  "fromStudio": "Overgenomen uit uw keuze in de Nagelstudio",
+  "wishesLabel": "Aanvullende wensen",
+  "wishesPlaceholder": "Beschrijf de sfeer, een detail waar u van houdt of iets wat Lisa moet weten…",
+  "wishesHint": "Houd verzoeken artistiek en respectvol. Lisa beslist welke verzoeken ze aanneemt.",
+  "summary": "Uw selectie",
+  "reset": "Selectie wissen",
+  "openGift": "Mijn verzoek voorbereiden",
+  "giftTitle": "Uw visie. De kunst van Lisa.",
+  "giftSubtitle": "Laten we iets persoonlijks creëren.",
+  "giftHint": "Klik op de doos om hem te openen",
+  "send": "Mijn verzoek naar Lisa sturen",
+  "sending": "Uw verzoek wordt verstuurd…",
+  "edit": "Selectie bewerken",
+  "greeting": "Hallo Lisa, ik zou heel graag een persoonlijke fotocollectie aanvragen.",
+  "loginRequired": "Log in en rond de eenmalige leeftijdsverificatie af om uw verzoek te versturen. Uw selectie is opgeslagen en wacht op u.",
+  "continueToSignIn": "Inloggen om te versturen",
+  "verifyToSend": "Verifiëren om te versturen",
+  "nothingSelected": "Kies minstens één detail of beschrijf uw wensen.",
+  "howItWorks": "Zo werkt het",
+  "how": {
+    "h1": {
+      "title": "Samenstellen",
+      "body": "Kies kleuren, styling en sfeer — of beschrijf gewoon uw idee."
+    },
+    "h2": {
+      "title": "Bespreken",
+      "body": "Uw verzoek komt binnen in een privégesprek met Lisa."
+    },
+    "h3": {
+      "title": "Aanbod ontvangen",
+      "body": "Als Lisa akkoord gaat, stuurt ze u een persoonlijk aanbod met prijs en levering."
+    },
+    "h4": {
+      "title": "Genieten",
+      "body": "Na het afrekenen wordt uw collectie in uw privéaccount geleverd."
+    }
+  },
+  "status": {
+    "draft": "Concept",
+    "submitted": "Ingediend",
+    "under_review": "In behandeling",
+    "awaiting_customer": "Wacht op uw antwoord",
+    "offer_sent": "Aanbod verstuurd",
+    "accepted": "Geaccepteerd",
+    "rejected": "Afgewezen",
+    "paid": "Betaald",
+    "in_production": "In productie",
+    "delivered": "Geleverd",
+    "completed": "Afgerond",
+    "cancelled": "Geannuleerd"
+  }
+}

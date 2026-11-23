@@ -1,1 +1,59 @@
-{}
+{
+  "polishColor": {
+    "label": "Vernis",
+    "classic_white": "Blanc classique",
+    "cherry_red": "Rouge cerise",
+    "bordeaux": "Bordeaux",
+    "midnight_black": "Noir minuit",
+    "soft_nude": "Nude doux",
+    "rose_gold": "Or rose",
+    "baby_pink": "Rose poudré",
+    "french_white": "Blanc French",
+    "deep_plum": "Prune profonde",
+    "champagne": "Champagne"
+  },
+  "polishFinish": {
+    "label": "Finition",
+    "glossy": "Brillante",
+    "matte": "Mate",
+    "shimmer": "Scintillante"
+  },
+  "style": {
+    "label": "Style photographique",
+    "elegant_editorial": "Éditorial élégant",
+    "soft_natural": "Doux & naturel",
+    "mysterious_noir": "Noir mystérieux",
+    "minimal_studio": "Studio minimal",
+    "romantic_detail": "Détail romantique"
+  },
+  "stockings": {
+    "label": "Bas",
+    "black_sheer": "Noir voile",
+    "soft_nude": "Nude doux",
+    "elegant_lace": "Dentelle élégante",
+    "barefoot": "Pieds nus"
+  },
+  "footwear": {
+    "label": "Chaussures",
+    "high_heels": "Talons hauts",
+    "sandals": "Sandales",
+    "minimalist": "Chaussures minimalistes",
+    "barefoot": "Pieds nus"
+  },
+  "accessories": {
+    "label": "Accessoires",
+    "anklet": "Chaîne de cheville",
+    "toe_ring": "Bague d'orteil",
+    "silk_ribbon": "Ruban de soie",
+    "none": "Sans accessoire"
+  },
+  "background": {
+    "label": "Décor",
+    "ivory_studio": "Studio ivoire",
+    "champagne_satin": "Satin champagne",
+    "soft_taupe": "Taupe doux",
+    "dark_espresso": "Espresso profond",
+    "natural_light": "Lumière naturelle"
+  },
+  "notSelected": "Non choisi"
+}

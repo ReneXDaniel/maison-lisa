@@ -1,0 +1,212 @@
+{
+  "reviewNotice": "Template — this document must be reviewed and completed by qualified legal counsel before the boutique goes live.",
+  "translationNotice": "This legal document is currently provided in English and German. The German version is authoritative.",
+  "updated": "Last updated: {date}",
+  "docs": {
+    "imprint": {
+      "title": "Legal Notice",
+      "sections": [
+        {
+          "h": "Operator",
+          "p": [
+            "{name}",
+            "Represented by: {representative}",
+            "{address}",
+            "Email: {email}"
+          ]
+        },
+        {
+          "h": "Registration & VAT",
+          "p": [
+            "VAT identification number: {vatId}",
+            "{register}"
+          ]
+        },
+        {
+          "h": "Responsible for content",
+          "p": [
+            "{representative}, address as above."
+          ]
+        },
+        {
+          "h": "Youth protection",
+          "p": [
+            "Youth protection officer: {youthOfficer}"
+          ]
+        },
+        {
+          "h": "Consumer dispute resolution",
+          "p": [
+            "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board, unless required by law."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "h": "Controller",
+          "p": [
+            "{name}, {address}, {email}."
+          ]
+        },
+        {
+          "h": "What we process",
+          "p": [
+            "Account data (display name, email address, password hash, language and notification preferences).",
+            "The result of your age verification (status, date, validity, provider reference). We do not store copies of identity documents or biometric data; these are processed by our verification provider on its own systems.",
+            "Messages, attachments and personal requests you send to Lisa.",
+            "Order, invoice and payment status data. Card and payment details are processed exclusively by our payment provider.",
+            "Technical data required for security (IP address in rate limiting and audit logs, browser type)."
+          ]
+        },
+        {
+          "h": "Purposes and legal bases",
+          "p": [
+            "Providing your account, conversations, orders and downloads (Art. 6(1)(b) GDPR).",
+            "Protection of minors, tax and bookkeeping obligations (Art. 6(1)(c) GDPR).",
+            "Security, fraud and abuse prevention (Art. 6(1)(f) GDPR).",
+            "Announcements about new collections only with your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time."
+          ]
+        },
+        {
+          "h": "Service providers",
+          "p": [
+            "Hosting and database, identity verification, payment processing, email delivery and private file storage are provided by processors bound by data processing agreements. [List providers and locations; describe any transfer outside the EEA and its safeguards.]"
+          ]
+        },
+        {
+          "h": "Cookies",
+          "p": [
+            "We only use strictly necessary cookies: your session, your shopping cart, your language and the 18+ notice confirmation. We do not use analytics or advertising trackers."
+          ]
+        },
+        {
+          "h": "Retention",
+          "p": [
+            "Account data until you delete your account. Conversations and requests until account deletion. Order and invoice records for the statutory retention period (in Germany up to 10 years), in anonymised form after account deletion. Verification results for their validity period."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "You have the right of access, rectification, erasure, restriction, data portability and objection, and the right to lodge a complaint with a supervisory authority. You can delete your account at any time under Verification & Security."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "sections": [
+        {
+          "h": "Scope",
+          "p": [
+            "These terms apply to all contracts between {name} and customers of MAISON LISA regarding digital photo collections and personal offers."
+          ]
+        },
+        {
+          "h": "Adults only",
+          "p": [
+            "The boutique is intended exclusively for adults. Messaging, personal requests, purchases and downloads require a successful identity-based age verification. All persons depicted are consenting adults."
+          ]
+        },
+        {
+          "h": "Contract",
+          "p": [
+            "Product presentations are an invitation to submit an offer. By clicking \"Buy now — order with obligation to pay\" you submit a binding offer. The contract is concluded when the payment provider confirms the payment."
+          ]
+        },
+        {
+          "h": "Prices and payment",
+          "p": [
+            "All prices are in euros and include VAT. Payment is processed by our payment provider."
+          ]
+        },
+        {
+          "h": "Delivery and licence",
+          "p": [
+            "Digital content is made available in your account immediately after payment confirmation. You receive a simple, non-transferable licence for personal, private use. Any redistribution, publication or resale is prohibited."
+          ]
+        },
+        {
+          "h": "Personal requests",
+          "p": [
+            "Personal requests are non-binding. Lisa decides which requests she accepts. A contract is only concluded when you purchase a personal offer at checkout. Requests must be respectful and artistic; explicit requests are declined."
+          ]
+        },
+        {
+          "h": "Conduct",
+          "p": [
+            "Abusive, harassing or unlawful messages are not tolerated and may lead to restriction of the account."
+          ]
+        },
+        {
+          "h": "Right of withdrawal",
+          "p": [
+            "Please see our information on the right of withdrawal."
+          ]
+        },
+        {
+          "h": "Liability and final provisions",
+          "p": [
+            "[Liability limitation and governing law to be drafted by legal counsel.]"
+          ]
+        }
+      ]
+    },
+    "withdrawal": {
+      "title": "Right of Withdrawal",
+      "sections": [
+        {
+          "h": "Your right of withdrawal",
+          "p": [
+            "Consumers have the right to withdraw from this contract within 14 days without giving any reason. The withdrawal period is 14 days from the day the contract is concluded.",
+            "To exercise your right of withdrawal, inform us ({name}, {address}, {email}) by means of a clear statement."
+          ]
+        },
+        {
+          "h": "Early expiry for digital content",
+          "p": [
+            "For digital content not supplied on a tangible medium, the right of withdrawal expires once we have begun performance of the contract after you have expressly consented to immediate delivery and acknowledged that you thereby lose your right of withdrawal. You give this consent at checkout."
+          ]
+        },
+        {
+          "h": "Model withdrawal form",
+          "p": [
+            "To {name}, {address}, {email}: I hereby withdraw from the contract concluded by me for the following digital content: … / Ordered on: … / Name: … / Date: …"
+          ]
+        }
+      ]
+    },
+    "youth-protection": {
+      "title": "Youth Protection",
+      "sections": [
+        {
+          "h": "Our commitment",
+          "p": [
+            "MAISON LISA presents artistic, non-explicit photography for adults. Protecting minors is a core principle of the boutique."
+          ]
+        },
+        {
+          "h": "How access is restricted",
+          "p": [
+            "Messaging, personal requests, purchases and downloads are only available after an identity-based age verification by a certified provider. Verification results are checked on the server for every protected page, download and purchase."
+          ]
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Youth protection officer: {youthOfficer}. Please report any concern to {email}."
+          ]
+        },
+        {
+          "h": "For parents",
+          "p": [
+            "Parental control software can help to protect children online. [Link to recognised youth protection programs, if applicable.]"
+          ]
+        }
+      ]
+    }
+  }
+}

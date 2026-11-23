@@ -1,1 +1,51 @@
-{}
+{
+  "metaTitle": "O Lisie",
+  "eyebrow": "Osoba stojąca za detalami",
+  "subtitle": "Poznaj osobę stojącą za detalami.",
+  "portraitAlt": "Portret — {creator}",
+  "portraitPlaceholder": "Ilustracja tymczasowa — tutaj pojawi się portret Lisy.",
+  "intro": {
+    "title": "Oto {creator}.",
+    "body": "To miejsce jest zarezerwowane dla słów Lisy — kim jest, co ją inspiruje i jak powstała MAISON LISA.\nLisa może w każdej chwili napisać i zaktualizować ten tekst w swoim panelu."
+  },
+  "cards": {
+    "c1": {
+      "title": "Kilka słów o mnie",
+      "body": "Krótkie osobiste przedstawienie, napisane przez samą Lisę."
+    },
+    "c2": {
+      "title": "Moje ulubione rzeczy",
+      "body": "Kolory, tkaniny, miejsca i drobne rytuały, które Lisa kocha — jej słowami."
+    },
+    "c3": {
+      "title": "Co sprawia, że się uśmiecham",
+      "body": "Chwile i detale, które rozjaśniają dzień Lisy."
+    },
+    "c4": {
+      "title": "Moja kreatywna strona",
+      "body": "Jak powstaje kolekcja — od pierwszego pomysłu do ostatniej fotografii."
+    },
+    "c5": {
+      "title": "Mały sekret",
+      "body": "Coś, czym Lisa chce się podzielić ze swoimi klientami. Do uzupełnienia przez Lisę."
+    }
+  },
+  "bts": {
+    "eyebrow": "Za kulisami",
+    "title": "Jak powstaje kolekcja.",
+    "body": "Ciche chwile w studiu — przygotowanie, kolor, tkanina i światło.",
+    "items": {
+      "b1": "Wybór lakieru",
+      "b2": "Układanie tkanin",
+      "b3": "Wybór biżuterii",
+      "b4": "Światło w studiu",
+      "b5": "Kreatywna stylizacja",
+      "b6": "Fotograficzne detale"
+    }
+  },
+  "final": {
+    "title": "Teraz znasz mnie trochę lepiej.",
+    "body": "Co chcesz mi o sobie opowiedzieć?"
+  },
+  "cta": "Wiadomość do: {creator}"
+}

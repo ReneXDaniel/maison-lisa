@@ -1,1 +1,51 @@
-{}
+{
+  "metaTitle": "À propos de Lisa",
+  "eyebrow": "La personne derrière les détails",
+  "subtitle": "Découvrez la personne derrière les détails.",
+  "portraitAlt": "Portrait de {creator}",
+  "portraitPlaceholder": "Illustration provisoire — le portrait de Lisa apparaîtra ici.",
+  "intro": {
+    "title": "Voici {creator}.",
+    "body": "Cet espace est réservé aux mots de Lisa — qui elle est, ce qui l'inspire et comment MAISON LISA est née.\nLisa peut rédiger et modifier ce texte à tout moment depuis son tableau de bord."
+  },
+  "cards": {
+    "c1": {
+      "title": "Un peu sur moi",
+      "body": "Une courte présentation personnelle, écrite par Lisa elle-même."
+    },
+    "c2": {
+      "title": "Mes choses préférées",
+      "body": "Les couleurs, matières, lieux et petits rituels que Lisa aime — avec ses mots."
+    },
+    "c3": {
+      "title": "Ce qui me fait sourire",
+      "body": "Les moments et les détails qui illuminent la journée de Lisa."
+    },
+    "c4": {
+      "title": "Mon côté créatif",
+      "body": "Comment naît une collection — de la première idée à la photographie finale."
+    },
+    "c5": {
+      "title": "Un petit secret",
+      "body": "Quelque chose que Lisa souhaite partager avec ses clients. À écrire par Lisa."
+    }
+  },
+  "bts": {
+    "eyebrow": "Les coulisses",
+    "title": "La naissance d'une collection.",
+    "body": "Des instants silencieux au studio — préparation, couleur, étoffe et lumière.",
+    "items": {
+      "b1": "Choisir le vernis",
+      "b2": "Disposer les étoffes",
+      "b3": "Choisir les bijoux",
+      "b4": "Lumière du studio",
+      "b5": "Stylisme créatif",
+      "b6": "Détails photographiques"
+    }
+  },
+  "final": {
+    "title": "Vous me connaissez maintenant un peu.",
+    "body": "Que souhaitez-vous me dire de vous ?"
+  },
+  "cta": "Écrire à {creator}"
+}

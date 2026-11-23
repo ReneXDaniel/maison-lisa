@@ -1,1 +1,91 @@
-{}
+{
+  "footer": "{brand} · To automatyczna wiadomość dotycząca Twojego konta. Wyłącznie dla osób dorosłych od 18. roku życia.",
+  "verifyEmail": {
+    "subject": "Potwierdź swój adres e-mail — {brand}",
+    "heading": "Witamy w {brand}.",
+    "body": "Dziękujemy za utworzenie konta.\nPotwierdź swój adres e-mail, aby je aktywować. Link jest ważny przez 48 godzin.",
+    "cta": "Potwierdź e-mail"
+  },
+  "resetPassword": {
+    "subject": "Zresetuj hasło — {brand}",
+    "heading": "Ustaw nowe hasło.",
+    "body": "Otrzymaliśmy prośbę o zresetowanie hasła do Twojego konta.\nLink jest ważny przez godzinę. Jeśli to nie Ty, zignoruj tę wiadomość.",
+    "cta": "Zresetuj hasło"
+  },
+  "changeEmail": {
+    "subject": "Potwierdź nowy adres e-mail — {brand}",
+    "heading": "Potwierdź nowy adres e-mail.",
+    "body": "Potwierdź, że chcesz używać tego adresu dla swojego konta {brand}.",
+    "cta": "Potwierdź nowy adres"
+  },
+  "emailChanged": {
+    "subject": "Twój adres e-mail został zmieniony — {brand}",
+    "heading": "Twój adres e-mail został zmieniony.",
+    "body": "Adres e-mail Twojego konta został zmieniony na {newEmail}.\nJeśli to nie Ty dokonujesz tej zmiany, skontaktuj się z nami natychmiast."
+  },
+  "newMessage": {
+    "subject": "{creator} odpowiada — {brand}",
+    "heading": "Masz nową wiadomość.",
+    "body": "{creator} odpowiada w Twojej rozmowie.\nDla ochrony Twojej prywatności treść wiadomości jest widoczna tylko na Twoim koncie.",
+    "cta": "Otwórz rozmowę"
+  },
+  "adminNewMessage": {
+    "subject": "Nowa wiadomość od klienta — {brand}",
+    "heading": "Klient do Ciebie napisał.",
+    "body": "{customer} wysyła nową wiadomość.",
+    "cta": "Otwórz skrzynkę"
+  },
+  "offerReceived": {
+    "subject": "Oferta osobista dla Ciebie — {brand}",
+    "heading": "Twoja oferta osobista jest gotowa.",
+    "body": "{creator} przygotowuje dla Ciebie ofertę osobistą: {title}.\nZnajdziesz ją w swojej prywatnej rozmowie.",
+    "cta": "Zobacz ofertę"
+  },
+  "orderConfirmation": {
+    "subject": "Zamówienie {number} potwierdzone — {brand}",
+    "heading": "Dziękujemy za zamówienie.",
+    "body": "Zamówienie {number} zostało opłacone.\nRazem: {total}.\nTwoje zdjęcia są dostępne na koncie w zakładce Moje zakupy.",
+    "cta": "Zobacz moje zakupy"
+  },
+  "refundUpdate": {
+    "subject": "Aktualizacja zamówienia {number} — {brand}",
+    "heading": "Aktualizacja Twojego zamówienia.",
+    "body": "Zamówienie {number} zostało zaktualizowane: {status}.\nDostęp do danych pozycji został odpowiednio dostosowany.",
+    "cta": "Zobacz zamówienie"
+  },
+  "requestUpdate": {
+    "subject": "Twoja prośba {number} — {brand}",
+    "heading": "Nowości dotyczące Twojej osobistej prośby.",
+    "body": "Prośba {number} ma teraz status: {status}.",
+    "cta": "Zobacz prośbę"
+  },
+  "deliveryReady": {
+    "subject": "Twoja osobista kolekcja jest gotowa — {brand}",
+    "heading": "Twoja osobista kolekcja jest gotowa.",
+    "body": "{creator} dostarcza Twoją osobistą kolekcję.\nMożesz ją bezpiecznie obejrzeć i pobrać na swoim koncie.",
+    "cta": "Otwórz moje zakupy"
+  },
+  "subscribeConfirm": {
+    "subject": "Potwierdź subskrypcję — {brand}",
+    "heading": "Jeszcze jeden krok.",
+    "body": "Potwierdź, że chcesz otrzymywać zapowiedzi nowych kolekcji {brand}.\nMożesz zrezygnować w każdej chwili.",
+    "cta": "Potwierdź subskrypcję"
+  },
+  "adminNewOrder": {
+    "subject": "Nowe zamówienie {number} — {brand}",
+    "heading": "Nowe zamówienie zostało opłacone.",
+    "body": "Zamówienie {number} · {total}.",
+    "cta": "Zobacz zamówienie"
+  },
+  "adminNewRequest": {
+    "subject": "Nowa osobista prośba {number} — {brand}",
+    "heading": "Wpłynęła nowa osobista prośba.",
+    "body": "Prośba {number} od {customer}.",
+    "cta": "Otwórz prośbę"
+  },
+  "accountDeleted": {
+    "subject": "Twoje konto zostało usunięte — {brand}",
+    "heading": "Twoje konto zostało usunięte.",
+    "body": "Zgodnie z prośbą Twoje konto i dane osobowe zostały usunięte.\nFaktury, które musimy przechowywać zgodnie z prawem, są przechowywane w formie zanonimizowanej."
+  }
+}

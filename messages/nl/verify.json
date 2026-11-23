@@ -1,1 +1,57 @@
-{}
+{
+  "title": "Veilige leeftijdsverificatie.",
+  "intro": "Ter bescherming van minderjarigen zijn privéberichten, persoonlijke verzoeken, aankopen en downloads voorbehouden aan geverifieerde volwassenen. Het duurt ongeveer twee minuten en is maar één keer nodig.",
+  "steps": {
+    "s1": {
+      "title": "Houd uw identiteitsbewijs bij de hand",
+      "body": "Identiteitskaart, paspoort of een ander ondersteund officieel document."
+    },
+    "s2": {
+      "title": "Verifieer bij onze gecertificeerde partner",
+      "body": "De partner controleert de echtheid van het document en bevestigt dat u het echt bent."
+    },
+    "s3": {
+      "title": "Terug naar de boutique",
+      "body": "Wij ontvangen alleen de uitkomst — dat u 18 jaar of ouder bent. Nooit beelden van uw documenten."
+    }
+  },
+  "start": "Veilige verificatie starten",
+  "restart": "Verificatie opnieuw starten",
+  "continue": "Verder",
+  "retry": "Opnieuw proberen",
+  "checking": "We wachten op de uitkomst van onze verificatiepartner…",
+  "returnTitle": "Uw verificatie.",
+  "statusLabel": "Huidige status",
+  "privacy": "De verificatie wordt uitgevoerd door een onafhankelijke aanbieder op diens eigen beveiligde pagina's. MAISON LISA bewaart alleen de uitkomst, de datum en een referentie van de aanbieder — geen kopieën van documenten en geen biometrische gegevens. Zie ons privacybeleid voor details.",
+  "devNote": "Ontwikkelmodus: een gemarkeerde simulator vervangt de identiteitsaanbieder",
+  "status": {
+    "not_verified": {
+      "title": "Nog niet geverifieerd",
+      "body": "Rond de verificatie af om berichten, verzoeken en aankopen te ontgrendelen."
+    },
+    "pending": {
+      "title": "Verificatie bezig",
+      "body": "We wachten op de uitkomst. Dit duurt meestal minder dan een minuut."
+    },
+    "verified": {
+      "title": "Geverifieerde volwassene",
+      "body": "Dank u. Alle functies van de boutique staan nu voor u open."
+    },
+    "failed": {
+      "title": "Verificatie niet gelukt",
+      "body": "We konden niet bevestigen dat u 18 jaar of ouder bent. U kunt het opnieuw proberen met een geldig document."
+    },
+    "manual_review": {
+      "title": "In beoordeling",
+      "body": "Onze verificatiepartner beoordeelt uw documenten handmatig. U hoort van ons zodra er een beslissing is."
+    },
+    "expired": {
+      "title": "Verificatie verlopen",
+      "body": "Uw verificatie is verlopen. Verifieer opnieuw om verder te gaan."
+    },
+    "revoked": {
+      "title": "Verificatie ingetrokken",
+      "body": "Uw verificatie is ingetrokken. Neem contact met ons op als u denkt dat dit een vergissing is."
+    }
+  }
+}

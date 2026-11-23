@@ -1,1 +1,33 @@
-{}
+{
+  "eyebrow": "La boutique",
+  "title": "Il negozio",
+  "intro": "Collezioni fotografiche complete, disponibili subito dopo l'acquisto — curate, illuminate e fotografate da Lisa.",
+  "filterLabel": "Filtra per collezione",
+  "all": "Tutte",
+  "sortLabel": "Ordina",
+  "sort": {
+    "featured": "In evidenza",
+    "newest": "Novità",
+    "price_asc": "Prezzo ↑",
+    "price_desc": "Prezzo ↓"
+  },
+  "empty": "Ancora nessuna collezione qui.",
+  "breadcrumb": "Percorso di navigazione",
+  "privateEdit": "Adulti verificati",
+  "lockedPreview": "Visibile dopo la verifica dell'età",
+  "lockedTitle": "Altre anteprime La aspettano",
+  "lockedBody": "Alcune anteprime di questa collezione sono riservate agli adulti verificati.",
+  "verifyNow": "Verifica ora",
+  "createAccount": "Crea un account",
+  "noPreviews": "Le anteprime saranno aggiunte a breve.",
+  "vatIncluded": "Prezzo IVA inclusa. Consegna digitale.",
+  "included": "Incluso",
+  "format": "Formato",
+  "delivery": "Consegna",
+  "deliveryValue": "Accesso immediato nel Suo account dopo il pagamento",
+  "license": "Licenza",
+  "licenseValue": "Uso personale, non trasferibile",
+  "askLisa": "Chiedi a {creator}",
+  "secureNote": "Gli originali sono conservati in modo privato e consegnati solo al Suo account verificato tramite link sicuri e a tempo.",
+  "related": "Dalla stessa collezione"
+}

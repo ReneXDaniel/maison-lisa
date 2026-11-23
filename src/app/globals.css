@@ -109,6 +109,32 @@
   img {
     -webkit-user-drag: none;
   }
+  /* Grid items must never grow past their track: long words in display
+     headings or horizontal rails would otherwise widen the column and get
+     clipped on narrow phones. */
+  .grid > * {
+    min-width: 0;
+  }
+  /* Safety net: a stray wide element must never widen the mobile layout
+     viewport (which would shift the fixed header off-screen). */
+  html {
+    overflow-x: clip;
+  }
+  h1,
+  h2,
+  h3 {
+    overflow-wrap: break-word;
+  }
+  /* Long compound words (German, Dutch, Polish) in large serif headings:
+     hyphenate only on narrow screens, where they could not fit otherwise. */
+  @media (max-width: 479px) {
+    h1,
+    h2,
+    h3 {
+      hyphens: auto;
+      hyphenate-limit-chars: 10 4 4;
+    }
+  }
 }
 
 @layer components {

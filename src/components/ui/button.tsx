@@ -7,7 +7,7 @@ export type ButtonSize = "sm" | "md" | "lg";
 
 export function buttonClasses(variant: ButtonVariant = "primary", size: ButtonSize = "md", className?: string) {
   return clsx(
-    "group relative inline-flex items-center justify-center gap-2.5 select-none whitespace-nowrap",
+    "group relative inline-flex items-center justify-center gap-2.5 select-none max-w-full text-center text-balance",
     "font-sans font-semibold uppercase tracking-[0.22em] transition-all duration-500 ease-[var(--ease-luxe)]",
     "disabled:pointer-events-none disabled:opacity-45 aria-disabled:pointer-events-none aria-disabled:opacity-45",
     {

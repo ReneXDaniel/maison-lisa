@@ -1,1 +1,64 @@
-{}
+{
+  "metaTitle": "Osobiste prośby",
+  "eyebrow": "Osobiste prośby",
+  "title": "Twoja wizja. Sztuka, którą tworzy {creator}.",
+  "intro": "Skomponuj osobistą kolekcję zdjęć detal po detalu. Twoja prośba trafi do Lisy w prywatnej rozmowie, w której można wszystko omówić, zanim pojawi się oferta.",
+  "steps": {
+    "polish": "Lakier",
+    "style": "Nastrój",
+    "styling": "Stylizacja",
+    "setting": "Sceneria",
+    "wishes": "Twoje życzenia"
+  },
+  "fromStudio": "Przeniesione z Twojego wyboru w Studiu paznokci",
+  "wishesLabel": "Dodatkowe życzenia",
+  "wishesPlaceholder": "Opisz nastrój, ulubiony detal lub wszystko, co Lisa powinna wiedzieć…",
+  "wishesHint": "Prosimy, aby prośby były artystyczne i pełne szacunku. Lisa decyduje, które prośby przyjmuje.",
+  "summary": "Twój wybór",
+  "reset": "Wyczyść wybór",
+  "openGift": "Przygotuj moją prośbę",
+  "giftTitle": "Twoja wizja. Sztuka Lisy.",
+  "giftSubtitle": "Stwórzmy coś osobistego.",
+  "giftHint": "Kliknij pudełko, aby je otworzyć",
+  "send": "Wyślij moją prośbę do Lisy",
+  "sending": "Wysyłanie prośby…",
+  "edit": "Edytuj wybór",
+  "greeting": "Cześć Lisa, bardzo chciałbym/chciałabym poprosić o spersonalizowaną kolekcję zdjęć.",
+  "loginRequired": "Aby wysłać prośbę, zaloguj się i przejdź jednorazową weryfikację wieku. Twój wybór jest zapisany i czeka na Ciebie.",
+  "continueToSignIn": "Zaloguj się, aby wysłać",
+  "verifyToSend": "Zweryfikuj, aby wysłać",
+  "nothingSelected": "Wybierz co najmniej jeden detal lub opisz swoje życzenia.",
+  "howItWorks": "Jak to działa",
+  "how": {
+    "h1": {
+      "title": "Skomponuj",
+      "body": "Wybierz kolory, stylizację i nastrój — lub po prostu opisz swój pomysł."
+    },
+    "h2": {
+      "title": "Porozmawiaj",
+      "body": "Twoja prośba trafia do prywatnej rozmowy z Lisą."
+    },
+    "h3": {
+      "title": "Otrzymaj ofertę",
+      "body": "Jeśli Lisa się zgodzi, prześle Ci ofertę osobistą z ceną i terminem dostawy."
+    },
+    "h4": {
+      "title": "Ciesz się",
+      "body": "Po zakupie kolekcja zostanie dostarczona na Twoje prywatne konto."
+    }
+  },
+  "status": {
+    "draft": "Szkic",
+    "submitted": "Wysłana",
+    "under_review": "W trakcie oceny",
+    "awaiting_customer": "Czeka na Twoją odpowiedź",
+    "offer_sent": "Oferta wysłana",
+    "accepted": "Przyjęta",
+    "rejected": "Odrzucona",
+    "paid": "Opłacona",
+    "in_production": "W realizacji",
+    "delivered": "Dostarczona",
+    "completed": "Zakończona",
+    "cancelled": "Anulowana"
+  }
+}

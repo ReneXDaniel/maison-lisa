@@ -1,1 +1,52 @@
-{}
+{
+  "eyebrow": "Sicherer Checkout",
+  "title": "Kasse",
+  "intro": "Eine Zahlung für Ihre gesamte Auswahl.",
+  "review": "Ihre Bestellung",
+  "personalOffer": "Persönliches Angebot",
+  "digitalCollection": "Digitale Fotokollektion",
+  "someUnavailable": "Nicht verfügbare Artikel wurden aus dieser Bestellung entfernt.",
+  "paymentMethod": "Zahlung",
+  "paymentNote": "Sie werden auf die sichere Seite unseres Zahlungspartners weitergeleitet. Wir sehen und speichern Ihre Kartendaten nie.",
+  "devPayment": "Entwicklungssimulator — keine echte Zahlung",
+  "country": "Wohnsitzland",
+  "subtotal": "Zwischensumme",
+  "welcomeDiscount": "Willkommensrabatt",
+  "codeDiscount": "Code {code}",
+  "total": "Gesamt",
+  "vatIncluded": "Inkl. {rate} % MwSt.",
+  "vatNone": "Keine MwSt. berechnet",
+  "terms": "Ich akzeptiere die <terms>AGB</terms> und habe die <privacy>Datenschutzerklärung</privacy> gelesen.",
+  "waiver": "Ich verlange die sofortige Bereitstellung der digitalen Inhalte und bestätige, dass ich dadurch mit Beginn der Bereitstellung mein Widerrufsrecht verliere.",
+  "placeOrder": "Jetzt kaufen — zahlungspflichtig bestellen",
+  "placeOrderNote": "Ihr Kauf ist erst bestätigt, wenn unser Zahlungspartner die Zahlung bestätigt.",
+  "return": {
+    "pending": {
+      "title": "Ihre Zahlung wird bestätigt …",
+      "body": "Das dauert meist nur wenige Sekunden. Bitte lassen Sie diese Seite geöffnet."
+    },
+    "slow": {
+      "title": "Die Bestätigung steht noch aus.",
+      "body": "Ihr Zahlungspartner hat noch nicht bestätigt. Sie erhalten eine E-Mail und eine Benachrichtigung, sobald dies geschieht — Ihre Bestellung ist sicher."
+    },
+    "paid": {
+      "title": "Vielen Dank.",
+      "body": "Ihre Zahlung ist bestätigt. Ihre Kollektionen warten in Ihrem privaten Konto auf Sie."
+    },
+    "failed": {
+      "title": "Die Zahlung wurde nicht abgeschlossen.",
+      "body": "Es wurde nichts berechnet. Ihr Warenkorb wartet — Sie können es erneut versuchen."
+    },
+    "cancelled": {
+      "title": "Zahlung abgebrochen.",
+      "body": "Es wurde nichts berechnet. Ihr Warenkorb wartet auf Sie."
+    },
+    "unknown": {
+      "title": "Bestellung nicht gefunden.",
+      "body": "Bitte prüfen Sie Ihre Bestellungen in Ihrem Konto."
+    },
+    "viewPurchases": "Meine Käufe öffnen",
+    "viewOrder": "Bestellung ansehen",
+    "backToCart": "Zurück zum Warenkorb"
+  }
+}

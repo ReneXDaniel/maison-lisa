@@ -1,1 +1,91 @@
-{}
+{
+  "footer": "{brand} · Dit is een automatisch bericht over uw account. Uitsluitend voor volwassenen van 18 jaar en ouder.",
+  "verifyEmail": {
+    "subject": "Bevestig uw e-mailadres — {brand}",
+    "heading": "Welkom bij {brand}.",
+    "body": "Bedankt voor het aanmaken van uw account.\nBevestig uw e-mailadres om het te activeren. De link is 48 uur geldig.",
+    "cta": "E-mail bevestigen"
+  },
+  "resetPassword": {
+    "subject": "Wachtwoord opnieuw instellen — {brand}",
+    "heading": "Kies een nieuw wachtwoord.",
+    "body": "We hebben een verzoek ontvangen om het wachtwoord van uw account opnieuw in te stellen.\nDe link is een uur geldig. Hebt u dit niet aangevraagd, dan kunt u deze e-mail negeren.",
+    "cta": "Wachtwoord opnieuw instellen"
+  },
+  "changeEmail": {
+    "subject": "Bevestig uw nieuwe e-mailadres — {brand}",
+    "heading": "Bevestig uw nieuwe e-mailadres.",
+    "body": "Bevestig dat u dit adres wilt gebruiken voor uw {brand}-account.",
+    "cta": "Nieuw adres bevestigen"
+  },
+  "emailChanged": {
+    "subject": "Uw e-mailadres is gewijzigd — {brand}",
+    "heading": "Uw e-mailadres is gewijzigd.",
+    "body": "Het e-mailadres van uw account is gewijzigd in {newEmail}.\nHebt u deze wijziging niet zelf aangebracht, neem dan onmiddellijk contact met ons op."
+  },
+  "newMessage": {
+    "subject": "{creator} heeft geantwoord — {brand}",
+    "heading": "U hebt een nieuw bericht.",
+    "body": "{creator} heeft geantwoord in uw gesprek.\nVoor uw privacy is de inhoud van berichten alleen zichtbaar in uw account.",
+    "cta": "Gesprek openen"
+  },
+  "adminNewMessage": {
+    "subject": "Nieuw bericht van een klant — {brand}",
+    "heading": "Een klant heeft u geschreven.",
+    "body": "{customer} heeft een nieuw bericht gestuurd.",
+    "cta": "Inbox openen"
+  },
+  "offerReceived": {
+    "subject": "Een persoonlijk aanbod voor u — {brand}",
+    "heading": "Uw persoonlijke aanbod staat klaar.",
+    "body": "{creator} heeft een persoonlijk aanbod voorbereid: {title}.\nBekijk het in uw privégesprek.",
+    "cta": "Aanbod bekijken"
+  },
+  "orderConfirmation": {
+    "subject": "Bestelling {number} bevestigd — {brand}",
+    "heading": "Dank u voor uw bestelling.",
+    "body": "Uw bestelling {number} is succesvol betaald.\nTotaal: {total}.\nUw foto's staan in uw account onder Mijn aankopen.",
+    "cta": "Mijn aankopen bekijken"
+  },
+  "refundUpdate": {
+    "subject": "Update over bestelling {number} — {brand}",
+    "heading": "Een update over uw bestelling.",
+    "body": "Bestelling {number} is bijgewerkt: {status}.\nDe toegang tot de betreffende artikelen is daarop aangepast.",
+    "cta": "Bestelling bekijken"
+  },
+  "requestUpdate": {
+    "subject": "Uw verzoek {number} — {brand}",
+    "heading": "Er is nieuws over uw persoonlijke verzoek.",
+    "body": "Verzoek {number} heeft nu de status: {status}.",
+    "cta": "Verzoek bekijken"
+  },
+  "deliveryReady": {
+    "subject": "Uw persoonlijke collectie is klaar — {brand}",
+    "heading": "Uw persoonlijke collectie is klaar.",
+    "body": "{creator} heeft uw persoonlijke collectie geleverd.\nU kunt deze veilig bekijken en downloaden in uw account.",
+    "cta": "Mijn aankopen openen"
+  },
+  "subscribeConfirm": {
+    "subject": "Bevestig uw inschrijving — {brand}",
+    "heading": "Nog één stap.",
+    "body": "Bevestig dat u aankondigingen over nieuwe collecties van {brand} wilt ontvangen.\nU kunt zich op elk moment afmelden.",
+    "cta": "Inschrijving bevestigen"
+  },
+  "adminNewOrder": {
+    "subject": "Nieuwe bestelling {number} — {brand}",
+    "heading": "Er is een nieuwe bestelling betaald.",
+    "body": "Bestelling {number} · {total}.",
+    "cta": "Bestelling bekijken"
+  },
+  "adminNewRequest": {
+    "subject": "Nieuw persoonlijk verzoek {number} — {brand}",
+    "heading": "Er is een nieuw persoonlijk verzoek binnengekomen.",
+    "body": "Verzoek {number} van {customer}.",
+    "cta": "Verzoek openen"
+  },
+  "accountDeleted": {
+    "subject": "Uw account is verwijderd — {brand}",
+    "heading": "Uw account is verwijderd.",
+    "body": "Zoals gevraagd zijn uw account en persoonsgegevens verwijderd.\nFacturen die we wettelijk moeten bewaren, worden geanonimiseerd bewaard."
+  }
+}

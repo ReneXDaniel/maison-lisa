@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Votre panier",
+  "intro": "Vérifiez votre sélection. Les montants sont confirmés en toute sécurité lors du paiement.",
+  "empty": "Votre panier est vide.",
+  "emptyBody": "Découvrez les collections et ajoutez ce qui vous inspire.",
+  "explore": "Découvrir les collections",
+  "personalOffer": "Offre personnelle",
+  "digital": "Numérique",
+  "unavailable": "Cet article n'est plus disponible et ne sera pas inclus.",
+  "alreadyOwned": "Vous possédez déjà cette collection — elle ne sera pas facturée à nouveau.",
+  "summary": "Récapitulatif",
+  "codeLabel": "Code promotionnel",
+  "codePlaceholder": "Saisir le code",
+  "applyCode": "Appliquer",
+  "codeApplied": "Code",
+  "removeCode": "Retirer le code",
+  "welcomeHintTitle": "{percent} % de remise de bienvenue",
+  "welcomeHintBody": "Les nouveaux clients la reçoivent automatiquement sur leur première commande une fois connectés.",
+  "subtotal": "Sous-total",
+  "welcomeDiscount": "Remise de bienvenue",
+  "codeDiscount": "Code {code}",
+  "total": "Total",
+  "vatNote": "TVA incluse",
+  "checkout": "Passer au paiement",
+  "guestNote": "Vous devrez vous connecter ou créer un compte et effectuer une vérification d'âge unique. Votre panier est conservé.",
+  "verifyNote": "Une vérification d'âge unique est requise avant le paiement. Votre panier est conservé."
+}

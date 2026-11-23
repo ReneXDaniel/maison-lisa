@@ -1,1 +1,64 @@
-{}
+{
+  "metaTitle": "Pedidos pessoais",
+  "eyebrow": "Pedidos pessoais",
+  "title": "A sua visão. A arte de {creator}.",
+  "intro": "Componha uma coleção fotográfica pessoal, detalhe a detalhe. O seu pedido chega à Lisa numa conversa privada, onde tudo pode ser discutido antes de surgir uma oferta.",
+  "steps": {
+    "polish": "Verniz",
+    "style": "Ambiente",
+    "styling": "Styling",
+    "setting": "Cenário",
+    "wishes": "Os seus desejos"
+  },
+  "fromStudio": "Transferido da sua seleção no Estúdio de unhas",
+  "wishesLabel": "Desejos adicionais",
+  "wishesPlaceholder": "Descreva um ambiente, um detalhe preferido ou tudo o que a Lisa deva saber…",
+  "wishesHint": "Pedimos que os pedidos sejam artísticos e respeitosos. A Lisa decide que pedidos aceita.",
+  "summary": "A sua seleção",
+  "reset": "Limpar seleção",
+  "openGift": "Preparar o meu pedido",
+  "giftTitle": "A sua visão. A arte da Lisa.",
+  "giftSubtitle": "Vamos criar algo pessoal.",
+  "giftHint": "Clique na caixa para a abrir",
+  "send": "Enviar o meu pedido à Lisa",
+  "sending": "A enviar o seu pedido…",
+  "edit": "Editar seleção",
+  "greeting": "Olá Lisa, gostaria de pedir uma coleção fotográfica personalizada.",
+  "loginRequired": "Para enviar o seu pedido, inicie sessão e faça a verificação de idade única. A sua seleção fica guardada e à sua espera.",
+  "continueToSignIn": "Iniciar sessão para enviar",
+  "verifyToSend": "Verificar para enviar",
+  "nothingSelected": "Escolha pelo menos um detalhe ou descreva os seus desejos.",
+  "howItWorks": "Como funciona",
+  "how": {
+    "h1": {
+      "title": "Compor",
+      "body": "Escolha cores, styling e ambiente — ou simplesmente descreva a sua ideia."
+    },
+    "h2": {
+      "title": "Conversar",
+      "body": "O seu pedido chega a uma conversa privada com a Lisa."
+    },
+    "h3": {
+      "title": "Receber uma oferta",
+      "body": "Se a Lisa aceitar, envia-lhe uma oferta pessoal com preço e prazo de entrega."
+    },
+    "h4": {
+      "title": "Desfrutar",
+      "body": "Após a compra, a sua coleção é entregue na sua conta privada."
+    }
+  },
+  "status": {
+    "draft": "Rascunho",
+    "submitted": "Enviado",
+    "under_review": "Em análise",
+    "awaiting_customer": "A aguardar a sua resposta",
+    "offer_sent": "Oferta enviada",
+    "accepted": "Aceite",
+    "rejected": "Recusado",
+    "paid": "Pago",
+    "in_production": "Em produção",
+    "delivered": "Entregue",
+    "completed": "Concluído",
+    "cancelled": "Cancelado"
+  }
+}

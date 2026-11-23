@@ -1,1 +1,83 @@
-{}
+{
+  "title": "Messaggi",
+  "private": "Conversazione privata",
+  "search": "Cerca nelle conversazioni",
+  "newConversation": "Nuova conversazione",
+  "empty": "Ancora nessuna conversazione",
+  "emptyBody": "Scriva a Lisa — su una collezione, una richiesta personale o semplicemente per presentarsi.",
+  "emptyAdmin": "Al momento non c'è nulla.",
+  "noMessages": "Ancora nessun messaggio",
+  "unreadCount": "{count} non letti",
+  "selectPrompt": "Scelga una conversazione o ne inizi una nuova con {creator}.",
+  "startTitle": "Scrivere a {creator}",
+  "subjectLabel": "Oggetto (facoltativo)",
+  "subjectPlaceholder": "Oggetto (facoltativo)",
+  "placeholder": "Scriva il Suo messaggio…",
+  "send": "Invia",
+  "attach": "Allega immagini",
+  "removeAttachment": "Rimuovi allegato",
+  "attachmentsHint": "Fino a 4 immagini · JPEG, PNG o WebP · max {mb} MB ciascuna",
+  "sending": "Invio…",
+  "sent": "Inviato",
+  "delivered": "Consegnato",
+  "read": "Letto",
+  "retry": "Non inviato — riprova",
+  "loadEarlier": "Carica messaggi precedenti",
+  "draftSaved": "Bozza salvata su questo dispositivo",
+  "back": "Tutte le conversazioni",
+  "privateNote": "Questa è una conversazione privata. {creator} risponde personalmente — non ci sono messaggi automatici.",
+  "archivedNote": "Questa conversazione è archiviata. Un nuovo messaggio la riaprirà.",
+  "previewKinds": {
+    "request": "Richiesta personale",
+    "offer": "Offerta personale",
+    "system": "Aggiornamento",
+    "text": "Messaggio"
+  },
+  "filters": {
+    "all": "Posta in arrivo",
+    "unread": "Non letti",
+    "awaiting_lisa": "In attesa di risposta",
+    "flagged": "Contrassegnati",
+    "archived": "Archiviati"
+  },
+  "status": {
+    "new": "Nuova",
+    "active": "Attiva",
+    "awaiting_lisa": "In attesa della risposta di Lisa",
+    "awaiting_customer": "In attesa della Sua risposta",
+    "completed": "Conclusa",
+    "archived": "Archiviata"
+  },
+  "request": {
+    "title": "Richiesta personale · n. {number}",
+    "wishes": "Desideri aggiuntivi"
+  },
+  "offer": {
+    "label": "La Sua offerta personale",
+    "price": "Prezzo",
+    "delivery": "Consegna",
+    "deadline": "Valida fino al",
+    "accept": "Accetta l'offerta",
+    "decline": "Rifiuta",
+    "addToCart": "Aggiungi al carrello",
+    "goToCart": "Vai al carrello",
+    "addedTitle": "L'offerta è nel Suo carrello",
+    "acceptNote": "Accettando, l'offerta viene aggiunta al carrello. L'addebito avviene solo al completamento del pagamento.",
+    "status": {
+      "open": "In attesa della Sua decisione",
+      "accepted": "Accettata",
+      "declined": "Rifiutata",
+      "paid": "Acquistata",
+      "expired": "Scaduta",
+      "withdrawn": "Ritirata"
+    }
+  },
+  "adminStatus": {
+    "new": "Nuova",
+    "active": "Attiva",
+    "awaiting_lisa": "In attesa della Sua risposta",
+    "awaiting_customer": "In attesa del cliente",
+    "completed": "Conclusa",
+    "archived": "Archiviata"
+  }
+}

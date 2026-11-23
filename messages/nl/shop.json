@@ -1,1 +1,33 @@
-{}
+{
+  "eyebrow": "De boutique",
+  "title": "De shop",
+  "intro": "Afgeronde fotocollecties, direct na aankoop te bekijken — gestyled, belicht en gefotografeerd door Lisa.",
+  "filterLabel": "Filteren op collectie",
+  "all": "Alle",
+  "sortLabel": "Sorteren",
+  "sort": {
+    "featured": "Uitgelicht",
+    "newest": "Nieuwste",
+    "price_asc": "Prijs ↑",
+    "price_desc": "Prijs ↓"
+  },
+  "empty": "Hier zijn nog geen collecties.",
+  "breadcrumb": "Kruimelpad",
+  "privateEdit": "Geverifieerde volwassenen",
+  "lockedPreview": "Zichtbaar na leeftijdsverificatie",
+  "lockedTitle": "Er wachten meer previews",
+  "lockedBody": "Sommige previews van deze collectie zijn voorbehouden aan geverifieerde volwassenen.",
+  "verifyNow": "Nu verifiëren",
+  "createAccount": "Account aanmaken",
+  "noPreviews": "Previews volgen binnenkort.",
+  "vatIncluded": "Prijs incl. btw. Digitale levering.",
+  "included": "Inbegrepen",
+  "format": "Formaat",
+  "delivery": "Levering",
+  "deliveryValue": "Direct toegang in uw account na betaling",
+  "license": "Licentie",
+  "licenseValue": "Persoonlijk, niet-overdraagbaar gebruik",
+  "askLisa": "Vraag het {creator}",
+  "secureNote": "Originelen worden privé opgeslagen en uitsluitend via veilige, tijdelijke links aan uw geverifieerde account geleverd.",
+  "related": "Uit dezelfde collectie"
+}

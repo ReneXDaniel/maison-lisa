@@ -58,7 +58,7 @@ export function Header() {
           overlay ? "bg-transparent" : "bg-ivory-50/88 shadow-[0_1px_0_rgb(201_178_153/0.5)] backdrop-blur-md",
         )}
       >
-        <div className={clsx("mx-auto flex max-w-[1440px] items-center gap-4 px-4 transition-[height] duration-500 sm:px-8", scrolled ? "h-16" : "h-20")}>
+        <div className={clsx("mx-auto flex max-w-[1440px] items-center gap-2 px-4 transition-[height] min-[380px]:gap-4 duration-500 sm:px-8", scrolled ? "h-16" : "h-20")}>
           <button
             type="button"
             className={clsx("-ml-2 flex size-10 items-center justify-center min-[1360px]:hidden", iconTone)}
@@ -73,7 +73,7 @@ export function Header() {
           <Link
             href="/"
             className={clsx(
-              "font-display whitespace-nowrap text-[19px] tracking-[0.42em] transition-colors sm:text-[22px] min-[1360px]:mr-4 min-[1360px]:tracking-[0.34em]",
+              "font-display whitespace-nowrap text-[15px] tracking-[0.28em] transition-colors min-[380px]:text-[19px] min-[380px]:tracking-[0.42em] sm:text-[22px] min-[1360px]:mr-4 min-[1360px]:tracking-[0.34em]",
               overlay ? "text-ivory-50" : "text-espresso",
             )}
             aria-label={`${brand.name} — ${t("home")}`}

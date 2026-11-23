@@ -1,7 +1,7 @@
 {
   "metaTitle": "Custom Requests",
   "eyebrow": "Custom Requests",
-  "title": "Your Vision. Lisa's Art.",
+  "title": "Your Vision. {creator}'s Art.",
   "intro": "Compose a personal photo collection detail by detail. Your request is sent to Lisa in a private conversation, where you can discuss everything before any offer is made.",
   "steps": {
     "polish": "The polish",
@@ -30,10 +30,22 @@
   "nothingSelected": "Choose at least one detail or describe your wishes.",
   "howItWorks": "How it works",
   "how": {
-    "h1": { "title": "Compose", "body": "Choose colours, styling and mood — or simply describe your idea." },
-    "h2": { "title": "Discuss", "body": "Your request arrives in a private conversation with Lisa." },
-    "h3": { "title": "Receive an offer", "body": "If Lisa accepts, she sends you a personal offer with price and delivery." },
-    "h4": { "title": "Enjoy", "body": "After checkout, your collection is delivered to your private account." }
+    "h1": {
+      "title": "Compose",
+      "body": "Choose colours, styling and mood — or simply describe your idea."
+    },
+    "h2": {
+      "title": "Discuss",
+      "body": "Your request arrives in a private conversation with Lisa."
+    },
+    "h3": {
+      "title": "Receive an offer",
+      "body": "If Lisa accepts, she sends you a personal offer with price and delivery."
+    },
+    "h4": {
+      "title": "Enjoy",
+      "body": "After checkout, your collection is delivered to your private account."
+    }
   },
   "status": {
     "draft": "Draft",

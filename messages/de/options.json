@@ -1,1 +1,59 @@
-{}
+{
+  "polishColor": {
+    "label": "Nagellack",
+    "classic_white": "Klassisches Weiß",
+    "cherry_red": "Kirschrot",
+    "bordeaux": "Bordeaux",
+    "midnight_black": "Mitternachtsschwarz",
+    "soft_nude": "Zartes Nude",
+    "rose_gold": "Roségold",
+    "baby_pink": "Babyrosa",
+    "french_white": "French Weiß",
+    "deep_plum": "Tiefe Pflaume",
+    "champagne": "Champagner"
+  },
+  "polishFinish": {
+    "label": "Finish",
+    "glossy": "Glänzend",
+    "matte": "Matt",
+    "shimmer": "Schimmernd"
+  },
+  "style": {
+    "label": "Fotostil",
+    "elegant_editorial": "Elegantes Editorial",
+    "soft_natural": "Sanft & natürlich",
+    "mysterious_noir": "Geheimnisvolles Noir",
+    "minimal_studio": "Minimalistisches Studio",
+    "romantic_detail": "Romantisches Detail"
+  },
+  "stockings": {
+    "label": "Strümpfe",
+    "black_sheer": "Schwarz transparent",
+    "soft_nude": "Zartes Nude",
+    "elegant_lace": "Elegante Spitze",
+    "barefoot": "Barfuß"
+  },
+  "footwear": {
+    "label": "Schuhe",
+    "high_heels": "High Heels",
+    "sandals": "Sandaletten",
+    "minimalist": "Minimalistische Schuhe",
+    "barefoot": "Barfuß"
+  },
+  "accessories": {
+    "label": "Accessoires",
+    "anklet": "Fußkettchen",
+    "toe_ring": "Zehenring",
+    "silk_ribbon": "Seidenband",
+    "none": "Ohne Accessoires"
+  },
+  "background": {
+    "label": "Hintergrund",
+    "ivory_studio": "Elfenbein-Studio",
+    "champagne_satin": "Champagner-Satin",
+    "soft_taupe": "Sanftes Taupe",
+    "dark_espresso": "Dunkles Espresso",
+    "natural_light": "Natürliches Licht"
+  },
+  "notSelected": "Nicht gewählt"
+}

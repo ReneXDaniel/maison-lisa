@@ -1,1 +1,7 @@
-{}
+{
+  "title": "Bienvenue. Cette boutique est réservée aux adultes.",
+  "body": "MAISON LISA présente une photographie artistique et non explicite destinée aux visiteurs de 18 ans et plus. Veuillez confirmer que vous êtes majeur(e) pour continuer.",
+  "enter": "J'ai 18 ans ou plus — Entrer",
+  "leave": "Quitter",
+  "note": "Cette confirmation n'est pas une vérification d'identité. La messagerie, les demandes personnelles, les achats et les téléchargements nécessitent en plus une vérification d'âge sécurisée basée sur une pièce d'identité."
+}

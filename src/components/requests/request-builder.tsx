@@ -35,6 +35,7 @@ export function RequestBuilder() {
   const t = useTranslations("requests");
   const o = useTranslations("options");
   const e = useTranslations("errors");
+  const tNav = useTranslations("nav");
   const router = useRouter();
   const user = useSessionUser();
   const { selections, notes, set, setNotes, reset } = useStudio();
@@ -62,7 +63,7 @@ export function RequestBuilder() {
   return (
     <div className="grid gap-14 lg:grid-cols-[minmax(0,1fr)_380px]">
       <div>
-        <Step n={1} title={t("steps.polish")} aside={sel.polishColor ? <span className="text-xs text-taupe-700">{t("fromStudio")}</span> : <Link href="/nail-studio" className="eyebrow text-taupe-700 link-underline">Nail Studio</Link>}>
+        <Step n={1} title={t("steps.polish")} aside={sel.polishColor ? <span className="text-xs text-taupe-700">{t("fromStudio")}</span> : <Link href="/nail-studio" className="eyebrow text-taupe-700 link-underline">{tNav("nailStudio")}</Link>}>
           <ColorSwatches value={sel.polishColor} onChange={(v) => set({ polishColor: v as RequestSelections["polishColor"] })} />
           <div className="mt-6">
             <OptionChips group="polishFinish" options={POLISH_FINISHES} value={sel.polishFinish} onChange={(v) => set({ polishFinish: v })} />

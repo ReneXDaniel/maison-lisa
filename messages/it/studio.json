@@ -1,1 +1,79 @@
-{}
+{
+  "nail": {
+    "metaTitle": "Nail Studio",
+    "eyebrow": "Nail Studio",
+    "title": "Il Suo colore. Il Suo desiderio.",
+    "body": "Ogni dettaglio è a Sua scelta. Passi sopra una boccetta per l'anteprima del colore, clicchi per sceglierlo.",
+    "chooseColor": "Scelga il Suo colore",
+    "natural": "Naturale",
+    "preview": "anteprima",
+    "previewLabel": "Anteprima del colore delle unghie: {color}",
+    "saved": "Colore e finitura sono salvati e verranno ripresi automaticamente nella Sua richiesta personale.",
+    "cta": "Crea una richiesta personale",
+    "demoNote": "Illustrazione dimostrativa — sostituirla nell'admin con la foto di Lisa e la maschera delle unghie"
+  },
+  "look": {
+    "metaTitle": "Look Studio",
+    "eyebrow": "Look Studio",
+    "title": "Componga il look.",
+    "body": "Combini calze, calzature, accessori e ambientazione — e porti il look in una richiesta personale.",
+    "illustrative": "Anteprima illustrativa. Le combinazioni sono disegnate, non fotografate.",
+    "saved": "Il Suo look è salvato per la richiesta personale.",
+    "cta": "Usa questo look in una richiesta"
+  },
+  "vote": {
+    "eyebrow": "La Sua voce",
+    "title": "Scelga il prossimo look di {creator}.",
+    "body": "Voti il concept di styling che vorrebbe vedere nella prossima collezione di {creator}.",
+    "option": "Concept {n}",
+    "vote": "Vota questo look",
+    "change": "Cambia il mio voto",
+    "yourVote": "Il Suo voto ✓",
+    "share": "{pct}% dei voti",
+    "oneVote": "Un voto per cliente verificato. Può cambiare il voto finché la votazione è aperta.",
+    "verifiedOnly": "La votazione è aperta ai clienti adulti verificati.",
+    "verify": "Verifica ora",
+    "signIn": "Accedi"
+  },
+  "quiz": {
+    "metaTitle": "Scopra il Suo stile",
+    "eyebrow": "Quiz di stile",
+    "title": "Scopra il Suo stile.",
+    "body": "Quattro domande giocose. Una collezione scelta per Lei.",
+    "progress": "Domanda {n} di {total}",
+    "back": "Domanda precedente",
+    "q1": {
+      "question": "Classico o misterioso?",
+      "classic": "Classico",
+      "classicHint": "Linee pulite, luce quieta",
+      "mysterious": "Misterioso",
+      "mysteriousHint": "Ombre e toni profondi"
+    },
+    "q2": {
+      "question": "Delicato o audace?",
+      "soft": "Delicato",
+      "softHint": "Nude, cipria, leggerissimo",
+      "bold": "Audace",
+      "boldHint": "Ciliegia, bordeaux, lacca"
+    },
+    "q3": {
+      "question": "Avorio o espresso?",
+      "ivory": "Avorio",
+      "ivoryHint": "Luminoso e arioso",
+      "espresso": "Espresso",
+      "espressoHint": "Caldo e drammatico"
+    },
+    "q4": {
+      "question": "Seta o pizzo?",
+      "silk": "Seta",
+      "silkHint": "Fluida e luminosa",
+      "lace": "Pizzo",
+      "laceHint": "Delicato e raffinato"
+    },
+    "resultEyebrow": "La Sua collezione",
+    "explore": "Scopri la Sua collezione",
+    "custom": "Crea una richiesta personale",
+    "disclaimer": "Solo per divertimento — il risultato è un suggerimento di stile, niente di più. Le risposte non vengono salvate sui nostri server.",
+    "restart": "Ricomincia"
+  }
+}

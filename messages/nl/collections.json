@@ -1,1 +1,8 @@
-{}
+{
+  "eyebrow": "De collecties",
+  "title": "Met elegantie samengesteld.",
+  "intro": "Zes hoofdstukken in één beeldtaal — van ingetogen essentials tot de privé-editie.",
+  "count": "{count, plural, =0 {Binnenkort} one {# collectie} other {# collecties}}",
+  "discover": "Ontdek de collectie",
+  "emptyCollection": "Er worden nieuwe foto's voorbereid voor deze collectie."
+}

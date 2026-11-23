@@ -1,1 +1,52 @@
-{}
+{
+  "eyebrow": "Checkout seguro",
+  "title": "Checkout",
+  "intro": "Um único pagamento para toda a sua seleção.",
+  "review": "A sua encomenda",
+  "personalOffer": "Oferta pessoal",
+  "digitalCollection": "Coleção fotográfica digital",
+  "someUnavailable": "Os artigos indisponíveis foram removidos desta encomenda.",
+  "paymentMethod": "Pagamento",
+  "paymentNote": "Será redirecionado para a página segura do nosso parceiro de pagamentos. Nunca vemos nem guardamos os dados do seu cartão.",
+  "devPayment": "Simulador de desenvolvimento — sem pagamento real",
+  "country": "País de residência",
+  "subtotal": "Subtotal",
+  "welcomeDiscount": "Desconto de boas-vindas",
+  "codeDiscount": "Código {code}",
+  "total": "Total",
+  "vatIncluded": "Inclui {rate}% de IVA",
+  "vatNone": "Sem IVA",
+  "terms": "Aceito os <terms>Termos e Condições</terms> e li a <privacy>Política de Privacidade</privacy>.",
+  "waiver": "Solicito acesso imediato ao conteúdo digital e reconheço que perco o direito de livre resolução a partir do início do fornecimento.",
+  "placeOrder": "Encomendar com obrigação de pagamento",
+  "placeOrderNote": "A compra só fica confirmada depois de o nosso parceiro confirmar o pagamento.",
+  "return": {
+    "pending": {
+      "title": "A confirmar o seu pagamento…",
+      "body": "Normalmente demora apenas alguns segundos. Não feche esta página."
+    },
+    "slow": {
+      "title": "Ainda a aguardar a confirmação.",
+      "body": "O parceiro de pagamentos ainda não confirmou o pagamento. Receberá um e-mail e uma notificação assim que isso acontecer — a sua encomenda está segura."
+    },
+    "paid": {
+      "title": "Obrigado.",
+      "body": "O seu pagamento foi confirmado. As suas coleções esperam por si na sua conta privada."
+    },
+    "failed": {
+      "title": "O pagamento não foi concluído.",
+      "body": "Nada foi cobrado. O seu carrinho continua à sua espera — pode tentar novamente."
+    },
+    "cancelled": {
+      "title": "Pagamento cancelado.",
+      "body": "Nada foi cobrado. O seu carrinho continua à sua espera."
+    },
+    "unknown": {
+      "title": "Encomenda não encontrada.",
+      "body": "Consulte as suas encomendas na sua conta."
+    },
+    "viewPurchases": "Abrir as minhas compras",
+    "viewOrder": "Ver encomenda",
+    "backToCart": "Voltar ao carrinho"
+  }
+}

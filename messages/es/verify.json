@@ -1,1 +1,57 @@
-{}
+{
+  "title": "Verificación de edad segura.",
+  "intro": "Para proteger a los menores, los mensajes privados, las solicitudes personales, las compras y las descargas están reservados a adultos verificados. Tarda unos dos minutos y solo es necesario una vez.",
+  "steps": {
+    "s1": {
+      "title": "Tenga a mano su documento",
+      "body": "DNI, pasaporte u otro documento oficial compatible."
+    },
+    "s2": {
+      "title": "Verifíquese con nuestro socio certificado",
+      "body": "El socio comprueba la autenticidad del documento y confirma que realmente es usted."
+    },
+    "s3": {
+      "title": "Vuelva a la boutique",
+      "body": "Solo recibimos el resultado — que tiene 18 años o más. Nunca imágenes de sus documentos."
+    }
+  },
+  "start": "Iniciar la verificación segura",
+  "restart": "Reiniciar la verificación",
+  "continue": "Continuar",
+  "retry": "Reintentar",
+  "checking": "Esperando el resultado de nuestro socio de verificación…",
+  "returnTitle": "Su verificación.",
+  "statusLabel": "Estado actual",
+  "privacy": "La verificación la realiza un proveedor independiente en sus propias páginas seguras. MAISON LISA solo guarda el resultado, la fecha y una referencia del proveedor — ninguna copia de documentos ni datos biométricos. Más detalles en nuestra Política de privacidad.",
+  "devNote": "Modo de desarrollo: un simulador identificado sustituye al proveedor de identidad",
+  "status": {
+    "not_verified": {
+      "title": "Aún no verificado",
+      "body": "Complete la verificación para desbloquear mensajes, solicitudes y compras."
+    },
+    "pending": {
+      "title": "Verificación en curso",
+      "body": "Estamos esperando el resultado. Suele tardar menos de un minuto."
+    },
+    "verified": {
+      "title": "Adulto verificado",
+      "body": "Gracias. Todas las funciones de la boutique ya están a su disposición."
+    },
+    "failed": {
+      "title": "Verificación no superada",
+      "body": "No hemos podido confirmar que tenga 18 años o más. Puede intentarlo de nuevo con un documento válido."
+    },
+    "manual_review": {
+      "title": "En revisión",
+      "body": "Nuestro socio está revisando sus documentos manualmente. Le avisaremos en cuanto haya una decisión."
+    },
+    "expired": {
+      "title": "Verificación caducada",
+      "body": "Su verificación ha caducado. Verifíquese de nuevo para continuar."
+    },
+    "revoked": {
+      "title": "Verificación revocada",
+      "body": "Su verificación ha sido revocada. Contáctenos si cree que se trata de un error."
+    }
+  }
+}

@@ -1,1 +1,59 @@
-{}
+{
+  "polishColor": {
+    "label": "Esmalte",
+    "classic_white": "Blanco clásico",
+    "cherry_red": "Rojo cereza",
+    "bordeaux": "Burdeos",
+    "midnight_black": "Negro medianoche",
+    "soft_nude": "Nude suave",
+    "rose_gold": "Oro rosa",
+    "baby_pink": "Rosa bebé",
+    "french_white": "Blanco francés",
+    "deep_plum": "Ciruela intensa",
+    "champagne": "Champán"
+  },
+  "polishFinish": {
+    "label": "Acabado",
+    "glossy": "Brillante",
+    "matte": "Mate",
+    "shimmer": "Irisado"
+  },
+  "style": {
+    "label": "Estilo fotográfico",
+    "elegant_editorial": "Editorial elegante",
+    "soft_natural": "Suave y natural",
+    "mysterious_noir": "Noir misterioso",
+    "minimal_studio": "Estudio minimalista",
+    "romantic_detail": "Detalle romántico"
+  },
+  "stockings": {
+    "label": "Medias",
+    "black_sheer": "Negro transparente",
+    "soft_nude": "Nude suave",
+    "elegant_lace": "Encaje elegante",
+    "barefoot": "Descalza"
+  },
+  "footwear": {
+    "label": "Calzado",
+    "high_heels": "Tacones altos",
+    "sandals": "Sandalias",
+    "minimalist": "Calzado minimalista",
+    "barefoot": "Descalza"
+  },
+  "accessories": {
+    "label": "Accesorios",
+    "anklet": "Tobillera",
+    "toe_ring": "Anillo de dedo",
+    "silk_ribbon": "Cinta de seda",
+    "none": "Sin accesorios"
+  },
+  "background": {
+    "label": "Fondo",
+    "ivory_studio": "Estudio marfil",
+    "champagne_satin": "Satén champán",
+    "soft_taupe": "Topo suave",
+    "dark_espresso": "Espresso oscuro",
+    "natural_light": "Luz natural"
+  },
+  "notSelected": "Sin elegir"
+}

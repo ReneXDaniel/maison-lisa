@@ -1,1 +1,51 @@
-{}
+{
+  "metaTitle": "Over Lisa",
+  "eyebrow": "De persoon achter de details",
+  "subtitle": "Ontdek de persoon achter de details.",
+  "portraitAlt": "Portret van {creator}",
+  "portraitPlaceholder": "Tijdelijke illustratie — hier verschijnt Lisa's eigen portret.",
+  "intro": {
+    "title": "Maak kennis met {creator}.",
+    "body": "Deze ruimte is gereserveerd voor Lisa's eigen woorden — wie ze is, wat haar inspireert en hoe MAISON LISA is ontstaan.\nLisa kan deze tekst op elk moment schrijven en bijwerken in haar dashboard."
+  },
+  "cards": {
+    "c1": {
+      "title": "Iets over mij",
+      "body": "Een korte persoonlijke introductie, door Lisa zelf geschreven."
+    },
+    "c2": {
+      "title": "Mijn favoriete dingen",
+      "body": "Kleuren, stoffen, plekken en kleine rituelen waar Lisa van houdt — in haar woorden."
+    },
+    "c3": {
+      "title": "Waar ik blij van word",
+      "body": "De momenten en details die Lisa's dag mooier maken."
+    },
+    "c4": {
+      "title": "Mijn creatieve kant",
+      "body": "Hoe een collectie ontstaat — van het eerste idee tot de laatste foto."
+    },
+    "c5": {
+      "title": "Een klein geheim",
+      "body": "Iets wat Lisa met haar klanten wil delen. Door Lisa te schrijven."
+    }
+  },
+  "bts": {
+    "eyebrow": "Achter de schermen",
+    "title": "Zo ontstaat een collectie.",
+    "body": "Stille momenten in de studio — voorbereiding, kleur, stof en licht.",
+    "items": {
+      "b1": "Nagellak kiezen",
+      "b2": "Stoffen schikken",
+      "b3": "Sieraden kiezen",
+      "b4": "Studiolicht",
+      "b5": "Creatieve styling",
+      "b6": "Fotografische details"
+    }
+  },
+  "final": {
+    "title": "Nu kent u me een beetje.",
+    "body": "Wat wilt u mij over uzelf vertellen?"
+  },
+  "cta": "{creator} een bericht sturen"
+}

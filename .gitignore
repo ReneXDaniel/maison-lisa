@@ -12,3 +12,4 @@ playwright-report/
 coverage/
 *.zip
 assets/demo/
+__pycache__/

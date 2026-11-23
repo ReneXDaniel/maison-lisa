@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Uw winkelwagen",
+  "intro": "Controleer uw selectie. De bedragen worden veilig bevestigd bij het afrekenen.",
+  "empty": "Uw winkelwagen is leeg.",
+  "emptyBody": "Ontdek de collecties en voeg toe wat u raakt.",
+  "explore": "Collecties ontdekken",
+  "personalOffer": "Persoonlijk aanbod",
+  "digital": "Digitaal",
+  "unavailable": "Dit artikel is niet meer beschikbaar en wordt niet meegenomen.",
+  "alreadyOwned": "U bezit deze collectie al — die wordt niet opnieuw in rekening gebracht.",
+  "summary": "Overzicht",
+  "codeLabel": "Kortingscode",
+  "codePlaceholder": "Code invoeren",
+  "applyCode": "Toepassen",
+  "codeApplied": "Code",
+  "removeCode": "Code verwijderen",
+  "welcomeHintTitle": "{percent}% welkomstkorting",
+  "welcomeHintBody": "Nieuwe klanten krijgen deze automatisch op hun eerste bestelling zodra ze zijn ingelogd.",
+  "subtotal": "Subtotaal",
+  "welcomeDiscount": "Welkomstkorting",
+  "codeDiscount": "Code {code}",
+  "total": "Totaal",
+  "vatNote": "Incl. btw",
+  "checkout": "Afrekenen",
+  "guestNote": "U wordt gevraagd in te loggen of een account aan te maken en eenmalig uw leeftijd te verifiëren. Uw winkelwagen blijft bewaard.",
+  "verifyNote": "Vóór de betaling is een eenmalige leeftijdsverificatie nodig. Uw winkelwagen blijft bewaard."
+}

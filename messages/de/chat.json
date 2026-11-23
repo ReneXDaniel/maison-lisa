@@ -1,1 +1,83 @@
-{}
+{
+  "title": "Nachrichten",
+  "private": "Privates Gespräch",
+  "search": "Gespräche durchsuchen",
+  "newConversation": "Neues Gespräch",
+  "empty": "Noch keine Gespräche",
+  "emptyBody": "Schreiben Sie Lisa — über eine Kollektion, eine persönliche Anfrage oder einfach, um sich vorzustellen.",
+  "emptyAdmin": "Derzeit nichts zu tun.",
+  "noMessages": "Noch keine Nachrichten",
+  "unreadCount": "{count} ungelesen",
+  "selectPrompt": "Wählen Sie ein Gespräch oder beginnen Sie ein neues mit {creator}.",
+  "startTitle": "An {creator} schreiben",
+  "subjectLabel": "Betreff (optional)",
+  "subjectPlaceholder": "Betreff (optional)",
+  "placeholder": "Ihre Nachricht …",
+  "send": "Senden",
+  "attach": "Bilder anhängen",
+  "removeAttachment": "Anhang entfernen",
+  "attachmentsHint": "Bis zu 4 Bilder · JPEG, PNG oder WebP · max. {mb} MB je Bild",
+  "sending": "Wird gesendet …",
+  "sent": "Gesendet",
+  "delivered": "Zugestellt",
+  "read": "Gelesen",
+  "retry": "Nicht gesendet — erneut versuchen",
+  "loadEarlier": "Frühere Nachrichten laden",
+  "draftSaved": "Entwurf auf diesem Gerät gespeichert",
+  "back": "Alle Gespräche",
+  "privateNote": "Dies ist ein privates Gespräch. {creator} antwortet persönlich — es gibt keine automatischen Nachrichten.",
+  "archivedNote": "Dieses Gespräch ist archiviert. Eine neue Nachricht öffnet es wieder.",
+  "previewKinds": {
+    "request": "Persönliche Anfrage",
+    "offer": "Persönliches Angebot",
+    "system": "Aktualisierung",
+    "text": "Nachricht"
+  },
+  "filters": {
+    "all": "Posteingang",
+    "unread": "Ungelesen",
+    "awaiting_lisa": "Antwort ausstehend",
+    "flagged": "Markiert",
+    "archived": "Archiviert"
+  },
+  "status": {
+    "new": "Neu",
+    "active": "Aktiv",
+    "awaiting_lisa": "Wartet auf Lisas Antwort",
+    "awaiting_customer": "Wartet auf Ihre Antwort",
+    "completed": "Abgeschlossen",
+    "archived": "Archiviert"
+  },
+  "request": {
+    "title": "Persönliche Anfrage · Nr. {number}",
+    "wishes": "Weitere Wünsche"
+  },
+  "offer": {
+    "label": "Ihr persönliches Angebot",
+    "price": "Preis",
+    "delivery": "Lieferung",
+    "deadline": "Gültig bis",
+    "accept": "Angebot annehmen",
+    "decline": "Ablehnen",
+    "addToCart": "In den Warenkorb",
+    "goToCart": "Zum Warenkorb",
+    "addedTitle": "Das Angebot liegt in Ihrem Warenkorb",
+    "acceptNote": "Mit der Annahme wird das Angebot in Ihren Warenkorb gelegt. Bezahlt wird erst im Checkout.",
+    "status": {
+      "open": "Wartet auf Ihre Entscheidung",
+      "accepted": "Angenommen",
+      "declined": "Abgelehnt",
+      "paid": "Gekauft",
+      "expired": "Abgelaufen",
+      "withdrawn": "Zurückgezogen"
+    }
+  },
+  "adminStatus": {
+    "new": "Neu",
+    "active": "Aktiv",
+    "awaiting_lisa": "Wartet auf Ihre Antwort",
+    "awaiting_customer": "Wartet auf Kundin/Kunde",
+    "completed": "Abgeschlossen",
+    "archived": "Archiviert"
+  }
+}

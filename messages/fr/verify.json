@@ -1,1 +1,57 @@
-{}
+{
+  "title": "Vérification d'âge sécurisée.",
+  "intro": "Pour protéger les mineurs, la messagerie privée, les demandes personnelles, les achats et les téléchargements sont réservés aux adultes vérifiés. Cela prend environ deux minutes et n'est nécessaire qu'une fois.",
+  "steps": {
+    "s1": {
+      "title": "Préparez votre pièce d'identité",
+      "body": "Carte d'identité nationale, passeport ou autre document officiel pris en charge."
+    },
+    "s2": {
+      "title": "Vérifiez-vous auprès de notre partenaire certifié",
+      "body": "Le partenaire contrôle l'authenticité du document et confirme qu'il s'agit bien de vous."
+    },
+    "s3": {
+      "title": "Revenez à la boutique",
+      "body": "Nous ne recevons que le résultat — que vous avez 18 ans ou plus. Jamais l'image de vos documents."
+    }
+  },
+  "start": "Lancer la vérification sécurisée",
+  "restart": "Relancer la vérification",
+  "continue": "Continuer",
+  "retry": "Réessayer",
+  "checking": "En attente du résultat de notre partenaire de vérification…",
+  "returnTitle": "Votre vérification.",
+  "statusLabel": "Statut actuel",
+  "privacy": "La vérification est réalisée par un prestataire indépendant sur ses propres pages sécurisées. MAISON LISA ne conserve que le résultat, la date et une référence du prestataire — aucune copie de document ni donnée biométrique. Détails dans notre Politique de confidentialité.",
+  "devNote": "Mode développement : un simulateur identifié remplace le prestataire d'identité",
+  "status": {
+    "not_verified": {
+      "title": "Pas encore vérifié",
+      "body": "Effectuez la vérification pour débloquer la messagerie, les demandes et les achats."
+    },
+    "pending": {
+      "title": "Vérification en cours",
+      "body": "Nous attendons le résultat. Cela prend généralement moins d'une minute."
+    },
+    "verified": {
+      "title": "Adulte vérifié",
+      "body": "Merci. Toutes les fonctionnalités de la boutique vous sont désormais accessibles."
+    },
+    "failed": {
+      "title": "Vérification non concluante",
+      "body": "Nous n'avons pas pu confirmer que vous avez 18 ans ou plus. Vous pouvez réessayer avec un document valide."
+    },
+    "manual_review": {
+      "title": "En cours d'examen",
+      "body": "Notre partenaire examine vos documents manuellement. Nous vous informerons dès qu'une décision sera prise."
+    },
+    "expired": {
+      "title": "Vérification expirée",
+      "body": "Votre vérification a expiré. Veuillez vous vérifier à nouveau pour continuer."
+    },
+    "revoked": {
+      "title": "Vérification révoquée",
+      "body": "Votre vérification a été révoquée. Contactez-nous si vous pensez qu'il s'agit d'une erreur."
+    }
+  }
+}

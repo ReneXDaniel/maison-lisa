@@ -26,7 +26,7 @@ import { brand } from "@/config/brand";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "home" });
-  return pageMetadata({ locale, path: "/", description: t("hero.support") });
+  return pageMetadata({ locale, path: "/", tagline: t("meta.title"), description: t("hero.support") });
 }
 
 const HOTSPOTS = [

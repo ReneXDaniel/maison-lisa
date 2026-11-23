@@ -1,1 +1,57 @@
-{}
+{
+  "title": "Verifica dell'età sicura.",
+  "intro": "Per tutelare i minori, messaggi privati, richieste personali, acquisti e download sono riservati agli adulti verificati. Richiede circa due minuti ed è necessaria una sola volta.",
+  "steps": {
+    "s1": {
+      "title": "Prepari il Suo documento",
+      "body": "Carta d'identità, passaporto o altro documento ufficiale supportato."
+    },
+    "s2": {
+      "title": "Si verifichi con il nostro partner certificato",
+      "body": "Il partner controlla l'autenticità del documento e conferma che si tratta davvero di Lei."
+    },
+    "s3": {
+      "title": "Torni alla boutique",
+      "body": "Riceviamo solo l'esito — che ha almeno 18 anni. Mai le immagini dei Suoi documenti."
+    }
+  },
+  "start": "Avvia la verifica sicura",
+  "restart": "Riavvia la verifica",
+  "continue": "Continua",
+  "retry": "Riprova",
+  "checking": "In attesa dell'esito dal nostro partner di verifica…",
+  "returnTitle": "La Sua verifica.",
+  "statusLabel": "Stato attuale",
+  "privacy": "La verifica è effettuata da un fornitore indipendente sulle proprie pagine sicure. MAISON LISA conserva solo l'esito, la data e un riferimento del fornitore — nessuna copia dei documenti né dati biometrici. Dettagli nella nostra Informativa sulla privacy.",
+  "devNote": "Modalità di sviluppo: un simulatore contrassegnato sostituisce il fornitore d'identità",
+  "status": {
+    "not_verified": {
+      "title": "Non ancora verificato",
+      "body": "Completi la verifica per sbloccare messaggi, richieste e acquisti."
+    },
+    "pending": {
+      "title": "Verifica in corso",
+      "body": "Siamo in attesa dell'esito. Di solito richiede meno di un minuto."
+    },
+    "verified": {
+      "title": "Adulto verificato",
+      "body": "Grazie. Tutte le funzioni della boutique sono ora a Sua disposizione."
+    },
+    "failed": {
+      "title": "Verifica non riuscita",
+      "body": "Non è stato possibile confermare che ha almeno 18 anni. Può riprovare con un documento valido."
+    },
+    "manual_review": {
+      "title": "In revisione",
+      "body": "Il nostro partner sta esaminando manualmente i Suoi documenti. La avviseremo appena ci sarà una decisione."
+    },
+    "expired": {
+      "title": "Verifica scaduta",
+      "body": "La Sua verifica è scaduta. Si verifichi di nuovo per continuare."
+    },
+    "revoked": {
+      "title": "Verifica revocata",
+      "body": "La Sua verifica è stata revocata. Ci contatti se ritiene si tratti di un errore."
+    }
+  }
+}

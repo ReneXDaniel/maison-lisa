@@ -1,1 +1,95 @@
-{}
+{
+  "meta": {
+    "title": "Schönheit in jedem Detail"
+  },
+  "hero": {
+    "eyebrow": "Eine private digitale Boutique",
+    "title": "MAISON LISA",
+    "subtitle": "Schönheit in jedem Detail.",
+    "support": "Eine exklusive Welt aus Eleganz, Individualität und wunderbar persönlichen Momenten.",
+    "ctaCollection": "Meine Kollektion entdecken",
+    "ctaExperience": "Ihr Erlebnis gestalten",
+    "scroll": "Scrollen"
+  },
+  "welcome": {
+    "eyebrow": "Für neue Kundinnen und Kunden",
+    "title": "Ihr erstes MAISON LISA Erlebnis.",
+    "body": "Genießen Sie {percent} % Rabatt auf Ihre erste Bestellung.",
+    "cta": "Kollektion entdecken",
+    "note": "Wird im Checkout automatisch auf Ihre erste Bestellung angewendet."
+  },
+  "intro": {
+    "eyebrow": "Die Maison",
+    "title": "Wo Eleganz persönlich wird.",
+    "body": "Jede Kollektion wird mit Geduld gestylt, beleuchtet und fotografiert — warmes Studiolicht, elfenbeinfarbene Seide, die stille Schönheit eines sorgfältig gewählten Details. Entdecken Sie fertige Editorials oder gestalten Sie gemeinsam mit {creator} eine persönliche Kollektion."
+  },
+  "silk": {
+    "eyebrow": "Hinter der Seide",
+    "title": "Manche Details verdienen einen zweiten Blick.",
+    "caption": "Langsam scrollen.",
+    "fallback": "Hier wird eine Animation abgespielt, wenn Bewegung aktiviert ist."
+  },
+  "collections": {
+    "eyebrow": "Die Kollektionen",
+    "title": "Mit Eleganz kuratiert.",
+    "all": "Alle Kollektionen ansehen"
+  },
+  "details": {
+    "eyebrow": "Die Details",
+    "title": "Eine Welt schöner Details.",
+    "body": "Tippen Sie auf die sanft leuchtenden Punkte oder fahren Sie darüber, um die Details hinter dem Bild zu entdecken.",
+    "hint": "Details entdecken",
+    "hotspots": {
+      "polish": {
+        "title": "Der Lack",
+        "body": "Ein glänzender Champagner-Lack, am Morgen des Shootings von Hand aufgetragen."
+      },
+      "jewelry": {
+        "title": "Fußschmuck",
+        "body": "Ein feines Fußkettchen mit einer einzigen Perle — zurückhaltend, nie überladen."
+      },
+      "stockings": {
+        "title": "Feine Strümpfe",
+        "body": "Hauchzarte Seide mit 10 den und feiner Naht, gewählt für ihren weichen Glanz."
+      },
+      "silk": {
+        "title": "Seidenaccessoires",
+        "body": "Champagnerfarbener Charmeuse, locker drapiert, um das Morgenlicht einzufangen."
+      },
+      "styling": {
+        "title": "Styling",
+        "body": "Jedes Element wird von Hand platziert. Nichts ist Zufall."
+      }
+    }
+  },
+  "nail": {
+    "eyebrow": "Nagelstudio",
+    "title": "Ihre Farbe. Ihr Wunsch.",
+    "body": "Jedes Detail liegt in Ihrer Hand.",
+    "cta": "Zum Nagelstudio"
+  },
+  "quiz": {
+    "eyebrow": "Stilquiz",
+    "title": "Entdecken Sie Ihren Stil.",
+    "body": "Vier spielerische Fragen, eine Kollektion für Sie.",
+    "cta": "Quiz starten"
+  },
+  "about": {
+    "eyebrow": "Die Person hinter den Details",
+    "title": "Das ist Lisa.",
+    "body": "Entdecken Sie die Kreativität, den Stil und die Persönlichkeit hinter jeder Kollektion von MAISON LISA.",
+    "cta": "Lisa kennenlernen"
+  },
+  "next": {
+    "eyebrow": "Demnächst",
+    "title": "Das nächste Kapitel.",
+    "cta": "Was kommt"
+  },
+  "final": {
+    "title": "Ihre Vision. {creator}s Kunst.",
+    "body": "Wählen Sie Farbe, Styling und Stimmung — und senden Sie Ihre Wünsche in einem privaten Gespräch an Lisa.",
+    "cta": "Persönliche Anfrage erstellen",
+    "secondary": "{creator} schreiben"
+  },
+  "announcement": ""
+}

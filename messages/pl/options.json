@@ -1,1 +1,59 @@
-{}
+{
+  "polishColor": {
+    "label": "Lakier",
+    "classic_white": "Klasyczna biel",
+    "cherry_red": "Wiśniowa czerwień",
+    "bordeaux": "Bordo",
+    "midnight_black": "Północna czerń",
+    "soft_nude": "Delikatny nude",
+    "rose_gold": "Różowe złoto",
+    "baby_pink": "Pudrowy róż",
+    "french_white": "Biel francuska",
+    "deep_plum": "Głęboka śliwka",
+    "champagne": "Szampański"
+  },
+  "polishFinish": {
+    "label": "Wykończenie",
+    "glossy": "Błyszczące",
+    "matte": "Matowe",
+    "shimmer": "Połyskujące"
+  },
+  "style": {
+    "label": "Styl fotografii",
+    "elegant_editorial": "Elegancki edytorial",
+    "soft_natural": "Delikatnie i naturalnie",
+    "mysterious_noir": "Tajemnicze noir",
+    "minimal_studio": "Minimalistyczne studio",
+    "romantic_detail": "Romantyczny detal"
+  },
+  "stockings": {
+    "label": "Pończochy",
+    "black_sheer": "Czarne przejrzyste",
+    "soft_nude": "Delikatny nude",
+    "elegant_lace": "Elegancka koronka",
+    "barefoot": "Boso"
+  },
+  "footwear": {
+    "label": "Obuwie",
+    "high_heels": "Wysokie obcasy",
+    "sandals": "Sandały",
+    "minimalist": "Minimalistyczne obuwie",
+    "barefoot": "Boso"
+  },
+  "accessories": {
+    "label": "Dodatki",
+    "anklet": "Bransoletka na kostkę",
+    "toe_ring": "Pierścionek na palec stopy",
+    "silk_ribbon": "Jedwabna wstążka",
+    "none": "Bez dodatków"
+  },
+  "background": {
+    "label": "Tło",
+    "ivory_studio": "Studio w kolorze kości słoniowej",
+    "champagne_satin": "Szampańska satyna",
+    "soft_taupe": "Delikatne taupe",
+    "dark_espresso": "Ciemne espresso",
+    "natural_light": "Naturalne światło"
+  },
+  "notSelected": "Nie wybrano"
+}

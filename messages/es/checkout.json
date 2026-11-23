@@ -1,1 +1,52 @@
-{}
+{
+  "eyebrow": "Pago seguro",
+  "title": "Pago",
+  "intro": "Un único pago para toda su selección.",
+  "review": "Su pedido",
+  "personalOffer": "Oferta personal",
+  "digitalCollection": "Colección fotográfica digital",
+  "someUnavailable": "Los artículos no disponibles se han retirado de este pedido.",
+  "paymentMethod": "Pago",
+  "paymentNote": "Se le redirigirá a la página segura de nuestro socio de pago. Nunca vemos ni guardamos los datos de su tarjeta.",
+  "devPayment": "Simulador de desarrollo — sin pago real",
+  "country": "País de residencia",
+  "subtotal": "Subtotal",
+  "welcomeDiscount": "Descuento de bienvenida",
+  "codeDiscount": "Código {code}",
+  "total": "Total",
+  "vatIncluded": "IVA incluido ({rate} %)",
+  "vatNone": "Sin IVA",
+  "terms": "Acepto los <terms>Términos y condiciones</terms> y he leído la <privacy>Política de privacidad</privacy>.",
+  "waiver": "Solicito el acceso inmediato al contenido digital y reconozco que pierdo mi derecho de desistimiento una vez iniciada la entrega.",
+  "placeOrder": "Comprar — pedido con obligación de pago",
+  "placeOrderNote": "Su compra solo se confirma cuando nuestro socio de pago confirma el pago.",
+  "return": {
+    "pending": {
+      "title": "Confirmando su pago…",
+      "body": "Suele tardar solo unos segundos. Mantenga esta página abierta."
+    },
+    "slow": {
+      "title": "Aún esperando la confirmación.",
+      "body": "Su socio de pago todavía no lo ha confirmado. Recibirá un correo y una notificación en cuanto lo haga — su pedido está a salvo."
+    },
+    "paid": {
+      "title": "Gracias.",
+      "body": "Su pago está confirmado. Sus colecciones le esperan en su cuenta privada."
+    },
+    "failed": {
+      "title": "El pago no se ha completado.",
+      "body": "No se ha cobrado nada. Su carrito le espera — puede intentarlo de nuevo."
+    },
+    "cancelled": {
+      "title": "Pago cancelado.",
+      "body": "No se ha cobrado nada. Su carrito le espera."
+    },
+    "unknown": {
+      "title": "Pedido no encontrado.",
+      "body": "Consulte sus pedidos en su cuenta."
+    },
+    "viewPurchases": "Abrir mis compras",
+    "viewOrder": "Ver pedido",
+    "backToCart": "Volver al carrito"
+  }
+}

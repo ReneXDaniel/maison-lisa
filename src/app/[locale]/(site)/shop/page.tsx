@@ -45,7 +45,7 @@ export default async function ShopPage({ params, searchParams }: Props) {
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-3 text-xs text-taupe-700">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-taupe-700">
           <span className="eyebrow">{t("sortLabel")}</span>
           {SORTS.map((s) => (
             <Link key={s} href={q({ sort: s === "featured" ? undefined : s })} aria-current={sort === s ? "true" : undefined} className={clsx("whitespace-nowrap", sort === s ? "font-semibold text-espresso underline underline-offset-4" : "hover:text-espresso")}>

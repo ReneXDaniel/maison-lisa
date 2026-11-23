@@ -1,1 +1,91 @@
-{}
+{
+  "footer": "{brand} · Dies ist eine automatische Nachricht zu Ihrem Konto. Ausschließlich für Erwachsene ab 18 Jahren.",
+  "verifyEmail": {
+    "subject": "Bitte bestätigen Sie Ihre E-Mail-Adresse — {brand}",
+    "heading": "Willkommen bei {brand}.",
+    "body": "Vielen Dank für die Erstellung Ihres Kontos.\nBitte bestätigen Sie Ihre E-Mail-Adresse, um es zu aktivieren. Der Link ist 48 Stunden gültig.",
+    "cta": "E-Mail bestätigen"
+  },
+  "resetPassword": {
+    "subject": "Passwort zurücksetzen — {brand}",
+    "heading": "Wählen Sie ein neues Passwort.",
+    "body": "Wir haben eine Anfrage zum Zurücksetzen Ihres Passworts erhalten.\nDer Link ist eine Stunde gültig. Wenn Sie dies nicht angefordert haben, können Sie diese E-Mail ignorieren.",
+    "cta": "Passwort zurücksetzen"
+  },
+  "changeEmail": {
+    "subject": "Bestätigen Sie Ihre neue E-Mail-Adresse — {brand}",
+    "heading": "Bestätigen Sie Ihre neue E-Mail-Adresse.",
+    "body": "Bitte bestätigen Sie, dass Sie diese Adresse für Ihr {brand}-Konto verwenden möchten.",
+    "cta": "Neue Adresse bestätigen"
+  },
+  "emailChanged": {
+    "subject": "Ihre E-Mail-Adresse wurde geändert — {brand}",
+    "heading": "Ihre E-Mail-Adresse wurde geändert.",
+    "body": "Die E-Mail-Adresse Ihres Kontos wurde in {newEmail} geändert.\nWenn Sie diese Änderung nicht vorgenommen haben, kontaktieren Sie uns bitte umgehend."
+  },
+  "newMessage": {
+    "subject": "{creator} hat geantwortet — {brand}",
+    "heading": "Sie haben eine neue Nachricht.",
+    "body": "{creator} hat in Ihrem Gespräch geantwortet.\nZum Schutz Ihrer Privatsphäre sind Nachrichteninhalte nur in Ihrem Konto sichtbar.",
+    "cta": "Gespräch öffnen"
+  },
+  "adminNewMessage": {
+    "subject": "Neue Kundennachricht — {brand}",
+    "heading": "Eine Kundin oder ein Kunde hat Ihnen geschrieben.",
+    "body": "{customer} hat eine neue Nachricht gesendet.",
+    "cta": "Posteingang öffnen"
+  },
+  "offerReceived": {
+    "subject": "Ein persönliches Angebot für Sie — {brand}",
+    "heading": "Ihr persönliches Angebot ist bereit.",
+    "body": "{creator} hat ein persönliches Angebot vorbereitet: {title}.\nSie finden es in Ihrem privaten Gespräch.",
+    "cta": "Angebot ansehen"
+  },
+  "orderConfirmation": {
+    "subject": "Bestellung {number} bestätigt — {brand}",
+    "heading": "Vielen Dank für Ihre Bestellung.",
+    "body": "Ihre Bestellung {number} wurde erfolgreich bezahlt.\nGesamt: {total}.\nIhre Fotografien finden Sie in Ihrem Konto unter „Meine Käufe“.",
+    "cta": "Meine Käufe ansehen"
+  },
+  "refundUpdate": {
+    "subject": "Neuigkeiten zu Bestellung {number} — {brand}",
+    "heading": "Neuigkeiten zu Ihrer Bestellung.",
+    "body": "Bestellung {number} wurde aktualisiert: {status}.\nDer Zugriff auf die betroffenen Artikel wurde entsprechend angepasst.",
+    "cta": "Bestellung ansehen"
+  },
+  "requestUpdate": {
+    "subject": "Ihre Anfrage {number} — {brand}",
+    "heading": "Neuigkeiten zu Ihrer persönlichen Anfrage.",
+    "body": "Anfrage {number} hat jetzt den Status: {status}.",
+    "cta": "Anfrage ansehen"
+  },
+  "deliveryReady": {
+    "subject": "Ihre persönliche Kollektion ist bereit — {brand}",
+    "heading": "Ihre persönliche Kollektion ist bereit.",
+    "body": "{creator} hat Ihre persönliche Kollektion geliefert.\nSie können sie sicher in Ihrem Konto ansehen und herunterladen.",
+    "cta": "Meine Käufe öffnen"
+  },
+  "subscribeConfirm": {
+    "subject": "Bitte bestätigen Sie Ihr Abonnement — {brand}",
+    "heading": "Nur noch ein Schritt.",
+    "body": "Bitte bestätigen Sie, dass Sie Ankündigungen zu neuen Kollektionen von {brand} erhalten möchten.\nSie können sich jederzeit abmelden.",
+    "cta": "Abonnement bestätigen"
+  },
+  "adminNewOrder": {
+    "subject": "Neue Bestellung {number} — {brand}",
+    "heading": "Eine neue Bestellung wurde bezahlt.",
+    "body": "Bestellung {number} · {total}.",
+    "cta": "Bestellung ansehen"
+  },
+  "adminNewRequest": {
+    "subject": "Neue persönliche Anfrage {number} — {brand}",
+    "heading": "Eine neue persönliche Anfrage ist eingegangen.",
+    "body": "Anfrage {number} von {customer}.",
+    "cta": "Anfrage öffnen"
+  },
+  "accountDeleted": {
+    "subject": "Ihr Konto wurde gelöscht — {brand}",
+    "heading": "Ihr Konto wurde gelöscht.",
+    "body": "Wie gewünscht wurden Ihr Konto und Ihre personenbezogenen Daten gelöscht.\nRechnungen, die wir gesetzlich aufbewahren müssen, werden anonymisiert gespeichert."
+  }
+}

@@ -1,1 +1,52 @@
-{}
+{
+  "eyebrow": "Pagamento sicuro",
+  "title": "Cassa",
+  "intro": "Un unico pagamento per tutta la Sua selezione.",
+  "review": "Il Suo ordine",
+  "personalOffer": "Offerta personale",
+  "digitalCollection": "Collezione fotografica digitale",
+  "someUnavailable": "Gli articoli non disponibili sono stati rimossi da questo ordine.",
+  "paymentMethod": "Pagamento",
+  "paymentNote": "Sarà reindirizzato/a alla pagina sicura del nostro partner di pagamento. Non vediamo né conserviamo mai i dati della Sua carta.",
+  "devPayment": "Simulatore di sviluppo — nessun pagamento reale",
+  "country": "Paese di residenza",
+  "subtotal": "Subtotale",
+  "welcomeDiscount": "Sconto di benvenuto",
+  "codeDiscount": "Codice {code}",
+  "total": "Totale",
+  "vatIncluded": "IVA inclusa ({rate}%)",
+  "vatNone": "Nessuna IVA applicata",
+  "terms": "Accetto i <terms>Termini e condizioni</terms> e ho letto l’<privacy>Informativa sulla privacy</privacy>.",
+  "waiver": "Richiedo l'accesso immediato al contenuto digitale e riconosco di perdere così il diritto di recesso all'inizio della fornitura.",
+  "placeOrder": "Acquista ora — ordine con obbligo di pagamento",
+  "placeOrderNote": "L'acquisto è confermato solo dopo la conferma del pagamento da parte del nostro partner.",
+  "return": {
+    "pending": {
+      "title": "Conferma del pagamento in corso…",
+      "body": "Di solito bastano pochi secondi. Tenga aperta questa pagina."
+    },
+    "slow": {
+      "title": "Ancora in attesa di conferma.",
+      "body": "Il partner di pagamento non ha ancora confermato. Riceverà un'e-mail e una notifica appena lo farà — il Suo ordine è al sicuro."
+    },
+    "paid": {
+      "title": "Grazie.",
+      "body": "Il Suo pagamento è confermato. Le Sue collezioni La aspettano nel Suo account privato."
+    },
+    "failed": {
+      "title": "Il pagamento non è stato completato.",
+      "body": "Non è stato addebitato nulla. Il Suo carrello La aspetta — può riprovare."
+    },
+    "cancelled": {
+      "title": "Pagamento annullato.",
+      "body": "Non è stato addebitato nulla. Il Suo carrello La aspetta."
+    },
+    "unknown": {
+      "title": "Ordine non trovato.",
+      "body": "Controlli i Suoi ordini nell'account."
+    },
+    "viewPurchases": "Apri i miei acquisti",
+    "viewOrder": "Vedi l'ordine",
+    "backToCart": "Torna al carrello"
+  }
+}

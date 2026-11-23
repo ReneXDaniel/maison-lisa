@@ -1,1 +1,91 @@
-{}
+{
+  "footer": "{brand} · Esta é uma mensagem automática relativa à sua conta. Exclusivamente para adultos com 18 ou mais anos.",
+  "verifyEmail": {
+    "subject": "Confirme o seu endereço de e-mail — {brand}",
+    "heading": "Bem-vindo à {brand}.",
+    "body": "Obrigado por ter criado a sua conta.\nConfirme o seu endereço de e-mail para a ativar. O link é válido durante 48 horas.",
+    "cta": "Confirmar e-mail"
+  },
+  "resetPassword": {
+    "subject": "Repor a sua palavra-passe — {brand}",
+    "heading": "Defina uma nova palavra-passe.",
+    "body": "Recebemos um pedido para repor a palavra-passe da sua conta.\nO link é válido durante uma hora. Se não foi o próprio a fazer o pedido, ignore esta mensagem.",
+    "cta": "Repor palavra-passe"
+  },
+  "changeEmail": {
+    "subject": "Confirme o seu novo endereço de e-mail — {brand}",
+    "heading": "Confirme o seu novo endereço de e-mail.",
+    "body": "Confirme que pretende utilizar este endereço para a sua conta {brand}.",
+    "cta": "Confirmar novo endereço"
+  },
+  "emailChanged": {
+    "subject": "O seu endereço de e-mail foi alterado — {brand}",
+    "heading": "O seu endereço de e-mail foi alterado.",
+    "body": "O endereço de e-mail da sua conta foi alterado para {newEmail}.\nSe não foi o próprio a fazer esta alteração, contacte-nos imediatamente."
+  },
+  "newMessage": {
+    "subject": "{creator} respondeu — {brand}",
+    "heading": "Tem uma nova mensagem.",
+    "body": "{creator} respondeu na sua conversa.\nPara proteger a sua privacidade, o conteúdo da mensagem só está visível na sua conta.",
+    "cta": "Abrir conversa"
+  },
+  "adminNewMessage": {
+    "subject": "Nova mensagem de um cliente — {brand}",
+    "heading": "Um cliente escreveu-lhe.",
+    "body": "{customer} enviou uma nova mensagem.",
+    "cta": "Abrir caixa de entrada"
+  },
+  "offerReceived": {
+    "subject": "Uma oferta pessoal para si — {brand}",
+    "heading": "A sua oferta pessoal está pronta.",
+    "body": "{creator} preparou uma oferta pessoal para si: {title}.\nEncontra-a na sua conversa privada.",
+    "cta": "Ver oferta"
+  },
+  "orderConfirmation": {
+    "subject": "Encomenda {number} confirmada — {brand}",
+    "heading": "Obrigado pela sua encomenda.",
+    "body": "A encomenda {number} foi paga.\nTotal: {total}.\nAs suas fotografias estão disponíveis na sua conta, em As minhas compras.",
+    "cta": "Ver as minhas compras"
+  },
+  "refundUpdate": {
+    "subject": "Atualização da encomenda {number} — {brand}",
+    "heading": "Uma atualização sobre a sua encomenda.",
+    "body": "A encomenda {number} foi atualizada: {status}.\nO acesso aos artigos em causa foi ajustado em conformidade.",
+    "cta": "Ver encomenda"
+  },
+  "requestUpdate": {
+    "subject": "O seu pedido {number} — {brand}",
+    "heading": "Novidades sobre o seu pedido pessoal.",
+    "body": "O pedido {number} tem agora o estado: {status}.",
+    "cta": "Ver pedido"
+  },
+  "deliveryReady": {
+    "subject": "A sua coleção pessoal está pronta — {brand}",
+    "heading": "A sua coleção pessoal está pronta.",
+    "body": "{creator} entregou a sua coleção pessoal.\nPode vê-la e transferi-la em segurança na sua conta.",
+    "cta": "Abrir as minhas compras"
+  },
+  "subscribeConfirm": {
+    "subject": "Confirme a sua subscrição — {brand}",
+    "heading": "Só falta um passo.",
+    "body": "Confirme que pretende receber anúncios de novas coleções da {brand}.\nPode cancelar a subscrição a qualquer momento.",
+    "cta": "Confirmar subscrição"
+  },
+  "adminNewOrder": {
+    "subject": "Nova encomenda {number} — {brand}",
+    "heading": "Foi paga uma nova encomenda.",
+    "body": "Encomenda {number} · {total}.",
+    "cta": "Ver encomenda"
+  },
+  "adminNewRequest": {
+    "subject": "Novo pedido pessoal {number} — {brand}",
+    "heading": "Chegou um novo pedido pessoal.",
+    "body": "Pedido {number} de {customer}.",
+    "cta": "Abrir pedido"
+  },
+  "accountDeleted": {
+    "subject": "A sua conta foi eliminada — {brand}",
+    "heading": "A sua conta foi eliminada.",
+    "body": "Conforme solicitado, a sua conta e os seus dados pessoais foram eliminados.\nAs faturas que somos legalmente obrigados a conservar são guardadas de forma anonimizada."
+  }
+}

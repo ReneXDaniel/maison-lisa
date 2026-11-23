@@ -1,1 +1,57 @@
-{}
+{
+  "title": "Bezpieczna weryfikacja wieku.",
+  "intro": "Aby chronić małoletnich, prywatne wiadomości, osobiste prośby, zakupy i pobieranie są zarezerwowane dla zweryfikowanych dorosłych. Zajmuje to około dwóch minut i jest potrzebne tylko raz.",
+  "steps": {
+    "s1": {
+      "title": "Przygotuj dokument tożsamości",
+      "body": "Dowód osobisty, paszport lub inny obsługiwany dokument urzędowy."
+    },
+    "s2": {
+      "title": "Zweryfikuj się u naszego certyfikowanego partnera",
+      "body": "Partner sprawdza autentyczność dokumentu i potwierdza, że to naprawdę Ty."
+    },
+    "s3": {
+      "title": "Wróć do butiku",
+      "body": "Otrzymujemy tylko wynik — że masz ukończone 18 lat. Nigdy obrazy Twoich dokumentów."
+    }
+  },
+  "start": "Rozpocznij bezpieczną weryfikację",
+  "restart": "Uruchom weryfikację ponownie",
+  "continue": "Dalej",
+  "retry": "Spróbuj ponownie",
+  "checking": "Czekamy na wynik od naszego partnera weryfikacyjnego…",
+  "returnTitle": "Twoja weryfikacja.",
+  "statusLabel": "Aktualny status",
+  "privacy": "Weryfikację przeprowadza niezależny dostawca na własnych, bezpiecznych stronach. MAISON LISA przechowuje wyłącznie wynik, datę i identyfikator dostawcy — bez kopii dokumentów i danych biometrycznych. Szczegóły w naszej Polityce prywatności.",
+  "devNote": "Tryb deweloperski: oznaczony symulator zastępuje dostawcę tożsamości",
+  "status": {
+    "not_verified": {
+      "title": "Jeszcze niezweryfikowano",
+      "body": "Przejdź weryfikację, aby odblokować wiadomości, prośby i zakupy."
+    },
+    "pending": {
+      "title": "Weryfikacja w toku",
+      "body": "Czekamy na wynik. Zwykle trwa to mniej niż minutę."
+    },
+    "verified": {
+      "title": "Zweryfikowana osoba dorosła",
+      "body": "Dziękujemy. Wszystkie funkcje butiku są teraz dla Ciebie dostępne."
+    },
+    "failed": {
+      "title": "Weryfikacja nieudana",
+      "body": "Nie udało się potwierdzić, że masz ukończone 18 lat. Możesz spróbować ponownie z ważnym dokumentem."
+    },
+    "manual_review": {
+      "title": "W trakcie sprawdzania",
+      "body": "Nasz partner ręcznie sprawdza Twoje dokumenty. Powiadomimy Cię, gdy zapadnie decyzja."
+    },
+    "expired": {
+      "title": "Weryfikacja wygasła",
+      "body": "Twoja weryfikacja wygasła. Zweryfikuj się ponownie, aby kontynuować."
+    },
+    "revoked": {
+      "title": "Weryfikacja cofnięta",
+      "body": "Twoja weryfikacja została cofnięta. Skontaktuj się z nami, jeśli uważasz, że to pomyłka."
+    }
+  }
+}

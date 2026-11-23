@@ -1,1 +1,26 @@
-{}
+{
+  "home": "Home",
+  "collections": "Collecties",
+  "nailStudio": "Nagelstudio",
+  "customRequests": "Persoonlijke verzoeken",
+  "about": "Over Lisa",
+  "shop": "Shop",
+  "messages": "Berichten",
+  "messagesUnread": "Berichten, {count} ongelezen",
+  "lookStudio": "Lookstudio",
+  "quiz": "Stijlquiz",
+  "nextChapter": "Het volgende hoofdstuk",
+  "account": "Mijn account",
+  "cart": "Winkelwagen",
+  "cartCount": "Winkelwagen, {count, plural, =0 {leeg} one {# artikel} other {# artikelen}}",
+  "login": "Inloggen",
+  "register": "Account aanmaken",
+  "logout": "Uitloggen",
+  "language": "Taal",
+  "openMenu": "Menu openen",
+  "closeMenu": "Menu sluiten",
+  "menu": "Menu",
+  "primary": "Hoofdnavigatie",
+  "skipToContent": "Naar de inhoud",
+  "admin": "Atelier"
+}

@@ -1,1 +1,8 @@
-{}
+{
+  "eyebrow": "Coleções",
+  "title": "Selecionado com elegância.",
+  "intro": "Seis capítulos de uma mesma linguagem visual — dos clássicos serenos à edição privada.",
+  "count": "{count, plural, =0 {Brevemente} one {# coleção} other {# coleções}}",
+  "discover": "Descobrir a coleção",
+  "emptyCollection": "Estão a ser preparadas novas fotografias para esta coleção."
+}

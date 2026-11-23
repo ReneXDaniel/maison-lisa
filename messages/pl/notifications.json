@@ -1,1 +1,19 @@
-{}
+{
+  "title": "Powiadomienia",
+  "bell": "Powiadomienia",
+  "bellUnread": "Powiadomienia, nieprzeczytane: {count}",
+  "empty": "Wszystko przeczytane.",
+  "types": {
+    "message_from_lisa": "Lisa odpowiada w Twojej rozmowie",
+    "offer_received": "Nowa oferta osobista dla Ciebie",
+    "request_update": "Nowości dotyczące prośby {number}",
+    "order_paid": "Zamówienie {number} potwierdzone",
+    "product_available": "Twoje zdjęcia są gotowe",
+    "refund_update": "Aktualizacja zamówienia {number}",
+    "admin_new_message": "Nowa wiadomość od klienta",
+    "admin_new_request": "Nowa osobista prośba {number}",
+    "admin_offer_response": "Klient odpowiada na Twoją ofertę",
+    "admin_new_order": "Nowe zamówienie {number}",
+    "admin_payment_issue": "Problem z płatnością zamówienia {number}"
+  }
+}

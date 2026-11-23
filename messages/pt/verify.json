@@ -1,1 +1,57 @@
-{}
+{
+  "title": "Verificação de idade segura.",
+  "intro": "Para proteger os menores, as mensagens privadas, os pedidos pessoais, as compras e as transferências estão reservados a adultos verificados. Demora cerca de dois minutos e só é necessário uma vez.",
+  "steps": {
+    "s1": {
+      "title": "Tenha o seu documento à mão",
+      "body": "Cartão de Cidadão, passaporte ou outro documento oficial suportado."
+    },
+    "s2": {
+      "title": "Verifique-se junto do nosso parceiro certificado",
+      "body": "O parceiro verifica a autenticidade do documento e confirma que é realmente o próprio."
+    },
+    "s3": {
+      "title": "Volte à boutique",
+      "body": "Recebemos apenas o resultado — que tem 18 anos ou mais. Nunca imagens dos seus documentos."
+    }
+  },
+  "start": "Iniciar a verificação segura",
+  "restart": "Reiniciar a verificação",
+  "continue": "Continuar",
+  "retry": "Tentar novamente",
+  "checking": "A aguardar o resultado do nosso parceiro de verificação…",
+  "returnTitle": "A sua verificação.",
+  "statusLabel": "Estado atual",
+  "privacy": "A verificação é feita por um fornecedor independente, nas suas próprias páginas seguras. A MAISON LISA guarda apenas o resultado, a data e a referência do fornecedor — sem cópias de documentos nem dados biométricos. Mais detalhes na nossa Política de Privacidade.",
+  "devNote": "Modo de desenvolvimento: um simulador identificado substitui o fornecedor de identidade",
+  "status": {
+    "not_verified": {
+      "title": "Ainda não verificado",
+      "body": "Faça a verificação para desbloquear mensagens, pedidos e compras."
+    },
+    "pending": {
+      "title": "Verificação em curso",
+      "body": "Estamos a aguardar o resultado. Normalmente demora menos de um minuto."
+    },
+    "verified": {
+      "title": "Adulto verificado",
+      "body": "Obrigado. Todas as funcionalidades da boutique estão agora disponíveis para si."
+    },
+    "failed": {
+      "title": "Verificação falhada",
+      "body": "Não foi possível confirmar que tem 18 anos ou mais. Pode tentar novamente com um documento válido."
+    },
+    "manual_review": {
+      "title": "Em análise",
+      "body": "O nosso parceiro está a analisar os seus documentos manualmente. Iremos avisá-lo assim que houver uma decisão."
+    },
+    "expired": {
+      "title": "Verificação expirada",
+      "body": "A sua verificação expirou. Volte a verificar-se para continuar."
+    },
+    "revoked": {
+      "title": "Verificação revogada",
+      "body": "A sua verificação foi revogada. Contacte-nos se considerar que se trata de um erro."
+    }
+  }
+}

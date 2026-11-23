@@ -1,1 +1,52 @@
-{}
+{
+  "eyebrow": "Paiement sécurisé",
+  "title": "Paiement",
+  "intro": "Un seul paiement pour toute votre sélection.",
+  "review": "Votre commande",
+  "personalOffer": "Offre personnelle",
+  "digitalCollection": "Collection photo numérique",
+  "someUnavailable": "Les articles indisponibles ont été retirés de cette commande.",
+  "paymentMethod": "Paiement",
+  "paymentNote": "Vous serez redirigé(e) vers la page sécurisée de notre partenaire de paiement. Nous ne voyons ni ne conservons jamais vos données de carte.",
+  "devPayment": "Simulateur de développement — aucun paiement réel",
+  "country": "Pays de résidence",
+  "subtotal": "Sous-total",
+  "welcomeDiscount": "Remise de bienvenue",
+  "codeDiscount": "Code {code}",
+  "total": "Total",
+  "vatIncluded": "Dont TVA {rate} %",
+  "vatNone": "Aucune TVA facturée",
+  "terms": "J'accepte les <terms>Conditions générales</terms> et j'ai lu la <privacy>Politique de confidentialité</privacy>.",
+  "waiver": "Je demande l'accès immédiat au contenu numérique et reconnais perdre ainsi mon droit de rétractation dès le début de la fourniture.",
+  "placeOrder": "Acheter — commande avec obligation de paiement",
+  "placeOrderNote": "Votre achat n'est confirmé qu'après confirmation du paiement par notre partenaire.",
+  "return": {
+    "pending": {
+      "title": "Confirmation de votre paiement…",
+      "body": "Cela ne prend généralement que quelques secondes. Merci de garder cette page ouverte."
+    },
+    "slow": {
+      "title": "Toujours en attente de confirmation.",
+      "body": "Votre partenaire de paiement n'a pas encore confirmé. Vous recevrez un e-mail et une notification dès que ce sera fait — votre commande est en sécurité."
+    },
+    "paid": {
+      "title": "Merci.",
+      "body": "Votre paiement est confirmé. Vos collections vous attendent dans votre espace privé."
+    },
+    "failed": {
+      "title": "Le paiement n'a pas abouti.",
+      "body": "Aucun montant n'a été débité. Votre panier vous attend — vous pouvez réessayer."
+    },
+    "cancelled": {
+      "title": "Paiement annulé.",
+      "body": "Aucun montant n'a été débité. Votre panier vous attend."
+    },
+    "unknown": {
+      "title": "Commande introuvable.",
+      "body": "Veuillez consulter vos commandes dans votre compte."
+    },
+    "viewPurchases": "Ouvrir mes achats",
+    "viewOrder": "Voir la commande",
+    "backToCart": "Retour au panier"
+  }
+}

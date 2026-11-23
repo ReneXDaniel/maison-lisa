@@ -1,1 +1,79 @@
-{}
+{
+  "nail": {
+    "metaTitle": "Nagelstudio",
+    "eyebrow": "Nagelstudio",
+    "title": "Ihre Farbe. Ihr Wunsch.",
+    "body": "Jedes Detail liegt in Ihrer Hand. Fahren Sie über ein Fläschchen für eine Vorschau, klicken Sie, um die Farbe zu wählen.",
+    "chooseColor": "Wählen Sie Ihre Farbe",
+    "natural": "Natürlich",
+    "preview": "Vorschau",
+    "previewLabel": "Vorschau der Nagelfarbe: {color}",
+    "saved": "Farbe und Finish sind gespeichert und werden automatisch in Ihre persönliche Anfrage übernommen.",
+    "cta": "Persönliche Anfrage erstellen",
+    "demoNote": "Demo-Illustration — im Admin durch Lisas Foto und Nagelmaske ersetzen"
+  },
+  "look": {
+    "metaTitle": "Look-Studio",
+    "eyebrow": "Look-Studio",
+    "title": "Den Look komponieren.",
+    "body": "Kombinieren Sie Strümpfe, Schuhe, Accessoires und Szenerie — und übernehmen Sie den Look in eine persönliche Anfrage.",
+    "illustrative": "Illustrative Vorschau. Kombinationen sind gezeichnet, nicht fotografiert.",
+    "saved": "Ihr Look ist für Ihre persönliche Anfrage gespeichert.",
+    "cta": "Diesen Look anfragen"
+  },
+  "vote": {
+    "eyebrow": "Ihre Stimme",
+    "title": "Wählen Sie {creator}s nächsten Look.",
+    "body": "Stimmen Sie für das Styling-Konzept, das Sie am liebsten in {creator}s nächster Kollektion sehen möchten.",
+    "option": "Konzept {n}",
+    "vote": "Für diesen Look stimmen",
+    "change": "Stimme ändern",
+    "yourVote": "Ihre Stimme ✓",
+    "share": "{pct} % der Stimmen",
+    "oneVote": "Eine Stimme pro verifizierter Kundin bzw. verifiziertem Kunden. Solange die Abstimmung offen ist, können Sie Ihre Stimme ändern.",
+    "verifiedOnly": "Die Abstimmung steht verifizierten erwachsenen Kundinnen und Kunden offen.",
+    "verify": "Jetzt verifizieren",
+    "signIn": "Anmelden"
+  },
+  "quiz": {
+    "metaTitle": "Entdecken Sie Ihren Stil",
+    "eyebrow": "Stilquiz",
+    "title": "Entdecken Sie Ihren Stil.",
+    "body": "Vier spielerische Fragen. Eine Kollektion für Sie.",
+    "progress": "Frage {n} von {total}",
+    "back": "Vorherige Frage",
+    "q1": {
+      "question": "Klassisch oder geheimnisvoll?",
+      "classic": "Klassisch",
+      "classicHint": "Klare Linien, ruhiges Licht",
+      "mysterious": "Geheimnisvoll",
+      "mysteriousHint": "Schatten und tiefe Töne"
+    },
+    "q2": {
+      "question": "Zart oder kräftig?",
+      "soft": "Zart",
+      "softHint": "Nude, Rosé, hauchzart",
+      "bold": "Kräftig",
+      "boldHint": "Kirschrot, Bordeaux, Lack"
+    },
+    "q3": {
+      "question": "Elfenbein oder Espresso?",
+      "ivory": "Elfenbein",
+      "ivoryHint": "Hell und luftig",
+      "espresso": "Espresso",
+      "espressoHint": "Warm und dramatisch"
+    },
+    "q4": {
+      "question": "Seide oder Spitze?",
+      "silk": "Seide",
+      "silkHint": "Fließend und leuchtend",
+      "lace": "Spitze",
+      "laceHint": "Zart und filigran"
+    },
+    "resultEyebrow": "Ihre Kollektion",
+    "explore": "Ihre Kollektion entdecken",
+    "custom": "Persönliche Anfrage erstellen",
+    "disclaimer": "Nur zum Spaß — Ihr Ergebnis ist ein Stilvorschlag, nicht mehr. Ihre Antworten werden nicht auf unseren Servern gespeichert.",
+    "restart": "Neu beginnen"
+  }
+}

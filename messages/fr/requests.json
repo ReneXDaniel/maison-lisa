@@ -1,1 +1,64 @@
-{}
+{
+  "metaTitle": "Demandes personnelles",
+  "eyebrow": "Demandes personnelles",
+  "title": "Votre vision. L'art de {creator}.",
+  "intro": "Composez une collection photo personnelle, détail par détail. Votre demande est transmise à Lisa dans une conversation privée, où vous pouvez tout échanger avant qu'une offre ne soit faite.",
+  "steps": {
+    "polish": "Le vernis",
+    "style": "L'ambiance",
+    "styling": "Le stylisme",
+    "setting": "Le décor",
+    "wishes": "Vos souhaits"
+  },
+  "fromStudio": "Repris de votre sélection au Studio ongles",
+  "wishesLabel": "Souhaits supplémentaires",
+  "wishesPlaceholder": "Décrivez l'ambiance, un détail que vous aimez, ou tout ce que Lisa devrait savoir…",
+  "wishesHint": "Merci de formuler vos demandes avec respect et dans un esprit artistique. Lisa décide des demandes qu'elle accepte.",
+  "summary": "Votre sélection",
+  "reset": "Réinitialiser la sélection",
+  "openGift": "Préparer ma demande",
+  "giftTitle": "Votre vision. L'art de Lisa.",
+  "giftSubtitle": "Créons quelque chose de personnel.",
+  "giftHint": "Cliquez sur la boîte pour l'ouvrir",
+  "send": "Envoyer ma demande à Lisa",
+  "sending": "Envoi de votre demande…",
+  "edit": "Modifier la sélection",
+  "greeting": "Bonjour Lisa, j'aimerais beaucoup vous demander une collection photo personnalisée.",
+  "loginRequired": "Pour envoyer votre demande, veuillez vous connecter et effectuer la vérification d'âge unique. Votre sélection est enregistrée et vous attend.",
+  "continueToSignIn": "Se connecter pour envoyer",
+  "verifyToSend": "Vérifier pour envoyer",
+  "nothingSelected": "Choisissez au moins un détail ou décrivez vos souhaits.",
+  "howItWorks": "Comment ça marche",
+  "how": {
+    "h1": {
+      "title": "Composer",
+      "body": "Choisissez couleurs, stylisme et ambiance — ou décrivez simplement votre idée."
+    },
+    "h2": {
+      "title": "Échanger",
+      "body": "Votre demande arrive dans une conversation privée avec Lisa."
+    },
+    "h3": {
+      "title": "Recevoir une offre",
+      "body": "Si Lisa accepte, elle vous envoie une offre personnelle avec prix et livraison."
+    },
+    "h4": {
+      "title": "Savourer",
+      "body": "Après le paiement, votre collection est livrée dans votre espace privé."
+    }
+  },
+  "status": {
+    "draft": "Brouillon",
+    "submitted": "Envoyée",
+    "under_review": "En cours d'examen",
+    "awaiting_customer": "En attente de votre réponse",
+    "offer_sent": "Offre envoyée",
+    "accepted": "Acceptée",
+    "rejected": "Refusée",
+    "paid": "Payée",
+    "in_production": "En production",
+    "delivered": "Livrée",
+    "completed": "Terminée",
+    "cancelled": "Annulée"
+  }
+}

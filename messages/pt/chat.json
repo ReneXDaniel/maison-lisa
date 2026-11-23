@@ -1,1 +1,83 @@
-{}
+{
+  "title": "Mensagens",
+  "private": "Conversa privada",
+  "search": "Pesquisar conversas",
+  "newConversation": "Nova conversa",
+  "empty": "Ainda sem conversas",
+  "emptyBody": "Escreva à Lisa — sobre uma coleção, um pedido pessoal ou simplesmente para se apresentar.",
+  "emptyAdmin": "Por agora não há nada aqui.",
+  "noMessages": "Ainda sem mensagens",
+  "unreadCount": "{count} não lidas",
+  "selectPrompt": "Escolha uma conversa ou inicie uma nova com {creator}.",
+  "startTitle": "Enviar mensagem a {creator}",
+  "subjectLabel": "Assunto (opcional)",
+  "subjectPlaceholder": "Assunto (opcional)",
+  "placeholder": "Escreva uma mensagem…",
+  "send": "Enviar",
+  "attach": "Anexar imagens",
+  "removeAttachment": "Remover anexo",
+  "attachmentsHint": "Até 4 imagens · JPEG, PNG ou WebP · máx. {mb} MB cada",
+  "sending": "A enviar…",
+  "sent": "Enviada",
+  "delivered": "Entregue",
+  "read": "Lida",
+  "retry": "Não enviada — tentar novamente",
+  "loadEarlier": "Carregar mensagens anteriores",
+  "draftSaved": "Rascunho guardado neste dispositivo",
+  "back": "Todas as conversas",
+  "privateNote": "Esta é uma conversa privada. {creator} responde pessoalmente — aqui não há mensagens automáticas.",
+  "archivedNote": "Esta conversa está arquivada. Uma nova mensagem volta a abri-la.",
+  "previewKinds": {
+    "request": "Pedido pessoal",
+    "offer": "Oferta pessoal",
+    "system": "Atualização",
+    "text": "Mensagem"
+  },
+  "filters": {
+    "all": "Caixa de entrada",
+    "unread": "Não lidas",
+    "awaiting_lisa": "A aguardar resposta",
+    "flagged": "Assinaladas",
+    "archived": "Arquivadas"
+  },
+  "status": {
+    "new": "Nova",
+    "active": "Ativa",
+    "awaiting_lisa": "A aguardar resposta da Lisa",
+    "awaiting_customer": "A aguardar a sua resposta",
+    "completed": "Concluída",
+    "archived": "Arquivada"
+  },
+  "request": {
+    "title": "Pedido pessoal · n.º {number}",
+    "wishes": "Desejos adicionais"
+  },
+  "offer": {
+    "label": "A sua oferta pessoal",
+    "price": "Preço",
+    "delivery": "Entrega",
+    "deadline": "Válida até",
+    "accept": "Aceitar oferta",
+    "decline": "Recusar",
+    "addToCart": "Adicionar ao carrinho",
+    "goToCart": "Ir para o carrinho",
+    "addedTitle": "A oferta está no seu carrinho",
+    "acceptNote": "Aceitar adiciona a oferta ao seu carrinho. O pagamento só acontece no checkout.",
+    "status": {
+      "open": "A aguardar a sua decisão",
+      "accepted": "Aceite",
+      "declined": "Recusada",
+      "paid": "Comprada",
+      "expired": "Expirada",
+      "withdrawn": "Retirada"
+    }
+  },
+  "adminStatus": {
+    "new": "Nova",
+    "active": "Ativa",
+    "awaiting_lisa": "A aguardar a sua resposta",
+    "awaiting_customer": "A aguardar o cliente",
+    "completed": "Concluída",
+    "archived": "Arquivada"
+  }
+}

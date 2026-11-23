@@ -1,1 +1,26 @@
-{}
+{
+  "home": "Início",
+  "collections": "Coleções",
+  "nailStudio": "Estúdio de unhas",
+  "customRequests": "Pedidos pessoais",
+  "about": "Sobre a Lisa",
+  "shop": "Loja",
+  "messages": "Mensagens",
+  "messagesUnread": "Mensagens, {count} não lidas",
+  "lookStudio": "Estúdio de looks",
+  "quiz": "Quiz de estilo",
+  "nextChapter": "O próximo capítulo",
+  "account": "A minha conta",
+  "cart": "Carrinho",
+  "cartCount": "Carrinho, {count, plural, =0 {vazio} one {# artigo} other {# artigos}}",
+  "login": "Iniciar sessão",
+  "register": "Criar conta",
+  "logout": "Terminar sessão",
+  "language": "Idioma",
+  "openMenu": "Abrir menu",
+  "closeMenu": "Fechar menu",
+  "menu": "Menu",
+  "primary": "Navegação principal",
+  "skipToContent": "Saltar para o conteúdo",
+  "admin": "Atelier"
+}

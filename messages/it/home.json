@@ -1,1 +1,95 @@
-{}
+{
+  "meta": {
+    "title": "La bellezza in ogni dettaglio"
+  },
+  "hero": {
+    "eyebrow": "Una boutique digitale privata",
+    "title": "MAISON LISA",
+    "subtitle": "La bellezza in ogni dettaglio.",
+    "support": "Un mondo esclusivo di eleganza, individualità e momenti meravigliosamente personali.",
+    "ctaCollection": "Scopri la mia collezione",
+    "ctaExperience": "Crea la tua esperienza",
+    "scroll": "Scorri"
+  },
+  "welcome": {
+    "eyebrow": "Per i nuovi clienti",
+    "title": "La Sua prima esperienza MAISON LISA.",
+    "body": "Approfitti del {percent}% di sconto sul primo ordine.",
+    "cta": "Scopri la collezione",
+    "note": "Applicato automaticamente al primo ordine al momento del pagamento."
+  },
+  "intro": {
+    "eyebrow": "La Maison",
+    "title": "Dove l'eleganza diventa personale.",
+    "body": "Ogni collezione è curata, illuminata e fotografata con pazienza — calda luce di studio, seta avorio, la quieta bellezza di un dettaglio scelto con cura. Scopra editoriali completi o crei una collezione personale insieme a {creator}."
+  },
+  "silk": {
+    "eyebrow": "Dietro la seta",
+    "title": "Certi dettagli meritano uno sguardo più attento.",
+    "caption": "Scorra lentamente.",
+    "fallback": "Qui viene riprodotta un'animazione quando il movimento è attivo."
+  },
+  "collections": {
+    "eyebrow": "Le collezioni",
+    "title": "Curate con eleganza.",
+    "all": "Vedi tutte le collezioni"
+  },
+  "details": {
+    "eyebrow": "I dettagli",
+    "title": "Un mondo di dettagli preziosi.",
+    "body": "Tocchi o passi sopra i punti luminosi per scoprire i dettagli dell'immagine.",
+    "hint": "Scopri i dettagli",
+    "hotspots": {
+      "polish": {
+        "title": "Lo smalto",
+        "body": "Uno smalto champagne lucido, applicato a mano la mattina dello shooting."
+      },
+      "jewelry": {
+        "title": "Gioiello per il piede",
+        "body": "Una sottile cavigliera con un'unica perla — discreta, mai eccessiva."
+      },
+      "stockings": {
+        "title": "Calze sottili",
+        "body": "Seta velata da 10 denari con cucitura delicata, scelta per la sua morbida lucentezza."
+      },
+      "silk": {
+        "title": "Accessori in seta",
+        "body": "Charmeuse champagne, drappeggiata con leggerezza per catturare la luce del mattino."
+      },
+      "styling": {
+        "title": "Styling",
+        "body": "Ogni elemento è posizionato a mano. Nulla è casuale."
+      }
+    }
+  },
+  "nail": {
+    "eyebrow": "Nail Studio",
+    "title": "Il Suo colore. Il Suo desiderio.",
+    "body": "Ogni dettaglio è a Sua scelta.",
+    "cta": "Entra nel Nail Studio"
+  },
+  "quiz": {
+    "eyebrow": "Quiz di stile",
+    "title": "Scopra il Suo stile.",
+    "body": "Quattro domande giocose, una collezione scelta per Lei.",
+    "cta": "Inizia il quiz"
+  },
+  "about": {
+    "eyebrow": "La persona dietro i dettagli",
+    "title": "Ecco Lisa.",
+    "body": "Scopra la creatività, lo stile e la personalità dietro ogni collezione MAISON LISA.",
+    "cta": "Conosci Lisa"
+  },
+  "next": {
+    "eyebrow": "Prossimamente",
+    "title": "Il prossimo capitolo.",
+    "cta": "Scopri le novità"
+  },
+  "final": {
+    "title": "La Sua visione. L'arte di {creator}.",
+    "body": "Scelga il colore, lo styling e l'atmosfera — e invii i Suoi desideri a Lisa in una conversazione privata.",
+    "cta": "Crea una richiesta personale",
+    "secondary": "Scrivere a {creator}"
+  },
+  "announcement": ""
+}

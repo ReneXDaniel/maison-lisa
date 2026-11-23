@@ -1,1 +1,51 @@
-{}
+{
+  "metaTitle": "Sobre Lisa",
+  "eyebrow": "La persona detrás de los detalles",
+  "subtitle": "Descubra a la persona detrás de los detalles.",
+  "portraitAlt": "Retrato de {creator}",
+  "portraitPlaceholder": "Ilustración provisional — aquí aparecerá el retrato de Lisa.",
+  "intro": {
+    "title": "Le presentamos a {creator}.",
+    "body": "Este espacio está reservado a las palabras de Lisa — quién es, qué la inspira y cómo nació MAISON LISA.\nLisa puede escribir y actualizar este texto en cualquier momento desde su panel."
+  },
+  "cards": {
+    "c1": {
+      "title": "Un poco sobre mí",
+      "body": "Una breve presentación personal, escrita por la propia Lisa."
+    },
+    "c2": {
+      "title": "Mis cosas favoritas",
+      "body": "Colores, tejidos, lugares y pequeños rituales que Lisa adora — en sus palabras."
+    },
+    "c3": {
+      "title": "Lo que me hace sonreír",
+      "body": "Los momentos y detalles que iluminan el día de Lisa."
+    },
+    "c4": {
+      "title": "Mi lado creativo",
+      "body": "Cómo nace una colección — de la primera idea a la fotografía final."
+    },
+    "c5": {
+      "title": "Un pequeño secreto",
+      "body": "Algo que Lisa desea compartir con sus clientes. Lo escribirá Lisa."
+    }
+  },
+  "bts": {
+    "eyebrow": "Entre bastidores",
+    "title": "Así nace una colección.",
+    "body": "Momentos silenciosos en el estudio — preparación, color, tejido y luz.",
+    "items": {
+      "b1": "Elegir el esmalte",
+      "b2": "Disponer los tejidos",
+      "b3": "Elegir las joyas",
+      "b4": "Luz de estudio",
+      "b5": "Estilismo creativo",
+      "b6": "Detalles fotográficos"
+    }
+  },
+  "final": {
+    "title": "Ahora me conoce un poco.",
+    "body": "¿Qué le gustaría contarme de usted?"
+  },
+  "cta": "Escribir a {creator}"
+}

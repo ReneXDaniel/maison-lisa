@@ -1,1 +1,26 @@
-{}
+{
+  "home": "Strona główna",
+  "collections": "Kolekcje",
+  "nailStudio": "Studio paznokci",
+  "customRequests": "Osobiste prośby",
+  "about": "O Lisie",
+  "shop": "Sklep",
+  "messages": "Wiadomości",
+  "messagesUnread": "Wiadomości, nieprzeczytane: {count}",
+  "lookStudio": "Studio stylizacji",
+  "quiz": "Quiz stylu",
+  "nextChapter": "Następny rozdział",
+  "account": "Moje konto",
+  "cart": "Koszyk",
+  "cartCount": "Koszyk, {count, plural, =0 {pusty} one {# pozycja} few {# pozycje} many {# pozycji} other {# pozycji}}",
+  "login": "Zaloguj się",
+  "register": "Utwórz konto",
+  "logout": "Wyloguj się",
+  "language": "Język",
+  "openMenu": "Otwórz menu",
+  "closeMenu": "Zamknij menu",
+  "menu": "Menu",
+  "primary": "Nawigacja główna",
+  "skipToContent": "Przejdź do treści",
+  "admin": "Atelier"
+}

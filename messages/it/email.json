@@ -1,1 +1,91 @@
-{}
+{
+  "footer": "{brand} · Questo è un messaggio automatico relativo al Suo account. Esclusivamente per adulti dai 18 anni in su.",
+  "verifyEmail": {
+    "subject": "Confermi la Sua e-mail — {brand}",
+    "heading": "Benvenuto/a su {brand}.",
+    "body": "Grazie per aver creato il Suo account.\nConfermi il Suo indirizzo e-mail per attivarlo. Il link è valido 48 ore.",
+    "cta": "Conferma e-mail"
+  },
+  "resetPassword": {
+    "subject": "Reimposti la password — {brand}",
+    "heading": "Scelga una nuova password.",
+    "body": "Abbiamo ricevuto una richiesta di reimpostazione della password del Suo account.\nIl link è valido un'ora. Se non l'ha richiesto, ignori questa e-mail.",
+    "cta": "Reimposta la password"
+  },
+  "changeEmail": {
+    "subject": "Confermi il nuovo indirizzo e-mail — {brand}",
+    "heading": "Confermi il nuovo indirizzo e-mail.",
+    "body": "Confermi di voler usare questo indirizzo per il Suo account {brand}.",
+    "cta": "Conferma il nuovo indirizzo"
+  },
+  "emailChanged": {
+    "subject": "Il Suo indirizzo e-mail è stato modificato — {brand}",
+    "heading": "Il Suo indirizzo e-mail è stato modificato.",
+    "body": "L'indirizzo e-mail del Suo account è stato cambiato in {newEmail}.\nSe non ha effettuato Lei questa modifica, ci contatti immediatamente."
+  },
+  "newMessage": {
+    "subject": "{creator} Le ha risposto — {brand}",
+    "heading": "Ha un nuovo messaggio.",
+    "body": "{creator} ha risposto alla Sua conversazione.\nPer la Sua privacy, il contenuto dei messaggi è visibile solo nel Suo account.",
+    "cta": "Apri la conversazione"
+  },
+  "adminNewMessage": {
+    "subject": "Nuovo messaggio da un cliente — {brand}",
+    "heading": "Un cliente Le ha scritto.",
+    "body": "{customer} ha inviato un nuovo messaggio.",
+    "cta": "Apri la posta in arrivo"
+  },
+  "offerReceived": {
+    "subject": "Un'offerta personale per Lei — {brand}",
+    "heading": "La Sua offerta personale è pronta.",
+    "body": "{creator} ha preparato un'offerta personale: {title}.\nLa trova nella Sua conversazione privata.",
+    "cta": "Vedi l'offerta"
+  },
+  "orderConfirmation": {
+    "subject": "Ordine {number} confermato — {brand}",
+    "heading": "Grazie per il Suo ordine.",
+    "body": "Il Suo ordine {number} è stato pagato con successo.\nTotale: {total}.\nLe Sue fotografie sono disponibili nell'account, in I miei acquisti.",
+    "cta": "Vedi i miei acquisti"
+  },
+  "refundUpdate": {
+    "subject": "Aggiornamento sull'ordine {number} — {brand}",
+    "heading": "Un aggiornamento sul Suo ordine.",
+    "body": "L'ordine {number} è stato aggiornato: {status}.\nL'accesso agli articoli interessati è stato adeguato di conseguenza.",
+    "cta": "Vedi l'ordine"
+  },
+  "requestUpdate": {
+    "subject": "La Sua richiesta {number} — {brand}",
+    "heading": "Novità sulla Sua richiesta personale.",
+    "body": "La richiesta {number} è ora: {status}.",
+    "cta": "Vedi la richiesta"
+  },
+  "deliveryReady": {
+    "subject": "La Sua collezione personale è pronta — {brand}",
+    "heading": "La Sua collezione personale è pronta.",
+    "body": "{creator} ha consegnato la Sua collezione personale.\nPuò visualizzarla e scaricarla in modo sicuro nel Suo account.",
+    "cta": "Apri i miei acquisti"
+  },
+  "subscribeConfirm": {
+    "subject": "Confermi la Sua iscrizione — {brand}",
+    "heading": "Un ultimo passaggio.",
+    "body": "Confermi di voler ricevere gli annunci delle nuove collezioni di {brand}.\nPuò annullare l'iscrizione in qualsiasi momento.",
+    "cta": "Conferma l'iscrizione"
+  },
+  "adminNewOrder": {
+    "subject": "Nuovo ordine {number} — {brand}",
+    "heading": "È stato pagato un nuovo ordine.",
+    "body": "Ordine {number} · {total}.",
+    "cta": "Vedi l'ordine"
+  },
+  "adminNewRequest": {
+    "subject": "Nuova richiesta personale {number} — {brand}",
+    "heading": "È arrivata una nuova richiesta personale.",
+    "body": "Richiesta {number} da {customer}.",
+    "cta": "Apri la richiesta"
+  },
+  "accountDeleted": {
+    "subject": "Il Suo account è stato eliminato — {brand}",
+    "heading": "Il Suo account è stato eliminato.",
+    "body": "Come richiesto, il Suo account e i Suoi dati personali sono stati eliminati.\nLe fatture che siamo tenuti per legge a conservare vengono mantenute in forma anonima."
+  }
+}

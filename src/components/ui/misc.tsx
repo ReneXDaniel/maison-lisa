@@ -82,7 +82,7 @@ export function EmptyState({ title, body, action }: { title: ReactNode; body?: R
 /** Small visible label marking development-only simulated functionality. */
 export function DevLabel({ children }: { children: ReactNode }) {
   return (
-    <span className="inline-flex items-center gap-1 border border-dashed border-[#6b5a8a] bg-[#efeaf5] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#352a4a]">
+    <span className="inline-flex max-w-full items-center gap-1 border border-dashed border-[#6b5a8a] bg-[#efeaf5] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#352a4a]">
       {children}
     </span>
   );

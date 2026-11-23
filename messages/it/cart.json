@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Il Suo carrello",
+  "intro": "Controlli la Sua selezione. Gli importi vengono confermati in modo sicuro al pagamento.",
+  "empty": "Il Suo carrello è vuoto.",
+  "emptyBody": "Scopra le collezioni e aggiunga ciò che La ispira.",
+  "explore": "Scopri le collezioni",
+  "personalOffer": "Offerta personale",
+  "digital": "Digitale",
+  "unavailable": "Questo articolo non è più disponibile e non sarà incluso.",
+  "alreadyOwned": "Possiede già questa collezione — non Le verrà addebitata di nuovo.",
+  "summary": "Riepilogo",
+  "codeLabel": "Codice promozionale",
+  "codePlaceholder": "Inserisci il codice",
+  "applyCode": "Applica",
+  "codeApplied": "Codice",
+  "removeCode": "Rimuovi codice",
+  "welcomeHintTitle": "{percent}% di sconto di benvenuto",
+  "welcomeHintBody": "I nuovi clienti lo ricevono automaticamente sul primo ordine dopo l'accesso.",
+  "subtotal": "Subtotale",
+  "welcomeDiscount": "Sconto di benvenuto",
+  "codeDiscount": "Codice {code}",
+  "total": "Totale",
+  "vatNote": "IVA inclusa",
+  "checkout": "Procedi al pagamento",
+  "guestNote": "Le verrà chiesto di accedere o creare un account e di effettuare una verifica dell'età una tantum. Il Suo carrello resta salvato.",
+  "verifyNote": "Prima del pagamento è necessaria una verifica dell'età una tantum. Il Suo carrello resta salvato."
+}

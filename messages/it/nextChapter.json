@@ -1,1 +1,21 @@
-{}
+{
+  "eyebrow": "Prossimamente",
+  "title": "Il prossimo capitolo.",
+  "intro": "Nuove collezioni, fotografia stagionale, temi di smalto e concept di styling — uno sguardo a ciò che Lisa sta preparando.",
+  "noDate": "In preparazione",
+  "available": "Ora disponibile",
+  "days": "giorni",
+  "hours": "ore",
+  "minutes": "min",
+  "countdownLabel": "Disponibile tra {d} giorni, {h} ore e {m} minuti",
+  "subscribeTitle": "Sia tra i primi a saperlo.",
+  "subscribeBody": "Riceva un breve messaggio all'uscita di un nuovo capitolo. Solo poche e-mail a stagione.",
+  "email": "Indirizzo e-mail",
+  "consent": "Acconsento a ricevere via e-mail gli annunci delle nuove collezioni MAISON LISA. Posso annullare l'iscrizione in qualsiasi momento.",
+  "subscribe": "Iscriviti",
+  "subscribed": "Quasi fatto — confermi l'iscrizione tramite il link che Le abbiamo inviato.",
+  "confirmed": "Grazie — la Sua iscrizione è confermata.",
+  "unsubscribed": "L'iscrizione è stata annullata.",
+  "invalidLink": "Questo link non è valido o è scaduto.",
+  "empty": "I nuovi capitoli saranno annunciati qui."
+}

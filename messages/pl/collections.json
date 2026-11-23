@@ -1,1 +1,8 @@
-{}
+{
+  "eyebrow": "Kolekcje",
+  "title": "Wybrane z elegancją.",
+  "intro": "Sześć rozdziałów jednego języka wizualnego — od spokojnych klasyków po edycję prywatną.",
+  "count": "{count, plural, =0 {Wkrótce} one {# kolekcja} few {# kolekcje} many {# kolekcji} other {# kolekcji}}",
+  "discover": "Odkryj kolekcję",
+  "emptyCollection": "Dla tej kolekcji przygotowywane są nowe zdjęcia."
+}

@@ -1,1 +1,33 @@
-{}
+{
+  "eyebrow": "Die Boutique",
+  "title": "Der Shop",
+  "intro": "Fertige Fotokollektionen, sofort nach dem Kauf für Sie bereit — gestylt, beleuchtet und fotografiert von Lisa.",
+  "filterLabel": "Nach Kollektion filtern",
+  "all": "Alle",
+  "sortLabel": "Sortieren",
+  "sort": {
+    "featured": "Empfohlen",
+    "newest": "Neueste",
+    "price_asc": "Preis ↑",
+    "price_desc": "Preis ↓"
+  },
+  "empty": "Hier gibt es noch keine Kollektionen.",
+  "breadcrumb": "Brotkrumen-Navigation",
+  "privateEdit": "Verifizierte Erwachsene",
+  "lockedPreview": "Sichtbar nach Altersverifikation",
+  "lockedTitle": "Weitere Vorschauen warten",
+  "lockedBody": "Einige Vorschauen dieser Kollektion sind verifizierten Erwachsenen vorbehalten.",
+  "verifyNow": "Jetzt verifizieren",
+  "createAccount": "Konto erstellen",
+  "noPreviews": "Vorschauen folgen in Kürze.",
+  "vatIncluded": "Preis inkl. MwSt. Digitale Lieferung.",
+  "included": "Enthalten",
+  "format": "Format",
+  "delivery": "Lieferung",
+  "deliveryValue": "Sofortiger Zugriff in Ihrem Konto nach der Zahlung",
+  "license": "Lizenz",
+  "licenseValue": "Persönliche, nicht übertragbare Nutzung",
+  "askLisa": "{creator} fragen",
+  "secureNote": "Originale werden privat gespeichert und nur über sichere, zeitlich begrenzte Links an Ihr verifiziertes Konto geliefert.",
+  "related": "Aus derselben Kollektion"
+}

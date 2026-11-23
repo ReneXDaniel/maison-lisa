@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     metadataBase: new URL(process.env.APP_URL ?? "http://localhost:3000"),
     applicationName: brand.name,
-    ...pageMetadata({ locale, path: "/", description: t("hero.support") }),
+    ...pageMetadata({ locale, path: "/", tagline: t("meta.title"), description: t("hero.support") }),
     icons: { icon: "/favicon.svg" },
   };
 }

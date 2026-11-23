@@ -1,1 +1,33 @@
-{}
+{
+  "eyebrow": "La boutique",
+  "title": "La boutique",
+  "intro": "Des collections photo achevées, disponibles dès l'achat — stylisées, éclairées et photographiées par Lisa.",
+  "filterLabel": "Filtrer par collection",
+  "all": "Tout",
+  "sortLabel": "Trier",
+  "sort": {
+    "featured": "Sélection",
+    "newest": "Nouveautés",
+    "price_asc": "Prix ↑",
+    "price_desc": "Prix ↓"
+  },
+  "empty": "Aucune collection ici pour le moment.",
+  "breadcrumb": "Fil d'Ariane",
+  "privateEdit": "Adultes vérifiés",
+  "lockedPreview": "Visible après vérification de l'âge",
+  "lockedTitle": "D'autres aperçus vous attendent",
+  "lockedBody": "Certains aperçus de cette collection sont réservés aux adultes vérifiés.",
+  "verifyNow": "Vérifier maintenant",
+  "createAccount": "Créer un compte",
+  "noPreviews": "Des aperçus seront bientôt ajoutés.",
+  "vatIncluded": "Prix TTC. Livraison numérique.",
+  "included": "Inclus",
+  "format": "Format",
+  "delivery": "Livraison",
+  "deliveryValue": "Accès immédiat dans votre compte après paiement",
+  "license": "Licence",
+  "licenseValue": "Usage personnel, non cessible",
+  "askLisa": "Demander à {creator}",
+  "secureNote": "Les originaux sont stockés de manière privée et livrés uniquement à votre compte vérifié via des liens sécurisés à durée limitée.",
+  "related": "De la même collection"
+}

@@ -1,1 +1,57 @@
-{}
+{
+  "title": "Sichere Altersverifikation.",
+  "intro": "Zum Schutz von Minderjährigen sind private Nachrichten, persönliche Anfragen, Käufe und Downloads verifizierten Erwachsenen vorbehalten. Es dauert etwa zwei Minuten und ist nur einmal nötig.",
+  "steps": {
+    "s1": {
+      "title": "Ausweis bereithalten",
+      "body": "Personalausweis, Reisepass oder ein anderes unterstütztes amtliches Dokument."
+    },
+    "s2": {
+      "title": "Beim zertifizierten Partner verifizieren",
+      "body": "Der Partner prüft die Echtheit des Dokuments und bestätigt, dass wirklich Sie es sind."
+    },
+    "s3": {
+      "title": "Zurück zur Boutique",
+      "body": "Wir erhalten nur das Ergebnis — dass Sie 18 oder älter sind. Niemals Bilder Ihrer Dokumente."
+    }
+  },
+  "start": "Sichere Verifikation starten",
+  "restart": "Verifikation neu starten",
+  "continue": "Weiter",
+  "retry": "Erneut versuchen",
+  "checking": "Wir warten auf das Ergebnis unseres Verifikationspartners …",
+  "returnTitle": "Ihre Verifikation.",
+  "statusLabel": "Aktueller Status",
+  "privacy": "Die Verifikation erfolgt durch einen unabhängigen Anbieter auf dessen eigenen sicheren Seiten. MAISON LISA speichert nur das Ergebnis, das Datum und eine Referenz des Anbieters — keine Kopien von Dokumenten und keine biometrischen Daten. Details finden Sie in unserer Datenschutzerklärung.",
+  "devNote": "Entwicklungsmodus: Ein gekennzeichneter Simulator ersetzt den Identitätsanbieter",
+  "status": {
+    "not_verified": {
+      "title": "Noch nicht verifiziert",
+      "body": "Schließen Sie die Verifikation ab, um Nachrichten, Anfragen und Käufe freizuschalten."
+    },
+    "pending": {
+      "title": "Verifikation läuft",
+      "body": "Wir warten auf das Ergebnis. Das dauert meist weniger als eine Minute."
+    },
+    "verified": {
+      "title": "Verifizierte(r) Erwachsene(r)",
+      "body": "Vielen Dank. Alle Funktionen der Boutique stehen Ihnen jetzt zur Verfügung."
+    },
+    "failed": {
+      "title": "Verifikation nicht erfolgreich",
+      "body": "Wir konnten nicht bestätigen, dass Sie 18 oder älter sind. Sie können es mit einem gültigen Dokument erneut versuchen."
+    },
+    "manual_review": {
+      "title": "In Prüfung",
+      "body": "Unser Verifikationspartner prüft Ihre Dokumente manuell. Wir benachrichtigen Sie, sobald eine Entscheidung vorliegt."
+    },
+    "expired": {
+      "title": "Verifikation abgelaufen",
+      "body": "Ihre Verifikation ist abgelaufen. Bitte verifizieren Sie sich erneut, um fortzufahren."
+    },
+    "revoked": {
+      "title": "Verifikation widerrufen",
+      "body": "Ihre Verifikation wurde widerrufen. Bitte kontaktieren Sie uns, wenn Sie dies für einen Fehler halten."
+    }
+  }
+}

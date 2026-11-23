@@ -1,1 +1,79 @@
-{}
+{
+  "nail": {
+    "metaTitle": "Studio paznokci",
+    "eyebrow": "Studio paznokci",
+    "title": "Twój kolor. Twoje pragnienie.",
+    "body": "Każdy detal zależy od Ciebie. Najedź na buteleczkę, aby zobaczyć podgląd koloru, kliknij, aby go wybrać.",
+    "chooseColor": "Wybierz kolor",
+    "natural": "Naturalny",
+    "preview": "podgląd",
+    "previewLabel": "Podgląd koloru paznokci: {color}",
+    "saved": "Kolor i wykończenie są zapisane i automatycznie trafią do Twojej osobistej prośby.",
+    "cta": "Utwórz osobistą prośbę",
+    "demoNote": "Ilustracja demonstracyjna — w panelu zastąp ją zdjęciem Lisy i maską paznokci"
+  },
+  "look": {
+    "metaTitle": "Studio stylizacji",
+    "eyebrow": "Studio stylizacji",
+    "title": "Skomponuj look.",
+    "body": "Połącz pończochy, obuwie, dodatki i scenerię — i przenieś look do osobistej prośby.",
+    "illustrative": "Podgląd ilustracyjny. Kombinacje są rysowane, a nie fotografowane.",
+    "saved": "Twój look jest zapisany na potrzeby osobistej prośby.",
+    "cta": "Użyj tego looku w prośbie"
+  },
+  "vote": {
+    "eyebrow": "Twój głos",
+    "title": "Wybierz look, który {creator} pokaże jako następny.",
+    "body": "Zagłosuj na koncepcję stylizacji, którą najchętniej zobaczysz w kolejnej kolekcji, którą przygotowuje {creator}.",
+    "option": "Koncepcja {n}",
+    "vote": "Głosuj na ten look",
+    "change": "Zmień mój głos",
+    "yourVote": "Twój głos ✓",
+    "share": "{pct}% głosów",
+    "oneVote": "Jeden głos na zweryfikowanego klienta. Możesz zmienić głos, dopóki głosowanie trwa.",
+    "verifiedOnly": "Głosowanie jest otwarte dla zweryfikowanych dorosłych klientów.",
+    "verify": "Zweryfikuj teraz",
+    "signIn": "Zaloguj się"
+  },
+  "quiz": {
+    "metaTitle": "Odkryj swój styl",
+    "eyebrow": "Quiz stylu",
+    "title": "Odkryj swój styl.",
+    "body": "Cztery lekkie pytania. Jedna kolekcja dla Ciebie.",
+    "progress": "Pytanie {n} z {total}",
+    "back": "Poprzednie pytanie",
+    "q1": {
+      "question": "Klasycznie czy tajemniczo?",
+      "classic": "Klasycznie",
+      "classicHint": "Czyste linie, spokojne światło",
+      "mysterious": "Tajemniczo",
+      "mysteriousHint": "Cienie i głębokie tony"
+    },
+    "q2": {
+      "question": "Delikatnie czy odważnie?",
+      "soft": "Delikatnie",
+      "softHint": "Nude, róż, lekkość",
+      "bold": "Odważnie",
+      "boldHint": "Wiśnia, bordo, lakier"
+    },
+    "q3": {
+      "question": "Kość słoniowa czy espresso?",
+      "ivory": "Kość słoniowa",
+      "ivoryHint": "Jasno i zwiewnie",
+      "espresso": "Espresso",
+      "espressoHint": "Ciepło i dramatycznie"
+    },
+    "q4": {
+      "question": "Jedwab czy koronka?",
+      "silk": "Jedwab",
+      "silkHint": "Płynny i świetlisty",
+      "lace": "Koronka",
+      "laceHint": "Delikatna i misterna"
+    },
+    "resultEyebrow": "Twoja kolekcja",
+    "explore": "Odkryj swoją kolekcję",
+    "custom": "Utwórz osobistą prośbę",
+    "disclaimer": "Tylko dla zabawy — wynik to propozycja stylu, nic więcej. Twoje odpowiedzi nie są zapisywane na naszych serwerach.",
+    "restart": "Zacznij od nowa"
+  }
+}

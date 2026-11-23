@@ -1,0 +1,212 @@
+{
+  "reviewNotice": "Vorlage — dieses Dokument muss vor dem Livegang von einer qualifizierten Rechtsberatung geprüft und vervollständigt werden.",
+  "translationNotice": "Dieses Rechtsdokument liegt derzeit auf Deutsch und Englisch vor. Maßgeblich ist die deutsche Fassung.",
+  "updated": "Stand: {date}",
+  "docs": {
+    "imprint": {
+      "title": "Impressum",
+      "sections": [
+        {
+          "h": "Anbieter",
+          "p": [
+            "{name}",
+            "Vertreten durch: {representative}",
+            "{address}",
+            "E-Mail: {email}"
+          ]
+        },
+        {
+          "h": "Register & Umsatzsteuer",
+          "p": [
+            "Umsatzsteuer-Identifikationsnummer: {vatId}",
+            "{register}"
+          ]
+        },
+        {
+          "h": "Verantwortlich für den Inhalt (§ 18 Abs. 2 MStV)",
+          "p": [
+            "{representative}, Anschrift wie oben."
+          ]
+        },
+        {
+          "h": "Jugendschutz",
+          "p": [
+            "Jugendschutzbeauftragte/r: {youthOfficer}"
+          ]
+        },
+        {
+          "h": "Verbraucherstreitbeilegung",
+          "p": [
+            "Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen, sofern keine gesetzliche Pflicht besteht."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "h": "Verantwortlicher",
+          "p": [
+            "{name}, {address}, {email}."
+          ]
+        },
+        {
+          "h": "Welche Daten wir verarbeiten",
+          "p": [
+            "Kontodaten (Anzeigename, E-Mail-Adresse, Passwort-Hash, Sprach- und Benachrichtigungseinstellungen).",
+            "Das Ergebnis Ihrer Altersverifikation (Status, Datum, Gültigkeit, Referenz des Anbieters). Wir speichern keine Kopien von Ausweisdokumenten und keine biometrischen Daten; diese verarbeitet unser Verifikationsanbieter auf seinen eigenen Systemen.",
+            "Nachrichten, Anhänge und persönliche Anfragen, die Sie an Lisa senden.",
+            "Bestell-, Rechnungs- und Zahlungsstatusdaten. Karten- und Zahlungsdaten verarbeitet ausschließlich unser Zahlungsdienstleister.",
+            "Für die Sicherheit erforderliche technische Daten (IP-Adresse in Rate-Limits und Audit-Logs, Browsertyp)."
+          ]
+        },
+        {
+          "h": "Zwecke und Rechtsgrundlagen",
+          "p": [
+            "Bereitstellung von Konto, Gesprächen, Bestellungen und Downloads (Art. 6 Abs. 1 lit. b DSGVO).",
+            "Jugendschutz sowie steuer- und handelsrechtliche Pflichten (Art. 6 Abs. 1 lit. c DSGVO).",
+            "Sicherheit sowie Betrugs- und Missbrauchsprävention (Art. 6 Abs. 1 lit. f DSGVO).",
+            "Ankündigungen neuer Kollektionen nur mit Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die Sie jederzeit widerrufen können."
+          ]
+        },
+        {
+          "h": "Dienstleister",
+          "p": [
+            "Hosting und Datenbank, Identitätsverifikation, Zahlungsabwicklung, E-Mail-Versand und privater Dateispeicher werden von Auftragsverarbeitern auf Grundlage von Auftragsverarbeitungsverträgen erbracht. [Anbieter und Standorte nennen; etwaige Übermittlungen außerhalb des EWR und deren Garantien beschreiben.]"
+          ]
+        },
+        {
+          "h": "Cookies",
+          "p": [
+            "Wir verwenden ausschließlich technisch notwendige Cookies: Ihre Sitzung, Ihren Warenkorb, Ihre Sprache und die Bestätigung des 18+-Hinweises. Wir nutzen keine Analyse- oder Werbe-Tracker."
+          ]
+        },
+        {
+          "h": "Speicherdauer",
+          "p": [
+            "Kontodaten bis zur Löschung Ihres Kontos. Gespräche und Anfragen bis zur Kontolöschung. Bestell- und Rechnungsdaten für die gesetzliche Aufbewahrungsfrist (bis zu 10 Jahre), nach Kontolöschung anonymisiert. Verifikationsergebnisse für ihre Gültigkeitsdauer."
+          ]
+        },
+        {
+          "h": "Ihre Rechte",
+          "p": [
+            "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde. Ihr Konto können Sie jederzeit unter „Verifikation & Sicherheit“ löschen."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "sections": [
+        {
+          "h": "Geltungsbereich",
+          "p": [
+            "Diese AGB gelten für alle Verträge zwischen {name} und Kundinnen und Kunden von MAISON LISA über digitale Fotokollektionen und persönliche Angebote."
+          ]
+        },
+        {
+          "h": "Nur für Erwachsene",
+          "p": [
+            "Die Boutique richtet sich ausschließlich an Erwachsene. Nachrichten, persönliche Anfragen, Käufe und Downloads setzen eine erfolgreiche ausweisbasierte Altersverifikation voraus. Alle abgebildeten Personen sind einwilligende Erwachsene."
+          ]
+        },
+        {
+          "h": "Vertragsschluss",
+          "p": [
+            "Die Darstellung der Produkte ist eine Aufforderung zur Abgabe eines Angebots. Mit Klick auf „Jetzt kaufen — zahlungspflichtig bestellen“ geben Sie ein verbindliches Angebot ab. Der Vertrag kommt mit der Zahlungsbestätigung durch den Zahlungsdienstleister zustande."
+          ]
+        },
+        {
+          "h": "Preise und Zahlung",
+          "p": [
+            "Alle Preise verstehen sich in Euro inklusive Umsatzsteuer. Die Zahlung wird über unseren Zahlungsdienstleister abgewickelt."
+          ]
+        },
+        {
+          "h": "Bereitstellung und Lizenz",
+          "p": [
+            "Digitale Inhalte werden unmittelbar nach Zahlungsbestätigung in Ihrem Konto bereitgestellt. Sie erhalten ein einfaches, nicht übertragbares Nutzungsrecht zur persönlichen, privaten Nutzung. Jede Weitergabe, Veröffentlichung oder der Weiterverkauf ist untersagt."
+          ]
+        },
+        {
+          "h": "Persönliche Anfragen",
+          "p": [
+            "Persönliche Anfragen sind unverbindlich. Lisa entscheidet, welche Anfragen sie annimmt. Ein Vertrag kommt erst mit dem Kauf eines persönlichen Angebots im Checkout zustande. Anfragen müssen respektvoll und künstlerisch sein; explizite Anfragen werden abgelehnt."
+          ]
+        },
+        {
+          "h": "Verhalten",
+          "p": [
+            "Beleidigende, belästigende oder rechtswidrige Nachrichten werden nicht toleriert und können zur Einschränkung des Kontos führen."
+          ]
+        },
+        {
+          "h": "Widerrufsrecht",
+          "p": [
+            "Bitte beachten Sie unsere Widerrufsbelehrung."
+          ]
+        },
+        {
+          "h": "Haftung und Schlussbestimmungen",
+          "p": [
+            "[Haftungsbeschränkung und anwendbares Recht durch Rechtsberatung zu formulieren.]"
+          ]
+        }
+      ]
+    },
+    "withdrawal": {
+      "title": "Widerrufsbelehrung",
+      "sections": [
+        {
+          "h": "Widerrufsrecht",
+          "p": [
+            "Verbraucherinnen und Verbraucher haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsschlusses.",
+            "Um Ihr Widerrufsrecht auszuüben, müssen Sie uns ({name}, {address}, {email}) mittels einer eindeutigen Erklärung informieren."
+          ]
+        },
+        {
+          "h": "Vorzeitiges Erlöschen bei digitalen Inhalten",
+          "p": [
+            "Bei digitalen Inhalten, die nicht auf einem körperlichen Datenträger geliefert werden, erlischt das Widerrufsrecht, wenn wir mit der Vertragserfüllung begonnen haben, nachdem Sie ausdrücklich zugestimmt haben, dass wir vor Ablauf der Widerrufsfrist mit der Ausführung beginnen, und Ihre Kenntnis davon bestätigt haben, dass Sie dadurch Ihr Widerrufsrecht verlieren (§ 356 Abs. 5 BGB). Diese Zustimmung erteilen Sie im Checkout."
+          ]
+        },
+        {
+          "h": "Muster-Widerrufsformular",
+          "p": [
+            "An {name}, {address}, {email}: Hiermit widerrufe ich den von mir abgeschlossenen Vertrag über folgende digitale Inhalte: … / Bestellt am: … / Name: … / Datum: …"
+          ]
+        }
+      ]
+    },
+    "youth-protection": {
+      "title": "Jugendschutz",
+      "sections": [
+        {
+          "h": "Unser Grundsatz",
+          "p": [
+            "MAISON LISA zeigt künstlerische, nicht explizite Fotografie für Erwachsene. Der Schutz von Minderjährigen ist ein Grundprinzip der Boutique."
+          ]
+        },
+        {
+          "h": "Wie der Zugang beschränkt wird",
+          "p": [
+            "Nachrichten, persönliche Anfragen, Käufe und Downloads sind erst nach einer ausweisbasierten Altersverifikation durch einen zertifizierten Anbieter möglich. Das Ergebnis wird für jede geschützte Seite, jeden Download und jeden Kauf auf dem Server geprüft."
+          ]
+        },
+        {
+          "h": "Kontakt",
+          "p": [
+            "Jugendschutzbeauftragte/r: {youthOfficer}. Bitte melden Sie Bedenken an {email}."
+          ]
+        },
+        {
+          "h": "Für Eltern",
+          "p": [
+            "Jugendschutzprogramme können helfen, Kinder im Internet zu schützen. [Ggf. Link zu anerkannten Jugendschutzprogrammen.]"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,95 @@
-{}
+{
+  "meta": {
+    "title": "La beauté dans chaque détail"
+  },
+  "hero": {
+    "eyebrow": "Une boutique numérique privée",
+    "title": "MAISON LISA",
+    "subtitle": "La beauté dans chaque détail.",
+    "support": "Un univers exclusif d'élégance, d'individualité et de moments merveilleusement personnels.",
+    "ctaCollection": "Découvrir ma collection",
+    "ctaExperience": "Créer votre expérience",
+    "scroll": "Défiler"
+  },
+  "welcome": {
+    "eyebrow": "Pour les nouveaux clients",
+    "title": "Votre première expérience MAISON LISA.",
+    "body": "Profitez de {percent} % de remise sur votre première commande.",
+    "cta": "Découvrir la collection",
+    "note": "Appliquée automatiquement à votre première commande lors du paiement."
+  },
+  "intro": {
+    "eyebrow": "La Maison",
+    "title": "Là où l'élégance devient personnelle.",
+    "body": "Chaque collection est stylisée, éclairée et photographiée avec patience — lumière chaude du studio, soie ivoire, la beauté discrète d'un détail soigneusement choisi. Découvrez des éditoriaux achevés, ou façonnez une collection personnelle avec {creator}."
+  },
+  "silk": {
+    "eyebrow": "Derrière la soie",
+    "title": "Certains détails méritent un second regard.",
+    "caption": "Faites défiler lentement.",
+    "fallback": "Une séquence animée s'affiche ici lorsque les animations sont activées."
+  },
+  "collections": {
+    "eyebrow": "Les collections",
+    "title": "Composées avec élégance.",
+    "all": "Voir toutes les collections"
+  },
+  "details": {
+    "eyebrow": "Les détails",
+    "title": "Un monde de détails exquis.",
+    "body": "Touchez ou survolez les points lumineux pour découvrir les détails derrière l'image.",
+    "hint": "Découvrir les détails",
+    "hotspots": {
+      "polish": {
+        "title": "Le vernis",
+        "body": "Un vernis champagne brillant, appliqué à la main le matin de la séance."
+      },
+      "jewelry": {
+        "title": "Bijou de pied",
+        "body": "Une fine chaîne de cheville ornée d'une seule perle — discrète, jamais ostentatoire."
+      },
+      "stockings": {
+        "title": "Bas fins",
+        "body": "Une soie voile de 10 deniers à couture délicate, choisie pour son doux éclat."
+      },
+      "silk": {
+        "title": "Accessoires en soie",
+        "body": "Une charmeuse champagne, drapée librement pour capter la lumière du matin."
+      },
+      "styling": {
+        "title": "Stylisme",
+        "body": "Chaque élément est placé à la main. Rien n'est laissé au hasard."
+      }
+    }
+  },
+  "nail": {
+    "eyebrow": "Studio ongles",
+    "title": "Votre couleur. Votre désir.",
+    "body": "Chaque détail vous appartient.",
+    "cta": "Entrer dans le Studio ongles"
+  },
+  "quiz": {
+    "eyebrow": "Quiz de style",
+    "title": "Découvrez votre style.",
+    "body": "Quatre questions ludiques, une collection choisie pour vous.",
+    "cta": "Commencer le quiz"
+  },
+  "about": {
+    "eyebrow": "La personne derrière les détails",
+    "title": "Voici Lisa.",
+    "body": "Découvrez la créativité, le style et la personnalité derrière chaque collection MAISON LISA.",
+    "cta": "Découvrir Lisa"
+  },
+  "next": {
+    "eyebrow": "Bientôt",
+    "title": "Le prochain chapitre.",
+    "cta": "Voir ce qui arrive"
+  },
+  "final": {
+    "title": "Votre vision. L'art de {creator}.",
+    "body": "Choisissez la couleur, le stylisme et l'ambiance — et confiez vos souhaits à Lisa dans une conversation privée.",
+    "cta": "Créer une demande personnelle",
+    "secondary": "Écrire à {creator}"
+  },
+  "announcement": ""
+}

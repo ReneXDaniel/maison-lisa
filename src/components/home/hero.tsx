@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { Fragment, useEffect, useRef } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -24,7 +24,10 @@ export function Hero(props: { srcSet: string | null; src: string | null; eyebrow
     return () => ctx.revert();
   }, [reduce]);
 
-  const letters = props.title.split("");
+  // Letters animate one by one, but each word stays unbreakable so narrow
+  // screens wrap "MAISON / LISA" between words, never mid-word.
+  let counter = 0;
+  const words = props.title.split(" ").map((word) => word.split("").map((ch) => ({ ch, i: counter++ })));
   return (
     <section ref={root} className="dark-surface relative flex h-[100svh] min-h-[620px] items-end overflow-hidden bg-espresso-900 text-ivory-50" data-testid="hero">
       <div ref={media} className="absolute inset-0 will-change-transform">
@@ -50,17 +53,23 @@ export function Hero(props: { srcSet: string | null; src: string | null; eyebrow
           {props.eyebrow}
         </motion.p>
         <h1 className="font-display mt-6 text-[13vw] leading-none tracking-[0.18em] sm:text-[9vw] lg:text-[8.2rem]" aria-label={props.title}>
-          {letters.map((ch, i) => (
-            <motion.span
-              key={i}
-              aria-hidden="true"
-              className="inline-block"
-              initial={reduce ? false : { opacity: 0, y: "0.4em", filter: "blur(8px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-              transition={{ duration: 1.4, delay: 0.8 + i * 0.06, ease: E }}
-            >
-              {ch === " " ? " " : ch}
-            </motion.span>
+          {words.map((word, w) => (
+            <Fragment key={w}>
+              {w > 0 ? " " : null}
+              <span aria-hidden="true" className="inline-block whitespace-nowrap">
+                {word.map(({ ch, i }) => (
+                  <motion.span
+                    key={i}
+                    className="inline-block"
+                    initial={reduce ? false : { opacity: 0, y: "0.4em", filter: "blur(8px)" }}
+                    animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                    transition={{ duration: 1.4, delay: 0.8 + i * 0.06, ease: E }}
+                  >
+                    {ch}
+                  </motion.span>
+                ))}
+              </span>
+            </Fragment>
           ))}
         </h1>
         <motion.p initial={reduce ? false : { opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.4, delay: 1.7, ease: E }} className="font-display mt-6 text-3xl italic text-champagne sm:text-4xl">

@@ -1,1 +1,95 @@
-{}
+{
+  "meta": {
+    "title": "Schoonheid in elk detail"
+  },
+  "hero": {
+    "eyebrow": "Een privé digitale boutique",
+    "title": "MAISON LISA",
+    "subtitle": "Schoonheid in elk detail.",
+    "support": "Een exclusieve wereld van elegantie, individualiteit en prachtig persoonlijke momenten.",
+    "ctaCollection": "Ontdek mijn collectie",
+    "ctaExperience": "Creëer uw ervaring",
+    "scroll": "Scrollen"
+  },
+  "welcome": {
+    "eyebrow": "Voor nieuwe klanten",
+    "title": "Uw eerste MAISON LISA-ervaring.",
+    "body": "Geniet van {percent}% korting op uw eerste bestelling.",
+    "cta": "Ontdek de collectie",
+    "note": "Wordt bij het afrekenen automatisch toegepast op uw eerste bestelling."
+  },
+  "intro": {
+    "eyebrow": "Het Maison",
+    "title": "Waar elegantie persoonlijk wordt.",
+    "body": "Elke collectie wordt met geduld gestyled, belicht en gefotografeerd — warm studiolicht, ivoren zijde, de stille schoonheid van een zorgvuldig gekozen detail. Ontdek afgeronde editorials of stel samen met {creator} een persoonlijke collectie samen."
+  },
+  "silk": {
+    "eyebrow": "Achter de zijde",
+    "title": "Sommige details verdienen een tweede blik.",
+    "caption": "Scroll langzaam.",
+    "fallback": "Hier speelt een animatie af wanneer beweging is ingeschakeld."
+  },
+  "collections": {
+    "eyebrow": "De collecties",
+    "title": "Met elegantie samengesteld.",
+    "all": "Alle collecties bekijken"
+  },
+  "details": {
+    "eyebrow": "De details",
+    "title": "Een wereld van prachtige details.",
+    "body": "Tik op of beweeg over de zacht oplichtende punten om de details achter het beeld te ontdekken.",
+    "hint": "Ontdek de details",
+    "hotspots": {
+      "polish": {
+        "title": "De lak",
+        "body": "Een glanzende champagnelak, op de ochtend van de shoot met de hand aangebracht."
+      },
+      "jewelry": {
+        "title": "Voetsieraad",
+        "body": "Een fijn enkelbandje met één parel — ingetogen, nooit overdadig."
+      },
+      "stockings": {
+        "title": "Fijne kousen",
+        "body": "Transparante zijde van 10 denier met een fijne naad, gekozen om de zachte glans."
+      },
+      "silk": {
+        "title": "Zijden accessoires",
+        "body": "Champagnekleurige charmeuse, losjes gedrapeerd om het ochtendlicht te vangen."
+      },
+      "styling": {
+        "title": "Styling",
+        "body": "Elk element wordt met de hand geplaatst. Niets is toeval."
+      }
+    }
+  },
+  "nail": {
+    "eyebrow": "Nagelstudio",
+    "title": "Uw kleur. Uw verlangen.",
+    "body": "Elk detail is aan u.",
+    "cta": "Naar de Nagelstudio"
+  },
+  "quiz": {
+    "eyebrow": "Stijlquiz",
+    "title": "Ontdek uw stijl.",
+    "body": "Vier speelse vragen, één collectie voor u.",
+    "cta": "Start de quiz"
+  },
+  "about": {
+    "eyebrow": "De persoon achter de details",
+    "title": "Maak kennis met Lisa.",
+    "body": "Ontdek de creativiteit, stijl en persoonlijkheid achter elke collectie van MAISON LISA.",
+    "cta": "Leer Lisa kennen"
+  },
+  "next": {
+    "eyebrow": "Binnenkort",
+    "title": "Het volgende hoofdstuk.",
+    "cta": "Bekijk wat er komt"
+  },
+  "final": {
+    "title": "Uw visie. De kunst van {creator}.",
+    "body": "Kies de kleur, de styling en de sfeer — en stuur uw wensen naar Lisa in een privégesprek.",
+    "cta": "Persoonlijk verzoek maken",
+    "secondary": "{creator} een bericht sturen"
+  },
+  "announcement": ""
+}

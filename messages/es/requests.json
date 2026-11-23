@@ -1,1 +1,64 @@
-{}
+{
+  "metaTitle": "Solicitudes personales",
+  "eyebrow": "Solicitudes personales",
+  "title": "Su visión. El arte de {creator}.",
+  "intro": "Componga una colección fotográfica personal detalle a detalle. Su solicitud se envía a Lisa en una conversación privada, donde podrán hablarlo todo antes de cualquier oferta.",
+  "steps": {
+    "polish": "El esmalte",
+    "style": "El ambiente",
+    "styling": "El estilismo",
+    "setting": "El escenario",
+    "wishes": "Sus deseos"
+  },
+  "fromStudio": "Tomado de su selección en el Estudio de uñas",
+  "wishesLabel": "Deseos adicionales",
+  "wishesPlaceholder": "Describa el ambiente, un detalle que le encante o cualquier cosa que Lisa deba saber…",
+  "wishesHint": "Formule sus solicitudes con respeto y sentido artístico. Lisa decide qué solicitudes acepta.",
+  "summary": "Su selección",
+  "reset": "Restablecer selección",
+  "openGift": "Preparar mi solicitud",
+  "giftTitle": "Su visión. El arte de Lisa.",
+  "giftSubtitle": "Creemos algo personal.",
+  "giftHint": "Haga clic en la caja para abrirla",
+  "send": "Enviar mi solicitud a Lisa",
+  "sending": "Enviando su solicitud…",
+  "edit": "Editar selección",
+  "greeting": "Hola Lisa, me encantaría solicitar una colección fotográfica personalizada.",
+  "loginRequired": "Para enviar su solicitud, inicie sesión y complete la verificación de edad única. Su selección está guardada y le espera.",
+  "continueToSignIn": "Iniciar sesión para enviar",
+  "verifyToSend": "Verificar para enviar",
+  "nothingSelected": "Elija al menos un detalle o describa sus deseos.",
+  "howItWorks": "Cómo funciona",
+  "how": {
+    "h1": {
+      "title": "Componer",
+      "body": "Elija colores, estilismo y ambiente — o simplemente describa su idea."
+    },
+    "h2": {
+      "title": "Conversar",
+      "body": "Su solicitud llega a una conversación privada con Lisa."
+    },
+    "h3": {
+      "title": "Recibir una oferta",
+      "body": "Si Lisa acepta, le envía una oferta personal con precio y entrega."
+    },
+    "h4": {
+      "title": "Disfrutar",
+      "body": "Tras el pago, su colección se entrega en su cuenta privada."
+    }
+  },
+  "status": {
+    "draft": "Borrador",
+    "submitted": "Enviada",
+    "under_review": "En revisión",
+    "awaiting_customer": "Esperando su respuesta",
+    "offer_sent": "Oferta enviada",
+    "accepted": "Aceptada",
+    "rejected": "Rechazada",
+    "paid": "Pagada",
+    "in_production": "En producción",
+    "delivered": "Entregada",
+    "completed": "Finalizada",
+    "cancelled": "Cancelada"
+  }
+}

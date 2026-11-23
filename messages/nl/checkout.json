@@ -1,1 +1,52 @@
-{}
+{
+  "eyebrow": "Veilig afrekenen",
+  "title": "Afrekenen",
+  "intro": "Eén betaling voor uw volledige selectie.",
+  "review": "Uw bestelling",
+  "personalOffer": "Persoonlijk aanbod",
+  "digitalCollection": "Digitale fotocollectie",
+  "someUnavailable": "Niet-beschikbare artikelen zijn uit deze bestelling verwijderd.",
+  "paymentMethod": "Betaling",
+  "paymentNote": "U wordt doorgestuurd naar de beveiligde pagina van onze betaalpartner. Wij zien of bewaren uw kaartgegevens nooit.",
+  "devPayment": "Ontwikkelsimulator — geen echte betaling",
+  "country": "Land van verblijf",
+  "subtotal": "Subtotaal",
+  "welcomeDiscount": "Welkomstkorting",
+  "codeDiscount": "Code {code}",
+  "total": "Totaal",
+  "vatIncluded": "Incl. {rate}% btw",
+  "vatNone": "Geen btw berekend",
+  "terms": "Ik accepteer de <terms>Algemene voorwaarden</terms> en heb het <privacy>Privacybeleid</privacy> gelezen.",
+  "waiver": "Ik verzoek om directe toegang tot de digitale inhoud en erken dat ik daarmee mijn herroepingsrecht verlies zodra de levering begint.",
+  "placeOrder": "Nu kopen — bestelling met betalingsverplichting",
+  "placeOrderNote": "Uw aankoop is pas bevestigd wanneer onze betaalpartner de betaling bevestigt.",
+  "return": {
+    "pending": {
+      "title": "Uw betaling wordt bevestigd…",
+      "body": "Dit duurt meestal maar enkele seconden. Houd deze pagina open."
+    },
+    "slow": {
+      "title": "Nog in afwachting van bevestiging.",
+      "body": "Uw betaalpartner heeft nog niet bevestigd. U ontvangt een e-mail en een melding zodra dat gebeurt — uw bestelling is veilig."
+    },
+    "paid": {
+      "title": "Dank u.",
+      "body": "Uw betaling is bevestigd. Uw collecties wachten op u in uw privéaccount."
+    },
+    "failed": {
+      "title": "De betaling is niet voltooid.",
+      "body": "Er is niets afgeschreven. Uw winkelwagen wacht op u — u kunt het opnieuw proberen."
+    },
+    "cancelled": {
+      "title": "Betaling geannuleerd.",
+      "body": "Er is niets afgeschreven. Uw winkelwagen wacht op u."
+    },
+    "unknown": {
+      "title": "Bestelling niet gevonden.",
+      "body": "Controleer uw bestellingen in uw account."
+    },
+    "viewPurchases": "Mijn aankopen openen",
+    "viewOrder": "Bestelling bekijken",
+    "backToCart": "Terug naar winkelwagen"
+  }
+}

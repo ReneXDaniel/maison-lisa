@@ -1,1 +1,33 @@
-{}
+{
+  "eyebrow": "Butik",
+  "title": "Sklep",
+  "intro": "Gotowe kolekcje zdjęć, dostępne od razu po zakupie — stylizowane, oświetlone i fotografowane przez Lisę.",
+  "filterLabel": "Filtruj według kolekcji",
+  "all": "Wszystkie",
+  "sortLabel": "Sortuj",
+  "sort": {
+    "featured": "Polecane",
+    "newest": "Najnowsze",
+    "price_asc": "Cena ↑",
+    "price_desc": "Cena ↓"
+  },
+  "empty": "Na razie brak kolekcji.",
+  "breadcrumb": "Ścieżka nawigacji",
+  "privateEdit": "Zweryfikowani dorośli",
+  "lockedPreview": "Widoczne po weryfikacji wieku",
+  "lockedTitle": "Czekają kolejne podglądy",
+  "lockedBody": "Niektóre podglądy tej kolekcji są zarezerwowane dla zweryfikowanych dorosłych.",
+  "verifyNow": "Zweryfikuj teraz",
+  "createAccount": "Utwórz konto",
+  "noPreviews": "Podglądy zostaną wkrótce dodane.",
+  "vatIncluded": "Cena zawiera VAT. Dostawa cyfrowa.",
+  "included": "W zestawie",
+  "format": "Format",
+  "delivery": "Dostawa",
+  "deliveryValue": "Natychmiastowy dostęp na koncie po płatności",
+  "license": "Licencja",
+  "licenseValue": "Użytek osobisty, bez prawa przenoszenia",
+  "askLisa": "Pytanie do: {creator}",
+  "secureNote": "Oryginały są przechowywane prywatnie i dostarczane wyłącznie na Twoje zweryfikowane konto za pomocą bezpiecznych, czasowych linków.",
+  "related": "Z tej samej kolekcji"
+}

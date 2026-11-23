@@ -1,1 +1,64 @@
-{}
+{
+  "metaTitle": "Richieste personali",
+  "eyebrow": "Richieste personali",
+  "title": "La Sua visione. L'arte di {creator}.",
+  "intro": "Componga una collezione fotografica personale, dettaglio dopo dettaglio. La Sua richiesta viene inviata a Lisa in una conversazione privata, dove potrete parlarne prima di qualsiasi offerta.",
+  "steps": {
+    "polish": "Lo smalto",
+    "style": "L'atmosfera",
+    "styling": "Lo styling",
+    "setting": "L'ambientazione",
+    "wishes": "I Suoi desideri"
+  },
+  "fromStudio": "Ripreso dalla Sua selezione nel Nail Studio",
+  "wishesLabel": "Desideri aggiuntivi",
+  "wishesPlaceholder": "Descriva l'atmosfera, un dettaglio che ama o qualsiasi cosa Lisa debba sapere…",
+  "wishesHint": "Formuli le richieste con rispetto e spirito artistico. Lisa decide quali richieste accettare.",
+  "summary": "La Sua selezione",
+  "reset": "Reimposta la selezione",
+  "openGift": "Prepara la mia richiesta",
+  "giftTitle": "La Sua visione. L'arte di Lisa.",
+  "giftSubtitle": "Creiamo qualcosa di personale.",
+  "giftHint": "Clicchi sulla scatola per aprirla",
+  "send": "Invia la mia richiesta a Lisa",
+  "sending": "Invio della richiesta…",
+  "edit": "Modifica la selezione",
+  "greeting": "Ciao Lisa, mi piacerebbe molto richiedere una collezione fotografica personalizzata.",
+  "loginRequired": "Per inviare la richiesta, acceda e completi la verifica dell'età una tantum. La Sua selezione è salvata e La aspetta.",
+  "continueToSignIn": "Accedi per inviare",
+  "verifyToSend": "Verifica per inviare",
+  "nothingSelected": "Scelga almeno un dettaglio o descriva i Suoi desideri.",
+  "howItWorks": "Come funziona",
+  "how": {
+    "h1": {
+      "title": "Componga",
+      "body": "Scelga colori, styling e atmosfera — oppure descriva semplicemente la Sua idea."
+    },
+    "h2": {
+      "title": "Parli con Lisa",
+      "body": "La Sua richiesta arriva in una conversazione privata con Lisa."
+    },
+    "h3": {
+      "title": "Riceva un'offerta",
+      "body": "Se Lisa accetta, Le invia un'offerta personale con prezzo e consegna."
+    },
+    "h4": {
+      "title": "Si goda il risultato",
+      "body": "Dopo il pagamento, la Sua collezione viene consegnata nel Suo account privato."
+    }
+  },
+  "status": {
+    "draft": "Bozza",
+    "submitted": "Inviata",
+    "under_review": "In valutazione",
+    "awaiting_customer": "In attesa della Sua risposta",
+    "offer_sent": "Offerta inviata",
+    "accepted": "Accettata",
+    "rejected": "Rifiutata",
+    "paid": "Pagata",
+    "in_production": "In produzione",
+    "delivered": "Consegnata",
+    "completed": "Conclusa",
+    "cancelled": "Annullata"
+  }
+}

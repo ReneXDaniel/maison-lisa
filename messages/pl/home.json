@@ -1,1 +1,95 @@
-{}
+{
+  "meta": {
+    "title": "Piękno w każdym detalu"
+  },
+  "hero": {
+    "eyebrow": "Prywatny butik cyfrowy",
+    "title": "MAISON LISA",
+    "subtitle": "Piękno w każdym detalu.",
+    "support": "Ekskluzywny świat elegancji, indywidualności i pięknie osobistych chwil.",
+    "ctaCollection": "Odkryj moją kolekcję",
+    "ctaExperience": "Stwórz swoje doświadczenie",
+    "scroll": "Przewiń"
+  },
+  "welcome": {
+    "eyebrow": "Dla nowych klientów",
+    "title": "Twoje pierwsze doświadczenie MAISON LISA.",
+    "body": "Skorzystaj z {percent}% zniżki na pierwsze zamówienie.",
+    "cta": "Odkryj kolekcję",
+    "note": "Naliczana automatycznie przy kasie dla pierwszego zamówienia."
+  },
+  "intro": {
+    "eyebrow": "Maison",
+    "title": "Tam, gdzie elegancja staje się osobista.",
+    "body": "Każda kolekcja jest stylizowana, oświetlana i fotografowana z cierpliwością — ciepłe światło studia, jedwab w kolorze kości słoniowej, ciche piękno starannie wybranego detalu. Odkryj gotowe sesje lub osobistą kolekcję, którą {creator} stworzy specjalnie dla Ciebie."
+  },
+  "silk": {
+    "eyebrow": "Za jedwabiem",
+    "title": "Niektóre detale zasługują na bliższe spojrzenie.",
+    "caption": "Przewijaj powoli.",
+    "fallback": "Gdy animacje są włączone, w tym miejscu odtwarzana jest sekwencja."
+  },
+  "collections": {
+    "eyebrow": "Kolekcje",
+    "title": "Wybrane z elegancją.",
+    "all": "Zobacz wszystkie kolekcje"
+  },
+  "details": {
+    "eyebrow": "Detale",
+    "title": "Świat pięknych detali.",
+    "body": "Dotknij lub najedź na delikatnie świecące punkty, aby odkryć detale ukryte w obrazie.",
+    "hint": "Odkryj detale",
+    "hotspots": {
+      "polish": {
+        "title": "Lakier",
+        "body": "Błyszczący lakier w kolorze szampana, nakładany ręcznie rano w dniu sesji."
+      },
+      "jewelry": {
+        "title": "Biżuteria na stopę",
+        "body": "Delikatna bransoletka na kostkę z jedną perłą — subtelna, nigdy przesadna."
+      },
+      "stockings": {
+        "title": "Cienkie pończochy",
+        "body": "Przejrzysty jedwab 10 den z delikatnym szwem, wybrany ze względu na miękki połysk."
+      },
+      "silk": {
+        "title": "Jedwabne dodatki",
+        "body": "Szampańska charmeuse, swobodnie udrapowana, by chwytać poranne światło."
+      },
+      "styling": {
+        "title": "Stylizacja",
+        "body": "Każdy element jest układany ręcznie. Nic nie jest przypadkowe."
+      }
+    }
+  },
+  "nail": {
+    "eyebrow": "Studio paznokci",
+    "title": "Twój kolor. Twoje pragnienie.",
+    "body": "Każdy detal zależy od Ciebie.",
+    "cta": "Wejdź do Studia paznokci"
+  },
+  "quiz": {
+    "eyebrow": "Quiz stylu",
+    "title": "Odkryj swój styl.",
+    "body": "Cztery lekkie pytania, jedna kolekcja dla Ciebie.",
+    "cta": "Rozpocznij quiz"
+  },
+  "about": {
+    "eyebrow": "Osoba stojąca za detalami",
+    "title": "Poznaj Lisę.",
+    "body": "Odkryj kreatywność, styl i osobowość stojące za każdą kolekcją MAISON LISA.",
+    "cta": "Poznaj Lisę"
+  },
+  "next": {
+    "eyebrow": "Wkrótce",
+    "title": "Następny rozdział.",
+    "cta": "Zobacz, co nadchodzi"
+  },
+  "final": {
+    "title": "Twoja wizja. Sztuka, którą tworzy {creator}.",
+    "body": "Wybierz kolor, stylizację i nastrój — i prześlij swoje życzenia Lisie w prywatnej rozmowie.",
+    "cta": "Utwórz osobistą prośbę",
+    "secondary": "Wiadomość do: {creator}"
+  },
+  "announcement": ""
+}
