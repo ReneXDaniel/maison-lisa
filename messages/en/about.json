@@ -1,0 +1,36 @@
+{
+  "metaTitle": "About Lisa",
+  "eyebrow": "The person behind the details",
+  "subtitle": "Discover the Person Behind the Details.",
+  "portraitAlt": "Portrait of {creator}",
+  "portraitPlaceholder": "Placeholder artwork — Lisa's own portrait will appear here.",
+  "intro": {
+    "title": "Meet {creator}.",
+    "body": "This space is reserved for Lisa's own words — who she is, what inspires her and how MAISON LISA came to be.\nLisa can write and update this text at any time in her dashboard."
+  },
+  "cards": {
+    "c1": { "title": "A Little About Me", "body": "A short personal introduction, written by Lisa herself." },
+    "c2": { "title": "My Favorite Things", "body": "Colours, fabrics, places and small rituals Lisa loves — in her words." },
+    "c3": { "title": "What Makes Me Smile", "body": "The moments and details that brighten Lisa's day." },
+    "c4": { "title": "My Creative Side", "body": "How a collection takes shape — from the first idea to the final photograph." },
+    "c5": { "title": "A Little Secret", "body": "Something Lisa would like to share with her clients. To be written by Lisa." }
+  },
+  "bts": {
+    "eyebrow": "Behind the scenes",
+    "title": "The Making of a Collection.",
+    "body": "Silent moments from the studio — preparation, colour, fabric and light.",
+    "items": {
+      "b1": "Selecting nail polish",
+      "b2": "Arranging fabric",
+      "b3": "Choosing jewellery",
+      "b4": "Studio light",
+      "b5": "Creative styling",
+      "b6": "Photography details"
+    }
+  },
+  "final": {
+    "title": "Now You Know a Little About Me.",
+    "body": "What Would You Like Me to Know About You?"
+  },
+  "cta": "Message {creator}"
+}

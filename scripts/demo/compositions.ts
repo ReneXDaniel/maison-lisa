@@ -88,7 +88,7 @@ export function nailStudio(w: number, h: number) {
       )
       .join("");
   const defs = `<defs>${commonDefs}${skin}${satinDefs("s", p, 11, "0.0012 0.007", 10)}</defs>`;
-  const baseSvg = svg(w, h, `${defs}${satinRect("s", w, h)}${foot}${toeShapes}${nailShapes("url(#nail)", true)}<rect width="${w}" height="${h}" filter="url(#grain)"/>${label(w, h, p.label)}`);
+  const baseSvg = svg(w, h, `${defs}<g transform="translate(-60 -60)">${satinRect("s", w + 120, h + 120)}</g>${foot}${toeShapes}${nailShapes("url(#nail)", true)}<rect width="${w}" height="${h}" filter="url(#grain)"/>${label(w, h, p.label)}`);
   const maskSvg = svg(w, h, `<defs><filter id="soft"><feGaussianBlur stdDeviation="0.8"/></filter></defs><rect width="${w}" height="${h}" fill="#000"/><g filter="url(#soft)">${nailShapes("#fff", false)}</g>`);
   return { baseSvg, maskSvg };
 }

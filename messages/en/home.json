@@ -1,5 +1,7 @@
 {
-  "meta": { "title": "Beauty in Every Detail" },
+  "meta": {
+    "title": "Beauty in Every Detail"
+  },
   "hero": {
     "eyebrow": "A private digital boutique",
     "title": "MAISON LISA",
@@ -19,7 +21,7 @@
   "intro": {
     "eyebrow": "The Maison",
     "title": "Where Elegance Becomes Personal.",
-    "body": "Every collection is styled, lit and photographed with patience — warm studio light, ivory silk, the quiet beauty of a carefully chosen detail. Discover finished editorials, or shape a personal collection together with Lisa."
+    "body": "Every collection is styled, lit and photographed with patience — warm studio light, ivory silk, the quiet beauty of a carefully chosen detail. Discover finished editorials, or shape a personal collection together with {creator}."
   },
   "silk": {
     "eyebrow": "Behind the Silk",
@@ -38,11 +40,26 @@
     "body": "Tap or hover over the softly glowing points to discover the details behind the image.",
     "hint": "Discover the details",
     "hotspots": {
-      "polish": { "title": "The Polish", "body": "A glossy champagne lacquer, applied by hand the morning of the shoot." },
-      "jewelry": { "title": "Foot Jewelry", "body": "A fine anklet with a single pearl — understated, never ornamental." },
-      "stockings": { "title": "Fine Stockings", "body": "Sheer 10-denier silk with a delicate seam, chosen for its soft sheen." },
-      "silk": { "title": "Silk Accessories", "body": "Champagne charmeuse, draped loosely to catch the morning light." },
-      "styling": { "title": "Styling", "body": "Every element is placed by hand. Nothing is accidental." }
+      "polish": {
+        "title": "The Polish",
+        "body": "A glossy champagne lacquer, applied by hand the morning of the shoot."
+      },
+      "jewelry": {
+        "title": "Foot Jewelry",
+        "body": "A fine anklet with a single pearl — understated, never ornamental."
+      },
+      "stockings": {
+        "title": "Fine Stockings",
+        "body": "Sheer 10-denier silk with a delicate seam, chosen for its soft sheen."
+      },
+      "silk": {
+        "title": "Silk Accessories",
+        "body": "Champagne charmeuse, draped loosely to catch the morning light."
+      },
+      "styling": {
+        "title": "Styling",
+        "body": "Every element is placed by hand. Nothing is accidental."
+      }
     }
   },
   "nail": {
@@ -69,9 +86,10 @@
     "cta": "See what is coming"
   },
   "final": {
-    "title": "Your Vision. Lisa's Art.",
+    "title": "Your Vision. {creator}'s Art.",
     "body": "Choose the colour, the styling and the mood — and send your wishes to Lisa in a private conversation.",
     "cta": "Create a Personal Request",
-    "secondary": "Message Lisa"
-  }
+    "secondary": "Message {creator}"
+  },
+  "announcement": ""
 }

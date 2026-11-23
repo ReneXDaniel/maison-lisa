@@ -1,0 +1,55 @@
+{
+  "nail": {
+    "metaTitle": "Nail Studio",
+    "eyebrow": "Nail Studio",
+    "title": "Your Color. Your Desire.",
+    "body": "Every Detail Is Yours to Choose. Hover over a bottle to preview the colour, click to choose it.",
+    "chooseColor": "Choose your colour",
+    "natural": "Natural",
+    "preview": "preview",
+    "previewLabel": "Nail colour preview: {color}",
+    "saved": "Your colour and finish are saved and will be carried into your personal request automatically.",
+    "cta": "Create a Personal Request",
+    "demoNote": "Demo illustration — replace with Lisa's photograph and nail mask in the admin"
+  },
+  "look": {
+    "metaTitle": "Look Studio",
+    "eyebrow": "Look Studio",
+    "title": "Compose the Look.",
+    "body": "Combine stockings, footwear, accessories and setting — and carry the look into a personal request.",
+    "illustrative": "Illustrative preview. Combinations are drawn, not photographed.",
+    "saved": "Your look is saved for your personal request.",
+    "cta": "Use this look in a request"
+  },
+  "vote": {
+    "eyebrow": "Your voice",
+    "title": "Choose {creator}'s Next Look.",
+    "body": "Vote for the styling concept you would most like to see in {creator}'s next collection.",
+    "option": "Concept {n}",
+    "vote": "Vote for this look",
+    "change": "Change my vote",
+    "yourVote": "Your vote ✓",
+    "share": "{pct}% of votes",
+    "oneVote": "One vote per verified client. You can change your vote while voting is open.",
+    "verifiedOnly": "Voting is open to verified adult clients.",
+    "verify": "Verify now",
+    "signIn": "Sign in"
+  },
+  "quiz": {
+    "metaTitle": "Discover Your Style",
+    "eyebrow": "Style Quiz",
+    "title": "Discover Your Style.",
+    "body": "Four playful questions. One collection chosen for you.",
+    "progress": "Question {n} of {total}",
+    "back": "Previous question",
+    "q1": { "question": "Classic or Mysterious?", "classic": "Classic", "classicHint": "Clean lines, quiet light", "mysterious": "Mysterious", "mysteriousHint": "Shadows and deep tones" },
+    "q2": { "question": "Soft or Bold?", "soft": "Soft", "softHint": "Nude, blush, whisper-light", "bold": "Bold", "boldHint": "Cherry, bordeaux, lacquer" },
+    "q3": { "question": "Ivory or Espresso?", "ivory": "Ivory", "ivoryHint": "Bright and airy", "espresso": "Espresso", "espressoHint": "Warm and dramatic" },
+    "q4": { "question": "Silk or Lace?", "silk": "Silk", "silkHint": "Fluid and luminous", "lace": "Lace", "laceHint": "Delicate and intricate" },
+    "resultEyebrow": "Your collection",
+    "explore": "Explore Your Collection",
+    "custom": "Create a Custom Request",
+    "disclaimer": "Just for fun — your result is a style suggestion, nothing more. No answers are stored on our servers.",
+    "restart": "Start again"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Coming soon",
+  "title": "The Next Chapter.",
+  "intro": "New collections, seasonal photography, polish themes and styling concepts — a glimpse of what Lisa is preparing.",
+  "noDate": "In preparation",
+  "available": "Now available",
+  "days": "days",
+  "hours": "hours",
+  "minutes": "min",
+  "countdownLabel": "Available in {d} days, {h} hours and {m} minutes",
+  "subscribeTitle": "Be the first to know.",
+  "subscribeBody": "Receive a short note when a new chapter is released. No more than a few emails per season.",
+  "email": "Email address",
+  "consent": "I agree to receive announcements about new MAISON LISA collections by email. I can unsubscribe at any time.",
+  "subscribe": "Subscribe",
+  "subscribed": "Almost done — please confirm your subscription via the link we sent you.",
+  "confirmed": "Thank you — your subscription is confirmed.",
+  "unsubscribed": "You have been unsubscribed.",
+  "invalidLink": "This link is invalid or has expired.",
+  "empty": "New chapters will be announced here."
+}

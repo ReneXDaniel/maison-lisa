@@ -169,3 +169,12 @@
     scroll-behavior: auto !important;
   }
 }
+
+@keyframes scrollcue {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(250%);
+  }
+}

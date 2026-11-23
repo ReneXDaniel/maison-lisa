@@ -35,32 +35,7 @@ export function satinDefs(id: string, p: Palette, seed: number, freq = "0.0016 0
 
 export const satinRect = (id: string, w: number, h: number) => `<rect width="${w}" height="${h}" fill="url(#${id}-base)" filter="url(#${id}-satin)"/>`;
 
-/** Catmull-Rom spline through points → smooth closed SVG path. */
-function spline(points: [number, number][], closed = true): string {
-  const pts = closed ? [points[points.length - 1]!, ...points, points[0]!, points[1]!] : [points[0]!, ...points, points[points.length - 1]!];
-  let d = `M${pts[1]![0]} ${pts[1]![1]}`;
-  for (let i = 1; i < pts.length - 2; i++) {
-    const [p0, p1, p2, p3] = [pts[i - 1]!, pts[i]!, pts[i + 1]!, pts[i + 2]!];
-    const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6];
-    const c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
-    d += ` C${c1[0]!.toFixed(1)} ${c1[1]!.toFixed(1)} ${c2[0]!.toFixed(1)} ${c2[1]!.toFixed(1)} ${p2[0]} ${p2[1]}`;
-  }
-  return d + (closed ? " Z" : "");
-}
-
-/**
- * Leg in side profile, heel raised and toe pointed (as in a high heel),
- * built from proportional widths along its length. 600×1600 design box.
- */
-const FRONT: [number, number][] = [
-  [392, 0], [384, 250], [366, 480], [374, 545], [370, 600], [360, 650], [350, 760], [342, 900], [338, 1050], [334, 1180], [330, 1262],
-  [348, 1330], [384, 1400], [428, 1470], [470, 1535], [500, 1584],
-];
-const BACK: [number, number][] = [
-  [508, 1600], [470, 1590], [420, 1552], [360, 1500], [306, 1446], [266, 1390], [244, 1345], [236, 1305], [240, 1262], [228, 1180], [214, 1050], [192, 900],
-  [176, 760], [184, 690], [196, 640], [208, 560], [204, 480], [184, 250], [172, 0],
-];
-export const LEG_PATH = spline([...FRONT, ...BACK]);
+export { LEG_PATH } from "../../src/lib/art/leg";
 
 export const label = (w: number, h: number, color: string) =>
   `<text x="${w - 36}" y="${h - 30}" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="${Math.round(w / 90)}" letter-spacing="${Math.round(w / 300)}" fill="${color}" opacity="0.75">DEMO ARTWORK</text>`;

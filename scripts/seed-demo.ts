@@ -29,7 +29,8 @@ async function variants(file: string, prefix: string, opts: { watermark?: boolea
   const src = readFileSync(file);
   const meta = await sharp(src).metadata();
   const out: schema.MediaVariant[] = [];
-  for (const w of WIDTHS.filter((x) => x <= (meta.width ?? 0) || x === WIDTHS[0])) {
+  const native = Math.min(meta.width ?? 2400, 2400);
+  for (const w of [...new Set([...WIDTHS.filter((x) => x < native), native])]) {
     let b = await sharp(src).resize({ width: Math.min(w, meta.width ?? w) }).webp(opts.lossless ? { lossless: true } : { quality: 82 }).toBuffer();
     if (opts.watermark) b = await watermark(b, "MAISON LISA · PREVIEW");
     const key = `${prefix}/w${w}.webp`;

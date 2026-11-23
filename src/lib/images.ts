@@ -52,7 +52,8 @@ export async function buildVariants(buf: Buffer, opts: { watermark?: string; blu
   const meta = await base.metadata();
   const width = meta.width ?? 0;
   const height = meta.height ?? 0;
-  const widths = VARIANT_WIDTHS.filter((w) => w <= Math.max(width, VARIANT_WIDTHS[0]!));
+  const native = Math.min(width || 2400, 2400);
+  const widths = [...new Set([...VARIANT_WIDTHS.filter((w) => w < native), native])];
   const out: { width: number; buffer: Buffer }[] = [];
   for (const w of widths) {
     let p = sharp(buf, { limitInputPixels: MAX_PIXELS }).rotate().resize({ width: Math.min(w, width || w), withoutEnlargement: true });
