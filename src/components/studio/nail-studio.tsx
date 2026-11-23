@@ -112,13 +112,13 @@ export function NailStudio({ baseUrl, maskUrl, isDemo }: { baseUrl: string | nul
                 onFocus={() => setHover(c.key)}
                 onBlur={() => setHover(null)}
                 onClick={() => set({ polishColor: c.key })}
-                className="group flex w-20 shrink-0 flex-col items-center gap-2 pt-2 lg:w-auto"
+                className="group flex w-20 shrink-0 flex-col items-center gap-2 pt-2 lg:w-full lg:min-w-0"
                 data-testid={`bottle-${c.key}`}
               >
                 <span className={clsx("block transition-transform duration-500 ease-[var(--ease-luxe)] [transform-style:preserve-3d] group-hover:[transform:perspective(600px)_rotateY(-16deg)_translateY(-8px)]", active && "-translate-y-2")}>
                   <Bottle color={c.hex} size={44} />
                 </span>
-                <span className={clsx("text-center text-[10px] uppercase leading-tight tracking-[0.12em]", active ? "font-semibold text-espresso" : "text-taupe-700")}>{o(`polishColor.${c.key}`)}</span>
+                <span className={clsx("w-full text-center text-[10px] uppercase leading-tight tracking-[0.12em] hyphens-auto [overflow-wrap:anywhere]", active ? "font-semibold text-espresso" : "text-taupe-700")}>{o(`polishColor.${c.key}`)}</span>
                 <span className={clsx("h-px w-6 bg-espresso transition-opacity", active ? "opacity-100" : "opacity-0")} />
               </button>
             );

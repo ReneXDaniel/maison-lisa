@@ -15,3 +15,4 @@ assets/demo/
 __pycache__/
 test-results/
 playwright-report/
+*.bundle
