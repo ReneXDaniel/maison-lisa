@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import clsx from "clsx";
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion, useIsPresent } from "motion/react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { brand } from "@/config/brand";
 import { useUI } from "@/stores/ui";
@@ -10,6 +10,7 @@ import { useSessionUser } from "@/components/providers/session-provider";
 import { LanguageSwitcher } from "./language-switcher";
 import { NotificationBell } from "./notification-bell";
 import { IconBag, IconChat, IconClose, IconMenu, IconUser } from "@/components/ui/icons";
+import { logoutAction } from "@/app/actions/auth";
 
 export const NAV_ITEMS = [
   { href: "/", key: "home" },
@@ -123,19 +124,7 @@ export function Header() {
               <IconBag size={20} />
               <AnimatePresence>
                 {cartCount > 0 && (
-                  <motion.span
-                    key={cartCount}
-                    initial={{ scale: 0.4, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    exit={{ scale: 0.4, opacity: 0 }}
-                    className={clsx(
-                      "absolute right-0.5 top-1 flex min-w-[18px] items-center justify-center rounded-full px-1 text-[10px] font-bold leading-[18px]",
-                      overlay ? "bg-ivory-50 text-espresso" : "bg-espresso text-ivory-50",
-                    )}
-                    data-testid="cart-count"
-                  >
-                    {cartCount}
-                  </motion.span>
+                  <CartBadge key={cartCount} count={cartCount} overlay={overlay} />
                 )}
               </AnimatePresence>
             </Link>
@@ -177,11 +166,38 @@ export function Header() {
                 <Link href={user ? "/account" : "/auth/login"} className="eyebrow text-champagne">
                   {user ? t("account") : t("login")}
                 </Link>
+                {user && (
+                  <form action={logoutAction}>
+                    <button type="submit" className="eyebrow text-champagne-200 hover:text-ivory-50">
+                      {t("logout")}
+                    </button>
+                  </form>
+                )}
               </div>
             </nav>
           </motion.div>
         )}
       </AnimatePresence>
     </>
+  );
+}
+
+/** Cart badge; the copy animating out is hidden from assistive tech and tests. */
+function CartBadge({ count, overlay }: { count: number; overlay: boolean }) {
+  const present = useIsPresent();
+  return (
+    <motion.span
+      initial={{ scale: 0.4, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      exit={{ scale: 0.4, opacity: 0 }}
+      className={clsx(
+        "absolute right-0.5 top-1 flex min-w-[18px] items-center justify-center rounded-full px-1 text-[10px] font-bold leading-[18px]",
+        overlay ? "bg-ivory-50 text-espresso" : "bg-espresso text-ivory-50",
+      )}
+      aria-hidden={present ? undefined : true}
+      data-testid={present ? "cart-count" : undefined}
+    >
+      {count}
+    </motion.span>
   );
 }

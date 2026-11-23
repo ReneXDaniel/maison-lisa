@@ -37,12 +37,13 @@ export function LookStudio() {
         ).map(([g, opts]) => (
           <div key={g}>
             <p className="eyebrow mb-4 text-taupe-700">{o(`${g}.label`)}</p>
-            <OptionChips group={g} options={opts} value={look[g] as never} onChange={(v) => v && set({ [g]: v } as Partial<RequestSelections>)} />
+            <OptionChips group={g} options={opts} value={look[g] as never} onChange={(v) => set({ [g]: v ?? look[g] } as Partial<RequestSelections>)} />
           </div>
         ))}
         <div className="border-t border-champagne/60 pt-8">
           <p className="text-sm leading-relaxed text-taupe-700">{t("saved")}</p>
-          <ButtonLink href="/custom-requests" size="lg" className="mt-5">
+          {/* The preview shows a complete look; using it commits every part shown. */}
+          <ButtonLink href="/custom-requests" size="lg" className="mt-5" onClick={() => set(look as Partial<RequestSelections>)} data-testid="look-to-request">
             {t("cta")}
           </ButtonLink>
         </div>

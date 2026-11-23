@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import clsx from "clsx";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useUI } from "@/stores/ui";
+import { logoutAction } from "@/app/actions/auth";
 
 const ITEMS = [
   ["/account", "overview"],
@@ -17,6 +18,7 @@ const ITEMS = [
 
 export function AccountNav() {
   const t = useTranslations("account.nav");
+  const tNav = useTranslations("nav");
   const pathname = usePathname();
   const unread = useUI((s) => s.unreadMessages);
   const cart = useUI((s) => s.cartCount);
@@ -40,6 +42,11 @@ export function AccountNav() {
           </Link>
         );
       })}
+      <form action={logoutAction} className="lg:mt-6 lg:border-t lg:border-champagne/50 lg:pt-4">
+        <button type="submit" className="whitespace-nowrap px-3 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-taupe-700 transition-colors hover:text-espresso lg:px-4" data-testid="logout">
+          {tNav("logout")}
+        </button>
+      </form>
     </nav>
   );
 }

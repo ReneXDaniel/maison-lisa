@@ -59,6 +59,10 @@ export async function requirePage(locale: string, level: AccessLevel, returnTo: 
   const user = await getCurrentUser();
   const problem = checkLevel(user, level);
   const next = encodeURIComponent(safeNext(returnTo));
+  // The admin area answers 404 to everyone who is not an admin — signed in
+  // or not — so its existence is never revealed. Lisa signs in through the
+  // normal login page, which forwards admins to /admin.
+  if (level === "admin" && problem !== null) notFound();
   switch (problem) {
     case null:
       return user!;

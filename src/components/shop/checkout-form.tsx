@@ -49,7 +49,7 @@ export function CheckoutForm(props: {
           <dd>{formatMoney(props.subtotalCents, locale)}</dd>
         </div>
         {props.discounts.map((d) => (
-          <div key={d.label} className="flex justify-between text-success">
+          <div key={d.label} className="flex justify-between text-success" data-testid="discount-line" data-kind={d.label === "welcome" ? "welcome" : "code"}>
             <dt>{d.label === "welcome" ? t("welcomeDiscount") : t("codeDiscount", { code: d.label })}</dt>
             <dd>−{formatMoney(d.amountCents, locale)}</dd>
           </div>

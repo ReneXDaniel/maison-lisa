@@ -13,3 +13,5 @@ coverage/
 *.zip
 assets/demo/
 __pycache__/
+test-results/
+playwright-report/

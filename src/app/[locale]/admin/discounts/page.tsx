@@ -40,7 +40,7 @@ export default async function AdminDiscounts({ params }: { params: Promise<{ loc
               <Td className="text-xs">{t(`scopes.${d.scope}`)}{d.firstOrderOnly ? ` · ${t("firstOrder")}` : ""}</Td>
               <Td className="text-xs">{d.maxRedemptions ? t("max", { n: d.maxRedemptions }) : "∞"} · {t("perCustomer", { n: d.perCustomerLimit })}{d.minOrderCents ? ` · ≥ ${formatMoney(d.minOrderCents, locale)}` : ""}</Td>
               <Td className="text-xs text-taupe-700">{d.startsAt ? formatDate(d.startsAt, locale) : "—"} → {d.endsAt ? formatDate(d.endsAt, locale) : "—"}</Td>
-              <Td>{Number(s?.n ?? 0)} <span className="text-xs text-taupe-700">(−{formatMoney(Number(s?.amount ?? 0), locale)})</span></Td>
+              <Td><span data-testid="discount-redemptions">{Number(s?.n ?? 0)}</span> <span className="text-xs text-taupe-700">(−{formatMoney(Number(s?.amount ?? 0), locale)})</span></Td>
               <Td><Badge tone={d.active ? "success" : "neutral"}>{d.active ? t("active") : t("inactive")}</Badge></Td>
               <Td><ActionButton action={toggleDiscountAction.bind(null, d.id, !d.active)} label={d.active ? t("deactivate") : t("activate")} /></Td>
             </tr>
