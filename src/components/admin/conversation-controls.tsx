@@ -40,7 +40,7 @@ export function ConversationControls({ id, status, flagged }: { id: string; stat
           </option>
         ))}
       </Select>
-      <div className="flex gap-2">
+      <div className="flex flex-wrap gap-2">
         <Button size="sm" variant={flagged ? "danger" : "secondary"} disabled={pending} onClick={() => go(() => toggleFlagAction(id, !flagged))}>
           <IconFlag size={14} />
           {flagged ? t("unflag") : t("flag")}

@@ -11,9 +11,9 @@ export function buttonClasses(variant: ButtonVariant = "primary", size: ButtonSi
     "font-sans font-semibold uppercase tracking-[0.22em] transition-all duration-500 ease-[var(--ease-luxe)]",
     "disabled:pointer-events-none disabled:opacity-45 aria-disabled:pointer-events-none aria-disabled:opacity-45",
     {
-      sm: "h-9 px-4 text-[10px]",
-      md: "h-12 px-7 text-[11px]",
-      lg: "h-14 px-9 text-[12px]",
+      sm: "min-h-9 px-4 py-2 text-[10px] leading-tight",
+      md: "min-h-12 px-7 py-3 text-[11px] leading-tight",
+      lg: "min-h-14 px-9 py-3.5 text-[12px] leading-tight",
     }[size],
     {
       primary: "bg-espresso text-ivory-50 hover:bg-espresso-700 shadow-[0_14px_30px_-18px_rgb(44_31_24/0.7)]",
