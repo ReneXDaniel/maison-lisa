@@ -1,0 +1,8 @@
+{
+  "eyebrow": "The Collections",
+  "title": "Curated with Elegance.",
+  "intro": "Six chapters of one visual language — from quiet essentials to the private edit.",
+  "count": "{count, plural, =0 {Coming soon} one {# collection} other {# collections}}",
+  "discover": "Discover the collection",
+  "emptyCollection": "New photographs are being prepared for this collection."
+}
