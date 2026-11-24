@@ -27,6 +27,8 @@ export default defineConfig({
     baseURL,
     trace: "off",
     locale: "en-GB",
+    // Password-protected preview deployment (PREVIEW_MODE): E2E_PREVIEW_PASSWORD=…
+    httpCredentials: process.env.E2E_PREVIEW_PASSWORD ? { username: "vorschau", password: process.env.E2E_PREVIEW_PASSWORD } : undefined,
     actionTimeout: 20_000,
     navigationTimeout: 60_000,
   },

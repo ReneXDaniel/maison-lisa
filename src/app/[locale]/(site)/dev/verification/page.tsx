@@ -18,7 +18,7 @@ export default async function DevVerificationPage({ params, searchParams }: { pa
   const year = new Date().getFullYear() - 29;
   return (
     <Container className="max-w-2xl pb-24 pt-36">
-      <DevLabel>{t("simulator", { kind: "identity verification" })}</DevLabel>
+      <DevLabel>{t("simulatorVerification")}</DevLabel>
       <h1 className="mt-6 text-5xl text-espresso">{t("verificationTitle")}</h1>
       <p className="mt-4 text-sm leading-relaxed text-taupe-700">{t("verificationIntro")}</p>
       {!valid ? (

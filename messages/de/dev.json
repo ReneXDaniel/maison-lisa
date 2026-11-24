@@ -1,1 +1,25 @@
-{}
+{
+  "banner": "Entwicklungsmodus",
+  "previewBanner": "Vorschau-Modus",
+  "providers": "Verifikation: {verification} · Zahlung: {payment} · E-Mail: {mail}",
+  "mailbox": "Test-Postfach",
+  "mailboxHint": "Vorschau: E-Mails werden nicht wirklich verschickt. Den Bestätigungslink findest du im <link>Test-Postfach</link>.",
+  "simulatorVerification": "Entwicklungssimulator — keine echte Ausweisprüfung",
+  "simulatorPayment": "Entwicklungssimulator — keine echte Zahlung",
+  "mailboxTitle": "Test-Postfach",
+  "mailboxIntro": "Hier landen alle E-Mails, die die Anwendung verschicken würde. Im echten Betrieb gehen sie per SMTP raus; dann gibt es diese Seite nicht.",
+  "mailboxEmpty": "Noch keine E-Mails.",
+  "to": "An",
+  "verificationTitle": "Simulator für die Ausweisprüfung",
+  "verificationIntro": "Diese Seite ersetzt die Prüfseite des Verifizierungsanbieters. Die gewählte Antwort wird als signierte Nachricht an denselben Webhook geschickt, den ein echter Anbieter nutzt. Im echten Betrieb ist sie abgeschaltet.",
+  "approveAdult": "Simulieren: volljährig, bestätigt (Jahrgang {year})",
+  "approveMinor": "Simulieren: Ausweis gültig, aber unter 18",
+  "decline": "Simulieren: Prüfung abgelehnt",
+  "review": "Simulieren: manuelle Prüfung nötig",
+  "paymentTitle": "Zahlungssimulator",
+  "paymentIntro": "Diese Seite ersetzt die Bezahlseite des Zahlungsanbieters. Die gewählte Antwort wird als signierte Zahlungsnachricht an den Webhook geschickt. Es fließt kein Geld. Im echten Betrieb ist sie abgeschaltet.",
+  "paySuccess": "Simulieren: Zahlung erfolgreich",
+  "payFail": "Simulieren: Zahlung abgelehnt",
+  "payCancel": "Abbrechen und zurück zum Warenkorb",
+  "sessionInvalid": "Diese Simulator-Sitzung ist ungültig oder abgelaufen."
+}

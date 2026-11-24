@@ -43,6 +43,7 @@
 **Development safety**
 - The dev mailbox, verification and payment simulators are visibly labelled. They run only when `ALLOW_DEV_SIMULATORS=true` and `NODE_ENV` is not production.
 - In production, the provider factories refuse to start with `dev` providers, the simulators or the mail outbox. This was checked: the dev routes return 404 and the dev webhook is refused.
+- The only exception is an explicit **preview deployment** (`PREVIEW_MODE=true` with a `PREVIEW_PASSWORD` of 8+ characters). Every page then sits behind one shared password (HTTP Basic auth in `src/proxy.ts`), pages are marked `noindex`, and the banner reads "Preview mode". Without the password the process refuses to start the providers. Never use it for real customers.
 
 ## Before going live
 

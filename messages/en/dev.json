@@ -2,7 +2,8 @@
   "banner": "Development mode",
   "providers": "Verification: {verification} · Payment: {payment} · Mail: {mail}",
   "mailbox": "Dev mailbox",
-  "simulator": "Development simulator — not a real {kind}",
+  "simulatorVerification": "Development simulator — not a real identity verification",
+  "simulatorPayment": "Development simulator — not a real payment",
   "mailboxTitle": "Development mailbox",
   "mailboxIntro": "Emails stored by the outbox transport. In production, configure SMTP; this page is unavailable.",
   "mailboxEmpty": "No emails yet.",
@@ -18,5 +19,7 @@
   "paySuccess": "Simulate: payment succeeded",
   "payFail": "Simulate: payment declined",
   "payCancel": "Cancel and return to cart",
-  "sessionInvalid": "This simulator session is invalid or expired."
+  "sessionInvalid": "This simulator session is invalid or expired.",
+  "previewBanner": "Preview mode",
+  "mailboxHint": "Preview: emails are not sent. Open the <link>test mailbox</link> to find the confirmation link."
 }

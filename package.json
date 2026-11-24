@@ -11,6 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start:preview": "sh scripts/start-preview.sh",
     "typecheck": "tsc --noEmit",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx scripts/migrate.ts",

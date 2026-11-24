@@ -1,0 +1,67 @@
+# Render Blueprint — password-protected PREVIEW of MAISON LISA.
+#
+# Runs the production build with the clearly labelled simulators for
+# identity verification, payment and e-mail (no real checks, no real money,
+# no e-mails sent). Every page asks for PREVIEW_PASSWORD first.
+# This is for testing only. For going live see docs/GO-LIVE.md.
+#
+# Render asks for the two values marked `sync: false` when you create the
+# Blueprint. Guide (German): docs/VORSCHAU.md
+
+databases:
+  - name: maison-lisa-db
+    plan: free
+    region: frankfurt
+    databaseName: maison_lisa
+    user: maison
+
+services:
+  - type: web
+    name: maison-lisa-vorschau
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start:preview
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: maison-lisa-db
+          property: connectionString
+      # Password for the whole site (shared with everyone who may look).
+      - key: PREVIEW_PASSWORD
+        sync: false
+      # Lisa's admin login (min. 12 characters); e-mail below.
+      - key: SEED_ADMIN_PASSWORD
+        sync: false
+      - key: SEED_ADMIN_EMAIL
+        value: lisa@maison-lisa.test
+      - key: PREVIEW_MODE
+        value: "true"
+      - key: ALLOW_DEV_SIMULATORS
+        value: "true"
+      - key: VERIFICATION_PROVIDER
+        value: dev
+      - key: PAYMENT_PROVIDER
+        value: dev
+      - key: MAIL_TRANSPORT
+        value: outbox
+      - key: STORAGE_DRIVER
+        value: db
+      - key: SEED_DEMO_CONTENT
+        value: "true"
+      - key: NEXT_PUBLIC_DEFAULT_LOCALE
+        value: de
+      - key: TRUST_PROXY
+        value: "true"
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: APP_ENCRYPTION_KEY
+        generateValue: true
+      - key: DEV_WEBHOOK_SECRET
+        generateValue: true
+      - key: CRON_SECRET
+        generateValue: true

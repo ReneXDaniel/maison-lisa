@@ -8,6 +8,11 @@ import { z } from "zod";
  * ALLOW_DEV_SIMULATORS=true AND NODE_ENV !== "production". A production
  * process that is configured with a dev provider refuses to start the
  * relevant flow (see assertProductionSafety).
+ *
+ * Exception — preview deployments: PREVIEW_MODE=true with a PREVIEW_PASSWORD
+ * of at least 8 characters runs a production build with the labelled
+ * simulators, behind a site-wide password (src/proxy.ts). It is meant for
+ * testing a hosted copy, never for taking real customers or payments.
  */
 const schema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
@@ -25,7 +30,7 @@ const schema = z.object({
   SMTP_SECURE: z.enum(["true", "false"]).optional(),
   ADMIN_NOTIFY_EMAIL: z.string().email().optional().or(z.literal("")),
 
-  STORAGE_DRIVER: z.enum(["local", "s3"]).default("local"),
+  STORAGE_DRIVER: z.enum(["local", "s3", "db"]).default("local"),
   STORAGE_LOCAL_DIR: z.string().default("./storage"),
   S3_ENDPOINT: z.string().optional(),
   S3_REGION: z.string().optional(),
@@ -50,6 +55,8 @@ const schema = z.object({
   CLAMAV_HOST: z.string().optional(),
   CLAMAV_PORT: z.coerce.number().default(3310),
   TRUST_PROXY: z.enum(["true", "false"]).default("false"),
+  PREVIEW_MODE: z.enum(["true", "false"]).default("false"),
+  PREVIEW_PASSWORD: z.string().optional(),
 });
 
 export type Env = z.infer<typeof schema>;
@@ -69,10 +76,16 @@ export function env(): Env {
 
 export const isProduction = () => env().NODE_ENV === "production";
 
-/** True only in non-production processes that explicitly opted in. */
+/** A password-protected preview deployment (see the note at the top). */
+export function previewMode(): boolean {
+  const e = env();
+  return e.PREVIEW_MODE === "true" && (e.PREVIEW_PASSWORD ?? "").length >= 8;
+}
+
+/** True only in non-production processes, or a protected preview, that explicitly opted in. */
 export function devSimulatorsEnabled(): boolean {
   const e = env();
-  return e.NODE_ENV !== "production" && e.ALLOW_DEV_SIMULATORS === "true";
+  return e.ALLOW_DEV_SIMULATORS === "true" && (e.NODE_ENV !== "production" || previewMode());
 }
 
 /**
@@ -82,6 +95,10 @@ export function devSimulatorsEnabled(): boolean {
 export function assertProductionSafety(): void {
   const e = env();
   if (e.NODE_ENV !== "production") return;
+  if (e.PREVIEW_MODE === "true") {
+    if (!previewMode()) throw new Error("PREVIEW_MODE=true requires PREVIEW_PASSWORD (min. 8 characters)");
+    return; // labelled simulators behind the site-wide preview password
+  }
   const problems: string[] = [];
   if (e.ALLOW_DEV_SIMULATORS === "true") problems.push("ALLOW_DEV_SIMULATORS must be false in production");
   if (e.VERIFICATION_PROVIDER === "dev") problems.push("VERIFICATION_PROVIDER=dev is not allowed in production");

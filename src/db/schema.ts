@@ -1,4 +1,5 @@
 import {
+  customType,
   pgTable,
   pgEnum,
   pgSequence,
@@ -707,6 +708,21 @@ export const contentBlocks = pgTable(
   },
   (t) => [primaryKey({ columns: [t.key, t.locale] })],
 );
+
+/** Binary column (bytea) for the "db" storage driver. */
+const bytea = customType<{ data: Buffer; driverData: Buffer }>({ dataType: () => "bytea" });
+
+/**
+ * Object storage inside PostgreSQL — used by STORAGE_DRIVER=db for preview
+ * deployments on hosts without a persistent disk. Production uses S3.
+ */
+export const storageObjects = pgTable("storage_objects", {
+  key: text("key").primaryKey(),
+  content: bytea("content").notNull(),
+  contentType: text("content_type").notNull(),
+  size: integer("size").notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
 
 export const settings = pgTable("settings", {
   key: text("key").primaryKey(),

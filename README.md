@@ -73,6 +73,10 @@ A labelled banner shows when development simulators are active. In development:
 - Age verification opens `/en/dev/verification`, where you choose "adult" or "minor".
 - Payments open `/en/dev/payment`, where you choose success or failure.
 
+## Online preview
+
+`render.yaml` deploys a **password-protected preview** to Render: the production build with the labelled simulators (`PREVIEW_MODE=true`), files stored in PostgreSQL (`STORAGE_DRIVER=db`), and migrations plus the demo seed on start (`npm run start:preview`). It is for testing only, never for real customers. Step-by-step guide (German): [docs/VORSCHAU.md](docs/VORSCHAU.md).
+
 ## Scripts
 
 | Script | Purpose |

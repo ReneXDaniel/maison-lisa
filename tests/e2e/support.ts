@@ -18,6 +18,9 @@ export const ADMIN = {
 };
 const AGE_NOTICE_COOKIE = "ml_age_notice";
 
+/** Credentials for a password-protected preview deployment (PREVIEW_MODE). */
+export const CREDENTIALS = process.env.E2E_PREVIEW_PASSWORD ? { username: "vorschau", password: process.env.E2E_PREVIEW_PASSWORD } : undefined;
+
 export function unique(tag: string) {
   const id = `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`;
   return { name: `${tag} ${id}`, email: `${tag.toLowerCase()}-${id}@example.test` };
@@ -33,7 +36,7 @@ export async function acceptAgeNotice(context: BrowserContext) {
 }
 
 export async function newContext(browser: Browser, opts: Parameters<Browser["newContext"]>[0] = {}) {
-  const ctx = await browser.newContext(opts);
+  const ctx = await browser.newContext({ httpCredentials: CREDENTIALS, ...opts });
   await acceptAgeNotice(ctx);
   return ctx;
 }

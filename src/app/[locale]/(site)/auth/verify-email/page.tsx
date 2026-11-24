@@ -3,6 +3,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { AuthShell } from "@/components/auth/auth-shell";
 import { ResendForm } from "@/components/auth/forms";
 import { ButtonLink } from "@/components/ui/button";
+import { Link } from "@/i18n/navigation";
+import { devSimulatorsEnabled, env } from "@/lib/env";
 import { Notice } from "@/components/ui/misc";
 import { getCurrentUser } from "@/lib/auth/session";
 import { safeNext } from "@/lib/auth/guards";
@@ -16,6 +18,7 @@ export default async function VerifyEmailPage({ params, searchParams }: Props) {
   const next = safeNext(sp.next, "/account");
   const user = await getCurrentUser();
   const t = await getTranslations("auth.verifyEmail");
+  const d = await getTranslations("dev");
 
   if (user?.emailVerified || sp.confirmed) {
     const needsAge = user && !user.isAdmin && !user.isAdultVerified;
@@ -41,6 +44,11 @@ export default async function VerifyEmailPage({ params, searchParams }: Props) {
   return (
     <AuthShell title={t("title")} subtitle={t("body", { email: user.email })} aside="verification">
       {sp.invalid && <Notice tone="error" className="mb-6">{t("invalid")}</Notice>}
+      {devSimulatorsEnabled() && env().MAIL_TRANSPORT === "outbox" && (
+        <Notice className="mb-6">
+          {d.rich("mailboxHint", { link: (chunks) => <Link href="/dev/mailbox" className="font-semibold underline">{chunks}</Link> })}
+        </Notice>
+      )}
       <p className="mb-6 text-sm leading-relaxed text-taupe-700">{t("hint")}</p>
       <ResendForm next={next} />
     </AuthShell>

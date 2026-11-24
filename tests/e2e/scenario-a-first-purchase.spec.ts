@@ -1,4 +1,4 @@
-import { BASE, cents, confirmEmailAndVerifyAge, expect, expectProtectedDownload, fillRegistration, payAtCheckout, test, unique } from "./support";
+import { BASE, CREDENTIALS, cents, confirmEmailAndVerifyAge, expect, expectProtectedDownload, fillRegistration, payAtCheckout, test, unique } from "./support";
 
 /**
  * Scenario A — First-time customer: explores, fills a cart as a guest,
@@ -7,7 +7,7 @@ import { BASE, cents, confirmEmailAndVerifyAge, expect, expectProtectedDownload,
  */
 test("Scenario A — first-time customer buys several products in one payment", async ({ browser }) => {
   // A brand-new visitor: no cookies at all, so the 18+ notice is shown.
-  const context = await browser.newContext();
+  const context = await browser.newContext({ httpCredentials: CREDENTIALS });
   const page = await context.newPage();
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));

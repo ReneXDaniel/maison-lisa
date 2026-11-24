@@ -2,7 +2,7 @@
  * Seeds the database.
  *  - Always: Lisa's administrator account (from SEED_ADMIN_EMAIL / SEED_ADMIN_PASSWORD)
  *            and the automatic first-order welcome discount (10 %).
- *  - With SEED_DEMO_CONTENT=true (development only): demo collections, products,
+ *  - With SEED_DEMO_CONTENT=true (development or a protected preview): demo collections, products,
  *    clearly-labelled demo artwork, releases, a look poll and example codes.
  *
  * Idempotent: safe to run repeatedly.
@@ -55,7 +55,7 @@ if (!welcome) {
 }
 
 if (process.env.SEED_DEMO_CONTENT === "true") {
-  if (process.env.NODE_ENV === "production") throw new Error("Refusing to seed demo content in production");
+  if (process.env.NODE_ENV === "production" && process.env.PREVIEW_MODE !== "true") throw new Error("Refusing to seed demo content in production");
   await seedDemoContent(db);
 }
 

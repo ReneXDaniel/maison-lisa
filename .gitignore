@@ -1,19 +1,25 @@
+# dependencies and build output
 node_modules
-.next
-out
-storage/
+/.next
+/out
 *.tsbuildinfo
 next-env.d.ts
+
+# local private file storage (STORAGE_DRIVER=local) — root only, not src/lib/storage
+/storage/
+
+# secrets
 .env
 .env.local
 .env.*.local
+
+# test output
 test-results/
 playwright-report/
 coverage/
-*.zip
-assets/demo/
 __pycache__/
-test-results/
-playwright-report/
+
+# packaged downloads and local presentation
+*.zip
 *.bundle
-showcase/
+/showcase/

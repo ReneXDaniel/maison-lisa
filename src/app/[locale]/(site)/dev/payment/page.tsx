@@ -19,7 +19,7 @@ export default async function DevPaymentPage({ params, searchParams }: { params:
   const l = await getLocale();
   return (
     <Container className="max-w-2xl pb-24 pt-36">
-      <DevLabel>{t("simulator", { kind: "payment" })}</DevLabel>
+      <DevLabel>{t("simulatorPayment")}</DevLabel>
       <h1 className="mt-6 text-5xl text-espresso">{t("paymentTitle")}</h1>
       <p className="mt-4 text-sm leading-relaxed text-taupe-700">{t("paymentIntro")}</p>
       {!data ? (

@@ -91,14 +91,15 @@ Configure SPF, DKIM and DMARC for the sending domain. Check that the provider ac
 | `MAIL_TRANSPORT` | yes (`smtp`) | `outbox` (development) or `smtp` |
 | `MAIL_FROM`, `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `SMTP_SECURE` | yes | SMTP settings |
 | `ADMIN_NOTIFY_EMAIL` | recommended | Where Lisa receives new-message, request and order alerts |
-| `STORAGE_DRIVER`, `STORAGE_LOCAL_DIR` | yes | `local` or `s3` |
+| `STORAGE_DRIVER`, `STORAGE_LOCAL_DIR` | yes | `local`, `s3`, or `db` (files in PostgreSQL; for previews on hosts without a persistent disk) |
 | `S3_ENDPOINT`, `S3_REGION`, `S3_BUCKET`, `S3_ACCESS_KEY_ID`, `S3_SECRET_ACCESS_KEY` | with `s3` | Private bucket |
 | `VERIFICATION_PROVIDER` | yes (`veriff`) | `dev` is refused in production |
 | `VERIFF_API_KEY`, `VERIFF_SHARED_SECRET`, `VERIFF_BASE_URL` | with `veriff` | Provider credentials |
 | `VERIFICATION_VALIDITY_DAYS` | no (365) | How long a verification stays valid |
 | `PAYMENT_PROVIDER` | yes (`verotel`) | `dev` is refused in production |
 | `VEROTEL_SHOP_ID`, `VEROTEL_SIGNATURE_KEY`, `VEROTEL_FLEXPAY_URL` | with `verotel` | Merchant credentials |
-| `ALLOW_DEV_SIMULATORS` | must be `false` | Enables the dev mailbox, verification and payment simulators (development only) |
+| `ALLOW_DEV_SIMULATORS` | must be `false` | Enables the dev mailbox, verification and payment simulators (development, or a protected preview) |
+| `PREVIEW_MODE`, `PREVIEW_PASSWORD` | must be unset | Password-protected preview deployment: allows the labelled simulators in a production build, behind one site-wide password (see `docs/VORSCHAU.md`) |
 | `DEV_WEBHOOK_SECRET` | development only | Signs simulator webhooks |
 | `CRON_SECRET` | yes | Bearer secret for `/api/cron/cleanup` |
 | `CLAMAV_HOST`, `CLAMAV_PORT` | optional | Virus scanning |

@@ -12,7 +12,22 @@ const ASSETS = path.resolve("assets/demo");
 const STORAGE = path.resolve(process.env.STORAGE_LOCAL_DIR ?? "./storage");
 const WIDTHS = [480, 960, 1600, 2400];
 
-function put(key: string, buf: Buffer) {
+// Writes through the configured storage driver: local files, or the
+// storage_objects table when STORAGE_DRIVER=db (preview deployments).
+let target: DB | null = null;
+const pending: Promise<unknown>[] = [];
+function put(key: string, buf: Buffer, contentType = key.endsWith(".webp") ? "image/webp" : "image/jpeg") {
+  if (process.env.STORAGE_DRIVER === "db") {
+    if (!target) throw new Error("storage target not initialised");
+    pending.push(
+      target
+        .insert(schema.storageObjects)
+        .values({ key, content: buf, contentType, size: buf.length })
+        .onConflictDoUpdate({ target: schema.storageObjects.key, set: { content: buf, contentType, size: buf.length } }),
+    );
+    return;
+  }
+  if (process.env.STORAGE_DRIVER === "s3") throw new Error("Demo seeding supports STORAGE_DRIVER=local or db");
   const full = path.join(STORAGE, key);
   mkdirSync(path.dirname(full), { recursive: true });
   writeFileSync(full, buf, { mode: 0o600 });
@@ -49,6 +64,7 @@ async function siteMedia(db: DB, name: string, alt: string, opts: { lossless?: b
 }
 
 export async function seedDemoContent(db: DB) {
+  target = db;
   if (!existsSync(ASSETS)) {
     console.log("• demo assets missing — run `npm run assets:demo` first");
     return;
@@ -133,5 +149,6 @@ export async function seedDemoContent(db: DB) {
     ])
     .onConflictDoNothing();
 
+  await Promise.all(pending);
   console.log(`✓ demo catalogue: ${DEMO_COLLECTIONS.length} collections, ${DEMO_PRODUCTS.length} products, ${DEMO_RELEASES.length} releases, look poll, example codes`);
 }
