@@ -9,8 +9,11 @@
 # Blueprint. Guide (German): docs/VORSCHAU.md
 
 databases:
+  # Smallest paid plan: a workspace may have only one free database, and a
+  # free database expires. ~50 MB is used; 1 GB of disk keeps the cost low.
   - name: maison-lisa-db
-    plan: free
+    plan: basic-256mb
+    diskSizeGB: 1
     region: frankfurt
     databaseName: maison_lisa
     user: maison

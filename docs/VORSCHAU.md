@@ -15,7 +15,7 @@ Jede Seite fragt zuerst nach dem **Vorschau-Passwort**, damit niemand Fremdes di
 ## Was du brauchst
 
 - Ein **GitHub-Konto** (kostenlos): https://github.com
-- Ein **Render-Konto** (kostenlos): https://render.com. Am einfachsten meldest du dich dort direkt mit GitHub an.
+- Ein **Render-Konto**: https://render.com. Am einfachsten meldest du dich dort direkt mit GitHub an. Der Webdienst ist kostenlos; die Datenbank nutzt Renders kleinsten bezahlten Tarif (Preis zeigt Render vor dem Bestätigen), weil Render pro Workspace nur eine kostenlose Datenbank erlaubt und diese ein Ablaufdatum hat.
 
 ## Schritt 1: Leeres GitHub-Repository anlegen
 
@@ -54,7 +54,7 @@ So testest du die wichtigsten Abläufe:
 ## Gut zu wissen
 
 - **Kostenloser Tarif:** Der Server schläft nach etwa 15 Minuten ohne Besuch ein. Der nächste Aufruf dauert dann bis zu einer Minute; danach ist alles wieder schnell. Daten und Bilder bleiben dabei erhalten.
-- **Kostenlose Datenbank:** Sie ist bei Render zeitlich begrenzt. Das Ablaufdatum steht im Render-Dashboard bei `maison-lisa-db`. Für dauerhaftes Testen dort auf einen bezahlten Tarif wechseln.
+- **Datenbank:** Sie läuft im kleinsten bezahlten Tarif (Basic, 1 GB Speicher) ohne Ablaufdatum. Wenn du die Vorschau nicht mehr brauchst, lösche Webdienst und Datenbank im Render-Dashboard, damit keine Kosten weiterlaufen.
 - **Falls der Aufbau scheitert** (zum Beispiel mit „out of memory“): im Webdienst unter **Settings** → **Instance Type** auf **Starter** wechseln und neu bauen.
 - **Aktualisierungen:** Jede Änderung, die ins GitHub-Repository kommt, baut Render automatisch neu.
 - **Nicht für echte Kundschaft:** Die Vorschau nimmt keine echten Zahlungen an und prüft keine echten Ausweise. Für den echten Start siehe [GO-LIVE.md](GO-LIVE.md).
